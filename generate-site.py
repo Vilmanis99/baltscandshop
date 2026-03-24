@@ -10,7 +10,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 with open(os.path.join(BASE, 'data', 'products.json')) as f:
     data = json.load(f)
 
-SITE_URL = 'https://YOURDOMAIN.baltscand.com'  # Update when domain decided
+SITE_URL = 'https://baltscandshop.vercel.app'  # Vercel deployment URL
 
 LANGS = ['en', 'fi']
 
@@ -84,6 +84,20 @@ UI = {
         'site_title': 'Baltscand — Professional Storage & Shelving | Finland & Baltics',
         'site_desc': 'Professional storage and shelving solutions for Finland and the Baltics. PROSPACE+, PRORACK+, PROPAL 3, PROPLUS LP3 and MODUL+ product ranges. Contact our experts for a quote.',
         'org_desc': 'Professional storage and shelving solutions for Finland and the Baltics.',
+        'trust_certified': 'Bureau Veritas Certified',
+        'trust_made_in': 'Made in France',
+        'trust_standards': 'EN 15512 / EN 15620',
+        'trust_since': 'Since 1969',
+        'why_baltscand': 'Why Baltscand?',
+        'why_1_title': 'Expert Consultation',
+        'why_1_desc': 'Professional project planning and product selection by our experienced team.',
+        'why_2_title': 'Finland & Baltics Delivery',
+        'why_2_desc': 'Direct delivery and logistics across Finland, Estonia, Latvia and Lithuania.',
+        'why_3_title': 'Installation Support',
+        'why_3_desc': 'Professional installation services and on-site technical support available.',
+        'distributor_line': 'Baltscand — Official Provost distributor for Finland and the Baltics.',
+        'sticky_quote': 'Get a Quote',
+        'call_us': 'Call Us',
     },
     'fi': {
         'lang_name': 'Suomi',
@@ -152,6 +166,20 @@ UI = {
         'site_title': 'Baltscand — Ammattitason varastointi ja hyllyjärjestelmät | Suomi ja Baltia',
         'site_desc': 'Ammattitason varasto- ja hyllyratkaisut Suomeen ja Baltiaan. PROSPACE+, PRORACK+, PROPAL 3, PROPLUS LP3 ja MODUL+ tuotesarjat. Kysy tarjous asiantuntijoiltamme.',
         'org_desc': 'Ammattitason varasto- ja hyllyratkaisut Suomeen ja Baltiaan.',
+        'trust_certified': 'Bureau Veritas -sertifioitu',
+        'trust_made_in': 'Valmistettu Ranskassa',
+        'trust_standards': 'EN 15512 / EN 15620',
+        'trust_since': 'Vuodesta 1969',
+        'why_baltscand': 'Miksi Baltscand?',
+        'why_1_title': 'Asiantunteva konsultointi',
+        'why_1_desc': 'Ammattimainen projektisuunnittelu ja tuotevalinta kokeneelta tiimiltämme.',
+        'why_2_title': 'Toimitus Suomeen ja Baltiaan',
+        'why_2_desc': 'Suorat toimitukset Suomeen, Viroon, Latviaan ja Liettuaan.',
+        'why_3_title': 'Asennustuki',
+        'why_3_desc': 'Ammattimainen asennuspalvelu ja paikan päällä tapahtuva tekninen tuki.',
+        'distributor_line': 'Baltscand — Provostin virallinen jakelija Suomessa ja Baltiassa.',
+        'sticky_quote': 'Pyydä tarjous',
+        'call_us': 'Soita meille',
     }
 }
 
@@ -190,6 +218,14 @@ def s_list(obj, key, lang):
 def esc(s):
     return h.escape(str(s))
 
+def hreflang_tags(lang, current_path):
+    """Generate hreflang alternate links for EN↔FI cross-linking."""
+    other = 'fi' if lang == 'en' else 'en'
+    other_path = current_path.replace(f'/{lang}/', f'/{other}/', 1)
+    return f"""<link rel="alternate" hreflang="en" href="{SITE_URL}{current_path if lang=='en' else other_path}">
+<link rel="alternate" hreflang="fi" href="{SITE_URL}{other_path if lang=='en' else current_path}">
+<link rel="alternate" hreflang="x-default" href="{SITE_URL}{current_path if lang=='en' else other_path}">"""
+
 def meta_tags(title, description, image, url, og_type='website'):
     abs_img = f'{SITE_URL}/{image}' if image and not image.startswith('http') else (image or '')
     abs_url = f'{SITE_URL}/{url}' if url and not url.startswith('http') else (url or SITE_URL)
@@ -206,6 +242,20 @@ def jsonld_org(lang):
     desc = esc(t(lang, 'org_desc'))
     return f"""<script type="application/ld+json">
 {{"@context":"https://schema.org","@type":"Organization","name":"Baltscand","url":"https://www.baltscand.com","description":"{desc}","contactPoint":{{"@type":"ContactPoint","contactType":"sales","availableLanguage":["English","Finnish"]}}}}
+</script>"""
+
+FAVICON = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="16" fill="%230c0c1d"/><text x="50" y="68" text-anchor="middle" font-family="sans-serif" font-size="60" font-weight="900" fill="%23e85d04">B</text></svg>'
+
+def favicon_link():
+    return f'<link rel="icon" href="{FAVICON}">'
+
+def jsonld_breadcrumb(crumbs, lang):
+    """Generate BreadcrumbList JSON-LD. crumbs is list of (name, url) tuples."""
+    items = []
+    for i, (name, url) in enumerate(crumbs, 1):
+        items.append(f'{{"@type":"ListItem","position":{i},"name":"{esc(name)}","item":"{SITE_URL}/{url}"}}')
+    return f"""<script type="application/ld+json">
+{{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{",".join(items)}]}}
 </script>"""
 
 def jsonld_product(product, series, url, lang):
@@ -244,6 +294,7 @@ def nav(lang, prefix='', current_path=''):
       <a href="https://www.baltscand.com/shelving">{t(lang, 'about')}</a>
       <a href="https://www.baltscand.com">baltscand.com</a>
       {ls}
+      <a class="mobile-call" href="tel:+358401234567">{t(lang, 'call_us')}</a>
     </nav>
     <a class="nav-cta" href="javascript:void(0)" onclick="openQuoteModal('{gi}')">{t(lang, 'contact_sales')}</a>
   </div>
@@ -259,6 +310,7 @@ def foot(lang):
       <span class="footer-sep">&middot;</span>
       <a href="https://www.baltscand.com">baltscand.com</a>
     </div>
+    <div class="footer-distributor">{t(lang, 'distributor_line')}</div>
     <div class="footer-links">
       <a href="https://www.baltscand.com/shelving">{t(lang, 'shelving')}</a>
       <span class="footer-sep">&middot;</span>
@@ -334,6 +386,30 @@ def consult(lang, prefix=''):
 
 def gen_css():
     css = """@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+/* Trust Strip */
+.trust-strip{background:white;border-bottom:1px solid #e8e8ee;padding:14px 40px;overflow:hidden}
+.trust-strip-inner{max-width:1240px;margin:0 auto;display:flex;justify-content:center;gap:32px;flex-wrap:wrap;align-items:center}
+.trust-badge{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:#555;white-space:nowrap}
+.trust-badge svg{width:18px;height:18px;color:#2d6a4f;flex-shrink:0}
+.trust-badge .accent{color:#2d6a4f;font-weight:700}
+/* Why Baltscand */
+.why-section{max-width:1240px;margin:0 auto;padding:48px 40px}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:20px}
+.why-card{background:white;border:1px solid #e8e8ee;border-radius:14px;padding:28px;text-align:center;transition:all 0.2s}
+.why-card:hover{border-color:#e85d04;transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.06)}
+.why-card .why-icon{width:48px;height:48px;background:#fff3e6;border-radius:12px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px}
+.why-card .why-icon svg{width:24px;height:24px;color:#e85d04}
+.why-card h3{font-size:16px;font-weight:800;margin-bottom:6px}
+.why-card p{font-size:13px;color:#666;line-height:1.5}
+/* Sticky Quote Bar */
+.sticky-quote{position:fixed;bottom:0;left:0;right:0;background:rgba(12,12,29,0.95);backdrop-filter:blur(12px);padding:12px 40px;z-index:99;transform:translateY(100%);transition:transform 0.3s ease;display:flex;align-items:center;justify-content:center;gap:16px}
+.sticky-quote.show{transform:translateY(0)}
+.sticky-quote span{color:rgba(255,255,255,0.7);font-size:14px;font-weight:500}
+.sticky-quote .btn-primary{padding:10px 28px;font-size:14px;border-radius:8px}
+/* Mobile Call */
+.mobile-call{display:none!important}
+/* Footer Distributor */
+.footer-distributor{color:rgba(255,255,255,0.35);font-size:12px;text-align:center;width:100%;order:3;margin-top:4px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Inter',system-ui,-apple-system,sans-serif;color:#1a1a2e;background:#f5f6f8;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
@@ -586,17 +662,26 @@ footer{background:#0c0c1d;color:rgba(255,255,255,0.5);padding:48px 40px 32px}
   nav{display:none;position:absolute;top:100%;left:0;right:0;background:#0c0c1d;flex-direction:column;padding:20px;gap:16px;border-top:1px solid rgba(255,255,255,0.1)}
   nav.open{display:flex}
   .nav-cta{display:none}
+  .mobile-call{display:flex!important;background:#e85d04;color:white!important;padding:12px 20px;border-radius:10px;text-align:center;justify-content:center;font-weight:700;border-bottom:none!important;min-height:44px}
   .hero{padding:60px 20px 50px}
   .hero h1{font-size:32px}
   .hero-stats{gap:32px}
+  .trust-strip{padding:12px 20px}
+  .trust-strip-inner{gap:16px;justify-content:center}
+  .trust-badge{font-size:11px}
+  .why-grid{grid-template-columns:1fr}
+  .why-section{padding:32px 20px}
   .series-section{padding:32px 20px}
   .series-header{flex-direction:column}
   .series-header-right{width:100%}
   .series-products-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .series-pcard{min-height:44px}
   .consult-banner{flex-direction:column;text-align:center;margin:40px 20px;padding:32px 24px}
   .product-hero{grid-template-columns:1fr;padding:20px;gap:24px}
   .gallery{position:static}
   .main-img img{height:300px}
+  .sticky-quote{padding:10px 20px;gap:12px}
+  .sticky-quote span{font-size:12px}
   .info .feats{grid-template-columns:1fr}
   .detail-section{padding:0 20px 40px}
   .breadcrumb{padding:10px 20px}
@@ -739,6 +824,16 @@ def gen_index(lang):
     og = meta_tags(t(lang, 'site_title'), site_desc, data['series'][0]['heroImage'], f'{lang}/index.html')
     gi = t(lang, 'general_inquiry')
 
+    trust_strip = f"""
+<div class="trust-strip">
+  <div class="trust-strip-inner">
+    <span class="trust-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span class="accent">{t(lang, 'trust_certified')}</span></span>
+    <span class="trust-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>{t(lang, 'trust_made_in')}</span>
+    <span class="trust-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg><span class="accent">{t(lang, 'trust_standards')}</span></span>
+    <span class="trust-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>{t(lang, 'trust_since')}</span>
+  </div>
+</div>"""
+
     html_out = f"""<!DOCTYPE html>
 <html lang="{t(lang, 'html_lang')}">
 <head>
@@ -747,7 +842,11 @@ def gen_index(lang):
 <title>{t(lang, 'site_title')}</title>
 <meta name="description" content="{esc(site_desc)}">
 {og}
+{hreflang_tags(lang, current_path)}
 {jsonld_org(lang)}
+{favicon_link()}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
@@ -767,6 +866,8 @@ def gen_index(lang):
     <div class="hero-stat"><div class="n">850 kg/m&sup2;</div><div class="l">{t(lang, 'platform_load')}</div></div>
   </div>
 </div>
+
+{trust_strip}
 
 <div id="products">
 {cards}
@@ -834,6 +935,11 @@ def gen_series_page(series, lang):
     meta_desc = f"{sname}: {desc[:140]}"
     og = meta_tags(f"{sname} — Baltscand", meta_desc, series['heroImage'], f'{lang}/products/{slug}/index.html')
 
+    bc_ld = jsonld_breadcrumb([
+        (t(lang, 'home'), f'{lang}/index.html'),
+        (sname, f'{lang}/products/{slug}/index.html'),
+    ], lang)
+
     page = f"""<!DOCTYPE html>
 <html lang="{t(lang, 'html_lang')}">
 <head>
@@ -842,7 +948,12 @@ def gen_series_page(series, lang):
 <title>{sname} — Baltscand | Finland & Baltics</title>
 <meta name="description" content="{esc(meta_desc)}">
 {og}
+{hreflang_tags(lang, current_path)}
 {jsonld_org(lang)}
+{bc_ld}
+{favicon_link()}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{P}styles.css">
 </head>
 <body>
@@ -1015,6 +1126,34 @@ def gen_product(series, product, lang):
     url = f'{lang}/products/{slug}/{pid}.html'
     og = meta_tags(f"{pname} — Baltscand", meta_desc, gallery[0], url, og_type='product')
     jld = jsonld_product(product, series, url, lang)
+    bc_ld = jsonld_breadcrumb([
+        (t(lang, 'home'), f'{lang}/index.html'),
+        (sname, f'{lang}/products/{slug}/index.html'),
+        (pname, url),
+    ], lang)
+
+    # Why Baltscand section
+    why_section = f"""
+<div class="why-section">
+  <h2 style="font-size:22px;font-weight:800;text-align:center">{t(lang, 'why_baltscand')}</h2>
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+      <h3>{t(lang, 'why_1_title')}</h3>
+      <p>{t(lang, 'why_1_desc')}</p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+      <h3>{t(lang, 'why_2_title')}</h3>
+      <p>{t(lang, 'why_2_desc')}</p>
+    </div>
+    <div class="why-card">
+      <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+      <h3>{t(lang, 'why_3_title')}</h3>
+      <p>{t(lang, 'why_3_desc')}</p>
+    </div>
+  </div>
+</div>"""
 
     page = f"""<!DOCTYPE html>
 <html lang="{t(lang, 'html_lang')}">
@@ -1024,7 +1163,12 @@ def gen_product(series, product, lang):
 <title>{pname} — Baltscand | Finland & Baltics</title>
 <meta name="description" content="{esc(meta_desc)}">
 {og}
+{hreflang_tags(lang, current_path)}
 {jld}
+{bc_ld}
+{favicon_link()}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{P}styles.css">
 </head>
 <body>
@@ -1085,7 +1229,15 @@ def gen_product(series, product, lang):
 
 {related_html}
 
+{why_section}
+
 {consult(lang, P)}
+
+<div class="sticky-quote" id="stickyQuote">
+  <span>{t(lang, 'interested_in_product', name=pname)}</span>
+  <a class="btn-primary" href="javascript:void(0)" onclick="openQuoteModal('{pname}')">{t(lang, 'sticky_quote')}</a>
+</div>
+
 {modal(lang)}
 {foot(lang)}
 {back_to_top()}
@@ -1105,6 +1257,8 @@ function openLightbox(i){{lbIdx=i;document.getElementById('lbImg').src=gallery[l
 function closeLightbox(){{document.getElementById('lightbox').classList.remove('show');document.body.style.overflow=''}}
 function navLightbox(d){{lbIdx=(lbIdx+d+gallery.length)%gallery.length;document.getElementById('lbImg').src=gallery[lbIdx]}}
 document.addEventListener('keydown',function(e){{if(!document.getElementById('lightbox').classList.contains('show'))return;if(e.key==='ArrowLeft')navLightbox(-1);if(e.key==='ArrowRight')navLightbox(1);if(e.key==='Escape')closeLightbox()}});
+// Sticky quote bar
+(function(){{var sq=document.getElementById('stickyQuote');if(!sq)return;var cb=document.querySelector('.consult-box');window.addEventListener('scroll',function(){{var show=window.scrollY>600;if(cb){{var r=cb.getBoundingClientRect();if(r.top<window.innerHeight)show=false}}sq.classList.toggle('show',show)}});}})();
 </script>
 </body>
 </html>"""
@@ -1129,20 +1283,28 @@ Sitemap: {SITE_URL}/sitemap.xml
     print('  robots.txt')
 
 def gen_sitemap():
-    urls = [('index.html', '1.0')]
-    for lang in LANGS:
-        urls.append((f'{lang}/index.html', '1.0'))
-        for s in data['series']:
-            urls.append((f'{lang}/products/{s["slug"]}/index.html', '0.9'))
-            for p in s['products']:
-                urls.append((f'{lang}/products/{s["slug"]}/{p["id"]}.html', '0.8'))
+    # Root page (no hreflang)
+    entries = f'  <url><loc>{SITE_URL}/index.html</loc><priority>1.0</priority></url>\n'
 
-    entries = ''
-    for url, priority in urls:
-        entries += f'  <url><loc>{SITE_URL}/{url}</loc><priority>{priority}</priority></url>\n'
+    # Collect bilingual page pairs
+    page_pairs = [('index.html', '1.0')]
+    for s in data['series']:
+        page_pairs.append((f'products/{s["slug"]}/index.html', '0.9'))
+        for p in s['products']:
+            page_pairs.append((f'products/{s["slug"]}/{p["id"]}.html', '0.8'))
+
+    for path, priority in page_pairs:
+        for lang in LANGS:
+            url = f'{lang}/{path}'
+            other = 'fi' if lang == 'en' else 'en'
+            other_url = f'{other}/{path}'
+            entries += f'  <url>\n    <loc>{SITE_URL}/{url}</loc>\n    <priority>{priority}</priority>\n'
+            entries += f'    <xhtml:link rel="alternate" hreflang="{lang}" href="{SITE_URL}/{url}"/>\n'
+            entries += f'    <xhtml:link rel="alternate" hreflang="{other}" href="{SITE_URL}/{other_url}"/>\n'
+            entries += f'  </url>\n'
 
     content = f"""<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 {entries}</urlset>
 """
     with open(os.path.join(BASE, 'sitemap.xml'), 'w') as f:
@@ -1166,6 +1328,7 @@ def gen_404(lang):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{t(lang, 'page_not_found')} — Baltscand</title>
+{favicon_link()}
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>

@@ -1,86 +1,496 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://YOURDOMAIN.baltscand.com/index.html</loc><priority>1.0</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/index.html</loc><priority>1.0</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prospace-plus/index.html</loc><priority>0.9</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prospace-plus/prospace-tubular.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prospace-plus/prospace-metalsheet.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prospace-plus/prospace-workshop.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prospace-plus/prospace-heights.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prospace-plus/prospace-semitole.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prospace-plus/prospace-archive.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prospace-plus/prospace-archive-semitole.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prorack-plus/index.html</loc><priority>0.9</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prorack-plus/prorack-frames.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prorack-plus/prorack-beams.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prorack-plus/prorack-coverings.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prorack-plus/prorack-tire-rack.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prorack-plus/prorack-garment-rack.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prorack-plus/prorack-dynamic-flow.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prorack-plus/prorack-carton-storage.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/prorack-plus/prorack-platform.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/propal-3/index.html</loc><priority>0.9</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/propal-3/propal3-static.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/propal-3/propal3-driveIn.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/propal-3/propal3-pushback.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/propal-3/propal3-outdoor.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/propal-3/propal3-automated-shuttle.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/propal-3/propal3-pallet-drawer.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/propal-3/propal3-dynamic-covering.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/propal-3/propal3-canopy-cladding.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/proplus-lp3/index.html</loc><priority>0.9</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/proplus-lp3/proplus-platform.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/proplus-lp3/proplus-staircases.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/proplus-lp3/proplus-safety-gates.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/proplus-lp3/proplus-order-picking.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/proplus-lp3/proplus-office-platform.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/modul-plus/index.html</loc><priority>0.9</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/modul-plus/modul-panels.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/modul-plus/modul-hinged-doors.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/modul-plus/modul-sliding-doors.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/modul-plus/modul-racking-doors.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/modul-plus/modul-outdoor-partitioning.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/modul-plus/modul-sensitive-goods.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/en/products/modul-plus/modul-drop-counter.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/index.html</loc><priority>1.0</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prospace-plus/index.html</loc><priority>0.9</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prospace-plus/prospace-tubular.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prospace-plus/prospace-metalsheet.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prospace-plus/prospace-workshop.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prospace-plus/prospace-heights.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prospace-plus/prospace-semitole.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prospace-plus/prospace-archive.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prospace-plus/prospace-archive-semitole.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prorack-plus/index.html</loc><priority>0.9</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prorack-plus/prorack-frames.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prorack-plus/prorack-beams.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prorack-plus/prorack-coverings.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prorack-plus/prorack-tire-rack.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prorack-plus/prorack-garment-rack.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prorack-plus/prorack-dynamic-flow.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prorack-plus/prorack-carton-storage.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/prorack-plus/prorack-platform.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/propal-3/index.html</loc><priority>0.9</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/propal-3/propal3-static.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/propal-3/propal3-driveIn.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/propal-3/propal3-pushback.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/propal-3/propal3-outdoor.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/propal-3/propal3-automated-shuttle.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/propal-3/propal3-pallet-drawer.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/propal-3/propal3-dynamic-covering.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/propal-3/propal3-canopy-cladding.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/proplus-lp3/index.html</loc><priority>0.9</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/proplus-lp3/proplus-platform.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/proplus-lp3/proplus-staircases.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/proplus-lp3/proplus-safety-gates.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/proplus-lp3/proplus-order-picking.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/proplus-lp3/proplus-office-platform.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/modul-plus/index.html</loc><priority>0.9</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/modul-plus/modul-panels.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/modul-plus/modul-hinged-doors.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/modul-plus/modul-sliding-doors.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/modul-plus/modul-racking-doors.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/modul-plus/modul-outdoor-partitioning.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/modul-plus/modul-sensitive-goods.html</loc><priority>0.8</priority></url>
-  <url><loc>https://YOURDOMAIN.baltscand.com/fi/products/modul-plus/modul-drop-counter.html</loc><priority>0.8</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://baltscandshop.vercel.app/index.html</loc><priority>1.0</priority></url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/index.html</loc>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/index.html</loc>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prospace-plus/index.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prospace-plus/index.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-tubular.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-tubular.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-tubular.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-tubular.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-tubular.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-tubular.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-metalsheet.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-metalsheet.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-metalsheet.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-metalsheet.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-metalsheet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-metalsheet.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-workshop.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-workshop.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-workshop.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-workshop.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-workshop.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-workshop.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-heights.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-heights.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-heights.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-heights.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-heights.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-heights.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-semitole.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-semitole.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-semitole.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-semitole.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-semitole.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-semitole.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-archive.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-archive.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-archive.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-archive.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-archive.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-archive.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-archive-semitole.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-archive-semitole.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-archive-semitole.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-archive-semitole.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-archive-semitole.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/prospace-archive-semitole.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prorack-plus/index.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prorack-plus/index.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-frames.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-frames.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-frames.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-frames.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-frames.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-frames.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-beams.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-beams.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-beams.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-beams.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-beams.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-beams.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-coverings.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-coverings.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-coverings.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-coverings.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-coverings.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-coverings.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-tire-rack.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-tire-rack.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-tire-rack.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-tire-rack.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-tire-rack.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-tire-rack.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-garment-rack.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-garment-rack.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-garment-rack.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-garment-rack.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-garment-rack.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-garment-rack.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-dynamic-flow.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-dynamic-flow.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-dynamic-flow.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-dynamic-flow.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-dynamic-flow.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-dynamic-flow.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-carton-storage.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-carton-storage.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-carton-storage.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-carton-storage.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-carton-storage.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-carton-storage.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-platform.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-platform.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-platform.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-platform.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/prorack-plus/prorack-platform.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prorack-plus/prorack-platform.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/propal-3/index.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/propal-3/index.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/propal-3/propal3-static.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-static.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-static.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/propal-3/propal3-static.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-static.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-static.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/propal-3/propal3-driveIn.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-driveIn.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-driveIn.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/propal-3/propal3-driveIn.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-driveIn.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-driveIn.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/propal-3/propal3-pushback.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-pushback.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-pushback.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/propal-3/propal3-pushback.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-pushback.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-pushback.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/propal-3/propal3-outdoor.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-outdoor.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-outdoor.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/propal-3/propal3-outdoor.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-outdoor.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-outdoor.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/propal-3/propal3-automated-shuttle.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-automated-shuttle.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-automated-shuttle.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/propal-3/propal3-automated-shuttle.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-automated-shuttle.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-automated-shuttle.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/propal-3/propal3-pallet-drawer.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-pallet-drawer.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-pallet-drawer.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/propal-3/propal3-pallet-drawer.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-pallet-drawer.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-pallet-drawer.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/propal-3/propal3-dynamic-covering.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-dynamic-covering.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-dynamic-covering.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/propal-3/propal3-dynamic-covering.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-dynamic-covering.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-dynamic-covering.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/propal-3/propal3-canopy-cladding.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-canopy-cladding.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-canopy-cladding.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/propal-3/propal3-canopy-cladding.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/propal-3/propal3-canopy-cladding.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/propal-3/propal3-canopy-cladding.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/proplus-lp3/index.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/proplus-lp3/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/proplus-lp3/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/proplus-lp3/index.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/proplus-lp3/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/proplus-lp3/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-platform.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-platform.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-platform.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-platform.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-platform.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-platform.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-staircases.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-staircases.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-staircases.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-staircases.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-staircases.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-staircases.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-safety-gates.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-safety-gates.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-safety-gates.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-safety-gates.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-safety-gates.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-safety-gates.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-order-picking.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-order-picking.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-order-picking.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-order-picking.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-order-picking.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-order-picking.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-office-platform.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-office-platform.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-office-platform.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-office-platform.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/proplus-lp3/proplus-office-platform.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/proplus-lp3/proplus-office-platform.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/modul-plus/index.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/modul-plus/index.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/modul-plus/modul-panels.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-panels.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-panels.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/modul-plus/modul-panels.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-panels.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-panels.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/modul-plus/modul-hinged-doors.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-hinged-doors.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-hinged-doors.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/modul-plus/modul-hinged-doors.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-hinged-doors.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-hinged-doors.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/modul-plus/modul-sliding-doors.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-sliding-doors.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-sliding-doors.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/modul-plus/modul-sliding-doors.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-sliding-doors.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-sliding-doors.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/modul-plus/modul-racking-doors.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-racking-doors.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-racking-doors.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/modul-plus/modul-racking-doors.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-racking-doors.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-racking-doors.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/modul-plus/modul-outdoor-partitioning.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-outdoor-partitioning.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-outdoor-partitioning.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/modul-plus/modul-outdoor-partitioning.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-outdoor-partitioning.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-outdoor-partitioning.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/modul-plus/modul-sensitive-goods.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-sensitive-goods.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-sensitive-goods.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/modul-plus/modul-sensitive-goods.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-sensitive-goods.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-sensitive-goods.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/products/modul-plus/modul-drop-counter.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-drop-counter.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-drop-counter.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/products/modul-plus/modul-drop-counter.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/products/modul-plus/modul-drop-counter.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/modul-plus/modul-drop-counter.html"/>
+  </url>
 </urlset>
