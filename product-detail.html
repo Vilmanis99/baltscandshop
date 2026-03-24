@@ -1,0 +1,1340 @@
+yes
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROSPACE+ Tubular Shelf Unit - Baltscand Shop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #1a1a2e;
+            background: #f8f9fa;
+        }
+
+        /* Header */
+        header {
+            background: #1a1a2e;
+            color: white;
+        }
+
+        .top-bar {
+            background: #0d0d1a;
+            padding: 8px 40px;
+            font-size: 13px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-bar a {
+            color: #8a8aad;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .top-bar a:hover {
+            color: white;
+        }
+
+        .main-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 40px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .logo span {
+            color: #e85d04;
+        }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin-left: 32px;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: white;
+            border-bottom: 2px solid #e85d04;
+            padding-bottom: 4px;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            padding: 16px 40px;
+            font-size: 13px;
+            color: #888;
+            background: white;
+            border-bottom: 1px solid #eee;
+        }
+
+        .breadcrumb a {
+            color: #e85d04;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        /* Product Detail Layout */
+        .product-detail {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            padding: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Image Gallery */
+        .gallery {
+            position: sticky;
+            top: 20px;
+        }
+
+        .main-image {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+            margin-bottom: 16px;
+        }
+
+        .main-image img {
+            width: 100%;
+            height: 480px;
+            object-fit: contain;
+            padding: 24px;
+            display: block;
+        }
+
+        .thumbnail-strip {
+            display: flex;
+            gap: 12px;
+        }
+
+        .thumbnail {
+            width: 90px;
+            height: 70px;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: border-color 0.2s;
+            background: white;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+        }
+
+        .thumbnail:hover,
+        .thumbnail.active {
+            border-color: #e85d04;
+        }
+
+        .thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 4px;
+        }
+
+        /* Product Info */
+        .product-info-panel {
+            padding-top: 8px;
+        }
+
+        .product-category-tag {
+            display: inline-block;
+            background: #fff3e6;
+            color: #e85d04;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .product-title {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 1.25;
+            margin-bottom: 8px;
+        }
+
+        .product-subtitle {
+            color: #666;
+            font-size: 15px;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        /* Rating row */
+        .rating-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .stars {
+            color: #f5a623;
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+
+        .rating-text {
+            color: #888;
+            font-size: 13px;
+        }
+
+        /* Configurator */
+        .config-section {
+            margin-bottom: 20px;
+        }
+
+        .config-label {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #555;
+            margin-bottom: 8px;
+        }
+
+        .config-select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e8;
+            border-radius: 10px;
+            font-size: 15px;
+            background: white;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23666' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 16px center;
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+
+        .config-select:focus {
+            outline: none;
+            border-color: #e85d04;
+        }
+
+        .config-select:hover {
+            border-color: #bbb;
+        }
+
+        /* Capacity display */
+        .capacity-display {
+            background: #e8f5e9;
+            border-radius: 10px;
+            padding: 16px 20px;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .capacity-icon {
+            width: 48px;
+            height: 48px;
+            background: #2d6a4f;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .capacity-icon svg {
+            width: 24px;
+            height: 24px;
+            stroke: white;
+        }
+
+        .capacity-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #2d6a4f;
+        }
+
+        .capacity-label {
+            font-size: 13px;
+            color: #555;
+        }
+
+        /* Finish selector */
+        .finish-options {
+            display: flex;
+            gap: 12px;
+        }
+
+        .finish-option {
+            flex: 1;
+            padding: 14px 16px;
+            border: 2px solid #e0e0e8;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.2s;
+        }
+
+        .finish-option:hover {
+            border-color: #bbb;
+        }
+
+        .finish-option.selected {
+            border-color: #e85d04;
+            background: #fff8f3;
+        }
+
+        .finish-dot {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            margin: 0 auto 8px;
+            border: 1px solid #ddd;
+        }
+
+        .finish-option .finish-name {
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .finish-option .finish-code {
+            font-size: 11px;
+            color: #999;
+        }
+
+        /* CTA buttons */
+        .btn-quote {
+            width: 100%;
+            background: #e85d04;
+            color: white;
+            border: none;
+            padding: 16px 32px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .btn-quote:hover {
+            background: #d14e00;
+        }
+
+        .btn-secondary {
+            width: 100%;
+            background: white;
+            color: #1a1a2e;
+            border: 2px solid #1a1a2e;
+            padding: 14px 32px;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .btn-secondary:hover {
+            background: #1a1a2e;
+            color: white;
+        }
+
+        /* Delivery info */
+        .delivery-info {
+            margin-top: 24px;
+        }
+
+        .delivery-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f5;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .delivery-item svg {
+            width: 20px;
+            height: 20px;
+            stroke: #2d6a4f;
+            flex-shrink: 0;
+        }
+
+        /* Tabs */
+        .detail-tabs {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px 60px;
+        }
+
+        .tab-headers {
+            display: flex;
+            border-bottom: 2px solid #e0e0e8;
+            margin-bottom: 32px;
+        }
+
+        .tab-header {
+            padding: 16px 28px;
+            font-size: 15px;
+            font-weight: 600;
+            color: #888;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            margin-bottom: -2px;
+            transition: all 0.2s;
+        }
+
+        .tab-header:hover {
+            color: #1a1a2e;
+        }
+
+        .tab-header.active {
+            color: #e85d04;
+            border-bottom-color: #e85d04;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Specs table */
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .specs-table tr {
+            border-bottom: 1px solid #f0f0f5;
+        }
+
+        .specs-table td {
+            padding: 14px 16px;
+            font-size: 14px;
+        }
+
+        .specs-table td:first-child {
+            font-weight: 600;
+            color: #555;
+            width: 240px;
+            background: #fafafa;
+        }
+
+        /* Load capacity table */
+        .load-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+            font-size: 13px;
+        }
+
+        .load-table th {
+            background: #1a1a2e;
+            color: white;
+            padding: 12px 14px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .load-table th:first-child {
+            text-align: left;
+            border-radius: 8px 0 0 0;
+        }
+
+        .load-table th:last-child {
+            border-radius: 0 8px 0 0;
+        }
+
+        .load-table td {
+            padding: 10px 14px;
+            text-align: center;
+            border-bottom: 1px solid #f0f0f5;
+        }
+
+        .load-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        .load-table td:first-child {
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .load-table .highlight {
+            background: #fff8f3;
+            font-weight: 700;
+            color: #e85d04;
+        }
+
+        /* Use cases gallery */
+        .use-cases {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .use-case {
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .use-case img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .use-case-label {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+            color: white;
+            padding: 30px 16px 12px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a1a2e;
+            color: #8a8aad;
+            padding: 40px;
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+        }
+
+        /* Quote modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay.show {
+            display: flex;
+        }
+
+        .modal {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 520px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .modal h2 {
+            font-size: 22px;
+            margin-bottom: 6px;
+        }
+
+        .modal .modal-sub {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        .modal .config-summary {
+            background: #f5f5fa;
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 24px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .modal .config-summary strong {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .modal label {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .modal input,
+        .modal textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e8;
+            border-radius: 10px;
+            font-size: 15px;
+            font-family: inherit;
+            margin-bottom: 16px;
+            transition: border-color 0.2s;
+        }
+
+        .modal input:focus,
+        .modal textarea:focus {
+            outline: none;
+            border-color: #e85d04;
+        }
+
+        .modal textarea {
+            height: 80px;
+            resize: vertical;
+        }
+
+        .modal .btn-submit {
+            width: 100%;
+            background: #e85d04;
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .modal .btn-submit:hover {
+            background: #d14e00;
+        }
+
+        .modal .btn-close {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #999;
+        }
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            .product-detail {
+                grid-template-columns: 1fr;
+                padding: 20px;
+                gap: 24px;
+            }
+
+            .gallery {
+                position: static;
+            }
+
+            .main-image img {
+                height: 320px;
+            }
+
+            .detail-tabs {
+                padding: 0 20px 40px;
+            }
+
+            .use-cases {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .use-cases {
+                grid-template-columns: 1fr;
+            }
+
+            .thumbnail-strip {
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div>Professional shelving solutions | <strong>Finland &amp; Baltics</strong></div>
+            <div>
+                <a href="#">FI</a>
+                <a href="#">EN</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="main-nav">
+            <div class="logo">BALT<span>SCAND</span></div>
+            <nav>
+                <a href="preview.html" class="active">Shelving</a>
+                <a href="#">Platforms</a>
+                <a href="#">Accessories</a>
+                <a href="#">Solutions</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="preview.html">Home</a> &rsaquo; <a href="preview.html">Shelving</a> &rsaquo; <a
+            href="preview.html">Tubular Shelving</a> &rsaquo; PROSPACE+ Tubular Shelf Unit
+    </div>
+
+    <!-- Product Detail -->
+    <div class="product-detail">
+
+        <!-- Left: Image Gallery -->
+        <div class="gallery">
+            <div class="main-image">
+                <img id="mainImg" src="images/page5_img0.png" alt="PROSPACE+ Tubular Shelving System">
+            </div>
+            <div class="thumbnail-strip">
+                <div class="thumbnail active" onclick="changeImage('images/page5_img0.png', this)">
+                    <img src="images/page5_img0.png" alt="System overview">
+                </div>
+                <div class="thumbnail" onclick="changeImage('images/page1_img0.png', this)">
+                    <img src="images/page1_img0.png" alt="Shelving with accessories">
+                </div>
+                <div class="thumbnail" onclick="changeImage('images/page7_img0.png', this)">
+                    <img src="images/page7_img0.png" alt="Metal sheet variant">
+                </div>
+                <div class="thumbnail" onclick="changeImage('images/page4_img0.png', this)">
+                    <img src="images/page4_img0.png" alt="Upright connector detail">
+                </div>
+                <div class="thumbnail" onclick="changeImage('images/page6_img2.png', this)">
+                    <img src="images/page6_img2.png" alt="Metal sheet open frame">
+                </div>
+                <div class="thumbnail" onclick="changeImage('images/page4_img1.png', this)">
+                    <img src="images/page4_img1.png" alt="Tubular shelf with hardboard">
+                </div>
+            </div>
+        </div>
+
+        <!-- Right: Product Info & Configuration -->
+        <div class="product-info-panel">
+            <div class="product-category-tag">Tubular Shelving</div>
+            <h1 class="product-title">PROSPACE+ Tubular Shelf Unit</h1>
+            <p class="product-subtitle">Professional modular tubular shelving. Clip-in assembly without tools.
+                Compatible with all PROSPACE+ uprights and accessories. Suitable for warehouse, workshop, office and
+                retail.</p>
+
+            <div class="rating-row">
+                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <span class="rating-text">Industrial grade quality</span>
+            </div>
+
+            <!-- Length selector -->
+            <div class="config-section">
+                <div class="config-label">Shelf Length</div>
+                <select class="config-select" id="lengthSelect" onchange="updateProduct()">
+                    <option value="670">670 mm (compact)</option>
+                    <option value="970" selected>970 mm (standard)</option>
+                    <option value="1240">1240 mm (wide)</option>
+                </select>
+            </div>
+
+            <!-- Depth selector -->
+            <div class="config-section">
+                <div class="config-label">Shelf Depth</div>
+                <select class="config-select" id="depthSelect" onchange="updateProduct()">
+                    <option value="300">300 mm</option>
+                    <option value="350">350 mm</option>
+                    <option value="400">400 mm</option>
+                    <option value="500" selected>500 mm</option>
+                    <option value="600">600 mm</option>
+                    <option value="700">700 mm</option>
+                    <option value="800">800 mm</option>
+                    <option value="1000">1000 mm</option>
+                </select>
+            </div>
+
+            <!-- Reinforcement -->
+            <div class="config-section">
+                <div class="config-label">Reinforcement</div>
+                <select class="config-select" id="reinforcementSelect" onchange="updateProduct()">
+                    <option value="standard">Standard (no reinforcement)</option>
+                    <option value="reinforced">Reinforced (1 reinforcement bar)</option>
+                </select>
+            </div>
+
+            <!-- Load capacity display -->
+            <div class="capacity-display">
+                <div class="capacity-icon">
+                    <svg fill="none" viewBox="0 0 24 24" stroke-width="2">
+                        <path d="M3 12h18M12 3v18" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div>
+                    <div class="capacity-value" id="capacityValue">175 kg</div>
+                    <div class="capacity-label">Uniformly distributed load capacity per shelf</div>
+                </div>
+            </div>
+
+            <!-- Finish -->
+            <div class="config-section">
+                <div class="config-label">Finish</div>
+                <div class="finish-options">
+                    <div class="finish-option selected" onclick="selectFinish(this, 'Epoxy RAL 7035')">
+                        <div class="finish-dot" style="background: #b8b8b0;"></div>
+                        <div class="finish-name">Epoxy Paint</div>
+                        <div class="finish-code">RAL 7035</div>
+                    </div>
+                    <div class="finish-option" onclick="selectFinish(this, 'Galvanised')">
+                        <div class="finish-dot"
+                            style="background: linear-gradient(135deg, #d8d8d0 0%, #e8e8e0 50%, #c0c0b8 100%);"></div>
+                        <div class="finish-name">Galvanised</div>
+                        <div class="finish-code">Hot-dip zinc</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Buttons -->
+            <button class="btn-quote" onclick="openQuoteModal()">
+                <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+                    <path
+                        d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Get a Quote
+            </button>
+            <button class="btn-secondary" onclick="openQuoteModal()">
+                <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path
+                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Contact Sales Team
+            </button>
+
+            <!-- Delivery info -->
+            <div class="delivery-info">
+                <div class="delivery-item">
+                    <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5">
+                        <path
+                            d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0H21M3.375 14.25h2.25m0 0V6.75A1.125 1.125 0 0 1 6.75 5.625h7.5a1.125 1.125 0 0 1 1.125 1.125v7.5m-9.375 0h9.375"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Delivery across Finland &amp; Baltics
+                </div>
+                <div class="delivery-item">
+                    <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5">
+                        <path
+                            d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15a2.25 2.25 0 0 1 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Clip-in assembly &mdash; no tools required
+                </div>
+                <div class="delivery-item">
+                    <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5">
+                        <path
+                            d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Max 2,100 kg per upright pair (Type C)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Detail Tabs -->
+    <div class="detail-tabs">
+        <div class="tab-headers">
+            <div class="tab-header active" onclick="switchTab('specs')">Specifications</div>
+            <div class="tab-header" onclick="switchTab('loadtable')">Load Capacity Tables</div>
+            <div class="tab-header" onclick="switchTab('accessories')">Accessories</div>
+            <div class="tab-header" onclick="switchTab('gallery')">Use Cases</div>
+        </div>
+
+        <!-- Specs Tab -->
+        <div class="tab-content active" id="tab-specs">
+            <table class="specs-table">
+                <tr>
+                    <td>Product Range</td>
+                    <td>PROSPACE+</td>
+                </tr>
+                <tr>
+                    <td>Shelf Type</td>
+                    <td>Tubular</td>
+                </tr>
+                <tr>
+                    <td>Available Lengths</td>
+                    <td>670 mm, 970 mm, 1240 mm</td>
+                </tr>
+                <tr>
+                    <td>Available Depths</td>
+                    <td>300, 350, 400, 500, 600, 700, 800, 1000 mm</td>
+                </tr>
+                <tr>
+                    <td>Max Height (single upright)</td>
+                    <td>5,000 mm</td>
+                </tr>
+                <tr>
+                    <td>Upright Types</td>
+                    <td>Type A (1,300 kg), Type B (1,700 kg), Type C (2,100 kg)</td>
+                </tr>
+                <tr>
+                    <td>Shelf Material</td>
+                    <td>Tubular steel frame with optional hardboard cover</td>
+                </tr>
+                <tr>
+                    <td>Standard Finish</td>
+                    <td>Epoxy paint RAL 7035 (light grey)</td>
+                </tr>
+                <tr>
+                    <td>Optional Finish</td>
+                    <td>Hot-dip galvanised</td>
+                </tr>
+                <tr>
+                    <td>Assembly</td>
+                    <td>Clip-in system, no tools required</td>
+                </tr>
+                <tr>
+                    <td>Configurations</td>
+                    <td>24 standard shelf formats (length x depth)</td>
+                </tr>
+                <tr>
+                    <td>Reinforcement</td>
+                    <td>Optional reinforcement bar for higher load capacity</td>
+                </tr>
+                <tr>
+                    <td>Compatible Accessories</td>
+                    <td>Wire mesh back, hardboard cover, swing doors, wire dividers, base plates, shelf separators</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Load Table Tab -->
+        <div class="tab-content" id="tab-loadtable">
+            <h3 style="margin-bottom: 8px;">Tubular Shelving &mdash; Uniformly Distributed Load (kg)</h3>
+            <p style="color: #666; font-size: 14px; margin-bottom: 20px;">Load capacity per shelf level in kg. Values
+                from official PROSPACE+ technical documentation.</p>
+
+            <h4 style="margin-bottom: 12px; color: #1a1a2e;">Standard (without reinforcement)</h4>
+            <table class="load-table">
+                <thead>
+                    <tr>
+                        <th>Depth \ Length</th>
+                        <th>670 mm</th>
+                        <th>970 mm</th>
+                        <th>1240 mm</th>
+                    </tr>
+                </thead>
+                <tbody id="standardLoadBody">
+                    <tr>
+                        <td>300 mm</td>
+                        <td>200</td>
+                        <td>175</td>
+                        <td>125</td>
+                    </tr>
+                    <tr>
+                        <td>350 mm</td>
+                        <td>200</td>
+                        <td>175</td>
+                        <td>125</td>
+                    </tr>
+                    <tr>
+                        <td>400 mm</td>
+                        <td>200</td>
+                        <td>175</td>
+                        <td>125</td>
+                    </tr>
+                    <tr>
+                        <td>500 mm</td>
+                        <td>200</td>
+                        <td>175</td>
+                        <td>125</td>
+                    </tr>
+                    <tr>
+                        <td>600 mm</td>
+                        <td>175</td>
+                        <td>150</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>700 mm</td>
+                        <td>150</td>
+                        <td>125</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>800 mm</td>
+                        <td>150</td>
+                        <td>125</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>1000 mm</td>
+                        <td>&mdash;</td>
+                        <td>100</td>
+                        <td>100</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4 style="margin: 32px 0 12px; color: #1a1a2e;">Reinforced (with 1 reinforcement bar)</h4>
+            <table class="load-table">
+                <thead>
+                    <tr>
+                        <th>Depth \ Length</th>
+                        <th>670 mm</th>
+                        <th>970 mm</th>
+                        <th>1240 mm</th>
+                    </tr>
+                </thead>
+                <tbody id="reinforcedLoadBody">
+                    <tr>
+                        <td>300 mm</td>
+                        <td>275</td>
+                        <td>250</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>350 mm</td>
+                        <td>275</td>
+                        <td>250</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>400 mm</td>
+                        <td>275</td>
+                        <td>250</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>500 mm</td>
+                        <td>250</td>
+                        <td>225</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>600 mm</td>
+                        <td>225</td>
+                        <td>200</td>
+                        <td>175</td>
+                    </tr>
+                    <tr>
+                        <td>700 mm</td>
+                        <td>225</td>
+                        <td>200</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>800 mm</td>
+                        <td>200</td>
+                        <td>175</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>1000 mm</td>
+                        <td>&mdash;</td>
+                        <td>225</td>
+                        <td>200</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Accessories Tab -->
+        <div class="tab-content" id="tab-accessories">
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+                <div
+                    style="background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.06);">
+                    <div style="font-weight: 700; margin-bottom: 6px;">Hardboard Shelf Cover</div>
+                    <div style="font-size: 13px; color: #666; margin-bottom: 8px;">Covers the tubular shelf frame to
+                        create a flat surface. Ideal for small items.</div>
+                    <div style="font-size: 13px; color: #e85d04; font-weight: 600;">Compatible with selected size</div>
+                </div>
+                <div
+                    style="background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.06);">
+                    <div style="font-weight: 700; margin-bottom: 6px;">Wire Mesh Back Panel</div>
+                    <div style="font-size: 13px; color: #666; margin-bottom: 8px;">Galvanised wire mesh for rear
+                        stability and fall protection.</div>
+                    <div style="font-size: 13px; color: #e85d04; font-weight: 600;">Compatible with selected size</div>
+                </div>
+                <div
+                    style="background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.06);">
+                    <div style="font-weight: 700; margin-bottom: 6px;">Wire Dividers</div>
+                    <div style="font-size: 13px; color: #666; margin-bottom: 8px;">Vertical dividers to organize items
+                        on shelves.</div>
+                    <div style="font-size: 13px; color: #e85d04; font-weight: 600;">Compatible with selected size</div>
+                </div>
+                <div
+                    style="background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.06);">
+                    <div style="font-weight: 700; margin-bottom: 6px;">Swing Doors (pair)</div>
+                    <div style="font-size: 13px; color: #666; margin-bottom: 8px;">Lockable metal doors to close off one
+                        or more bays.</div>
+                    <div style="font-size: 13px; color: #888;">Metal sheet shelving only</div>
+                </div>
+                <div
+                    style="background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.06);">
+                    <div style="font-weight: 700; margin-bottom: 6px;">Base Plates / Feet</div>
+                    <div style="font-size: 13px; color: #666; margin-bottom: 8px;">Adjustable levelling feet for uneven
+                        floors.</div>
+                    <div style="font-size: 13px; color: #e85d04; font-weight: 600;">Universal fit</div>
+                </div>
+                <div
+                    style="background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.06);">
+                    <div style="font-weight: 700; margin-bottom: 6px;">Shelf Separators</div>
+                    <div style="font-size: 13px; color: #666; margin-bottom: 8px;">Metal sheet separators for organizing
+                        shelf bays.</div>
+                    <div style="font-size: 13px; color: #e85d04; font-weight: 600;">Compatible with selected size</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Tab -->
+        <div class="tab-content" id="tab-gallery">
+            <p style="color: #666; font-size: 14px; margin-bottom: 20px;">PROSPACE+ shelving in real-world applications
+            </p>
+            <div class="use-cases">
+                <div class="use-case">
+                    <img src="images/page8_img2.png" alt="Warehouse installation">
+                    <div class="use-case-label">Warehouse Storage</div>
+                </div>
+                <div class="use-case">
+                    <img src="images/page9_img1.png" alt="Workshop shelving">
+                    <div class="use-case-label">Workshop &amp; Production</div>
+                </div>
+                <div class="use-case">
+                    <img src="images/page11_img3.png" alt="Retail storage">
+                    <div class="use-case-label">Retail Back-of-Store</div>
+                </div>
+                <div class="use-case">
+                    <img src="images/page10_img2.png" alt="Industrial shelving">
+                    <div class="use-case-label">Industrial Parts Storage</div>
+                </div>
+                <div class="use-case">
+                    <img src="images/page13_img1.png" alt="Archive storage">
+                    <div class="use-case-label">Archive &amp; Document Storage</div>
+                </div>
+                <div class="use-case">
+                    <img src="images/page9_img2.png" alt="Multi-tier system">
+                    <div class="use-case-label">Multi-tier Systems</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quote Modal -->
+    <div class="modal-overlay" id="quoteModal" onclick="if(event.target===this)closeQuoteModal()">
+        <div class="modal">
+            <button class="btn-close" onclick="closeQuoteModal()">&times;</button>
+            <h2>Request a Quote</h2>
+            <p class="modal-sub">Our sales team will get back to you within 1 business day.</p>
+
+            <div class="config-summary" id="quoteSummary"></div>
+
+            <label>Your Name *</label>
+            <input type="text" placeholder="Full name">
+
+            <label>Company</label>
+            <input type="text" placeholder="Company name (optional)">
+
+            <label>Email *</label>
+            <input type="email" placeholder="your@email.com">
+
+            <label>Phone</label>
+            <input type="tel" placeholder="+358...">
+
+            <label>Quantity Needed</label>
+            <input type="text" placeholder="e.g. 20 units">
+
+            <label>Additional Notes</label>
+            <textarea placeholder="Any specific requirements, delivery location, timeline..."></textarea>
+
+            <button class="btn-submit" onclick="submitQuote()">Send Quote Request</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Baltscand. All rights reserved. | <a href="https://www.baltscand.com"
+                    style="color: #e85d04; text-decoration: none;">baltscand.com</a></span>
+        </div>
+    </footer>
+
+    <script>
+        // Load capacity data from brochure (page 4)
+        const loadData = {
+            standard: {
+                '300': { '670': 200, '970': 175, '1240': 125 },
+                '350': { '670': 200, '970': 175, '1240': 125 },
+                '400': { '670': 200, '970': 175, '1240': 125 },
+                '500': { '670': 200, '970': 175, '1240': 125 },
+                '600': { '670': 175, '970': 150, '1240': 100 },
+                '700': { '670': 150, '970': 125, '1240': 100 },
+                '800': { '670': 150, '970': 125, '1240': 100 },
+                '1000': { '670': null, '970': 100, '1240': 100 }
+            },
+            reinforced: {
+                '300': { '670': 275, '970': 250, '1240': 200 },
+                '350': { '670': 275, '970': 250, '1240': 200 },
+                '400': { '670': 275, '970': 250, '1240': 200 },
+                '500': { '670': 250, '970': 225, '1240': 200 },
+                '600': { '670': 225, '970': 200, '1240': 175 },
+                '700': { '670': 225, '970': 200, '1240': 150 },
+                '800': { '670': 200, '970': 175, '1240': 150 },
+                '1000': { '670': null, '970': 225, '1240': 200 }
+            }
+        };
+
+        let selectedFinish = 'Epoxy RAL 7035';
+
+        function updateProduct() {
+            const length = document.getElementById('lengthSelect').value;
+            const depth = document.getElementById('depthSelect').value;
+            const reinforcement = document.getElementById('reinforcementSelect').value;
+
+            const table = reinforcement === 'reinforced' ? loadData.reinforced : loadData.standard;
+            const capacity = table[depth] ? table[depth][length] : null;
+
+            document.getElementById('capacityValue').textContent = capacity ? capacity + ' kg' : 'N/A';
+
+            highlightLoadTable(length, depth);
+
+            document.querySelector('.product-title').textContent =
+                'PROSPACE+ Tubular Shelf Unit ' + length + ' x ' + depth;
+
+            // Disable 670mm for 1000mm depth
+            const lengthSelect = document.getElementById('lengthSelect');
+            for (let i = 0; i < lengthSelect.options.length; i++) {
+                if (lengthSelect.options[i].value === '670' && depth === '1000') {
+                    lengthSelect.options[i].disabled = true;
+                    if (lengthSelect.value === '670') {
+                        lengthSelect.value = '970';
+                        updateProduct();
+                        return;
+                    }
+                } else if (lengthSelect.options[i].value === '670') {
+                    lengthSelect.options[i].disabled = false;
+                }
+            }
+        }
+
+        function highlightLoadTable(length, depth) {
+            document.querySelectorAll('.load-table td').forEach(td => td.classList.remove('highlight'));
+            ['standardLoadBody', 'reinforcedLoadBody'].forEach(tableId => {
+                const tbody = document.getElementById(tableId);
+                if (!tbody) return;
+                const colIndex = length === '670' ? 1 : length === '970' ? 2 : 3;
+                tbody.querySelectorAll('tr').forEach(row => {
+                    const cells = row.querySelectorAll('td');
+                    if (cells[0] && cells[0].textContent.trim().startsWith(depth)) {
+                        cells[0].classList.add('highlight');
+                        if (cells[colIndex]) cells[colIndex].classList.add('highlight');
+                    }
+                });
+            });
+        }
+
+        function changeImage(src, el) {
+            document.getElementById('mainImg').src = src;
+            document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+            el.classList.add('active');
+        }
+
+        function selectFinish(el, name) {
+            document.querySelectorAll('.finish-option').forEach(o => o.classList.remove('selected'));
+            el.classList.add('selected');
+            selectedFinish = name;
+        }
+
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-header').forEach(h => h.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            document.getElementById('tab-' + tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        function openQuoteModal() {
+            const length = document.getElementById('lengthSelect').value;
+            const depth = document.getElementById('depthSelect').value;
+            const reinforcement = document.getElementById('reinforcementSelect').value;
+            const capacity = document.getElementById('capacityValue').textContent;
+
+            document.getElementById('quoteSummary').innerHTML =
+                '<strong>Selected Configuration:</strong>' +
+                'PROSPACE+ Tubular Shelf ' + length + ' x ' + depth + ' mm<br>' +
+                'Reinforcement: ' + (reinforcement === 'reinforced' ? 'Yes' : 'No') + '<br>' +
+                'Finish: ' + selectedFinish + '<br>' +
+                'Load capacity: ' + capacity;
+
+            document.getElementById('quoteModal').classList.add('show');
+        }
+
+        function closeQuoteModal() {
+            document.getElementById('quoteModal').classList.remove('show');
+        }
+
+        function submitQuote() {
+            const btn = document.querySelector('.btn-submit');
+            btn.textContent = 'Quote Request Sent!';
+            btn.style.background = '#2d6a4f';
+            setTimeout(() => {
+                closeQuoteModal();
+                btn.textContent = 'Send Quote Request';
+                btn.style.background = '#e85d04';
+            }, 2000);
+        }
+
+        updateProduct();
+    </script>
+
+</body>
+
+</html>

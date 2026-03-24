@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baltscand - PROSPACE+ Metal Shelving</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a2e; background: #f8f9fa; }
+
+        /* Header */
+        header { background: #1a1a2e; color: white; padding: 0; }
+        .top-bar { background: #0d0d1a; padding: 8px 40px; font-size: 13px; display: flex; justify-content: space-between; align-items: center; }
+        .top-bar a { color: #8a8aad; text-decoration: none; margin-left: 20px; }
+        .top-bar a:hover { color: white; }
+        .main-nav { display: flex; align-items: center; justify-content: space-between; padding: 16px 40px; }
+        .logo { font-size: 24px; font-weight: 700; letter-spacing: 2px; }
+        .logo span { color: #e85d04; }
+        nav a { color: #ccc; text-decoration: none; margin-left: 32px; font-size: 14px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; }
+        nav a:hover, nav a.active { color: white; border-bottom: 2px solid #e85d04; padding-bottom: 4px; }
+        .nav-actions { display: flex; align-items: center; gap: 20px; }
+        .nav-actions svg { width: 22px; height: 22px; stroke: #ccc; cursor: pointer; }
+        .cart-badge { background: #e85d04; color: white; font-size: 11px; border-radius: 50%; width: 18px; height: 18px; display: flex; align-items: center; justify-content: center; position: relative; top: -10px; left: -8px; }
+
+        /* Hero */
+        .hero { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); color: white; padding: 80px 40px; text-align: center; position: relative; overflow: hidden; }
+        .hero::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+        .hero h1 { font-size: 42px; font-weight: 700; margin-bottom: 16px; position: relative; }
+        .hero h1 span { color: #e85d04; }
+        .hero p { font-size: 18px; color: #a0a0c0; max-width: 600px; margin: 0 auto 32px; position: relative; }
+        .hero-stats { display: flex; justify-content: center; gap: 60px; margin-top: 40px; position: relative; }
+        .hero-stat { text-align: center; }
+        .hero-stat .num { font-size: 32px; font-weight: 700; color: #e85d04; }
+        .hero-stat .label { font-size: 13px; color: #8a8aad; margin-top: 4px; }
+
+        /* Breadcrumb */
+        .breadcrumb { padding: 16px 40px; font-size: 13px; color: #888; }
+        .breadcrumb a { color: #e85d04; text-decoration: none; }
+
+        /* Filters */
+        .shop-layout { display: flex; padding: 0 40px 60px; gap: 32px; }
+        .filters { width: 260px; flex-shrink: 0; }
+        .filter-card { background: white; border-radius: 12px; padding: 24px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+        .filter-card h3 { font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: #1a1a2e; margin-bottom: 16px; }
+        .filter-option { display: flex; align-items: center; gap: 10px; padding: 6px 0; cursor: pointer; font-size: 14px; color: #555; }
+        .filter-option input[type="checkbox"] { accent-color: #e85d04; width: 16px; height: 16px; }
+        .filter-option .count { margin-left: auto; background: #f0f0f5; padding: 2px 8px; border-radius: 10px; font-size: 12px; color: #888; }
+        .price-range { display: flex; gap: 12px; align-items: center; }
+        .price-range input { width: 100%; padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; }
+
+        /* Products Grid */
+        .products-area { flex: 1; }
+        .products-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+        .products-header h2 { font-size: 22px; }
+        .products-header .count { color: #888; font-size: 14px; }
+        .sort-select { padding: 8px 16px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; background: white; }
+
+        .products-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+
+        .product-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.06); transition: all 0.3s; position: relative; }
+        .product-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.1); }
+        .product-badge { position: absolute; top: 16px; left: 16px; background: #e85d04; color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; z-index: 1; }
+        .product-badge.new { background: #2d6a4f; }
+        .product-image { height: 220px; background: #f0f2f5; display: flex; align-items: center; justify-content: center; padding: 24px; position: relative; }
+        .product-image svg { width: 120px; height: 120px; opacity: 0.6; }
+        .product-image .quick-view { position: absolute; bottom: 12px; right: 12px; background: white; border: none; padding: 8px 16px; border-radius: 8px; font-size: 12px; cursor: pointer; opacity: 0; transition: opacity 0.3s; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .product-card:hover .quick-view { opacity: 1; }
+        .product-info { padding: 20px; }
+        .product-category { font-size: 12px; color: #e85d04; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
+        .product-name { font-size: 16px; font-weight: 600; margin: 8px 0; line-height: 1.3; }
+        .product-specs { font-size: 13px; color: #777; margin-bottom: 12px; line-height: 1.5; }
+        .product-specs span { display: inline-block; background: #f5f5fa; padding: 2px 8px; border-radius: 4px; margin: 2px 4px 2px 0; }
+        .product-bottom { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; border-top: 1px solid #f0f0f5; }
+        .product-price { font-size: 20px; font-weight: 700; color: #1a1a2e; }
+        .product-price .vat { font-size: 12px; color: #999; font-weight: 400; }
+        .add-to-cart { background: #e85d04; color: white; border: none; padding: 10px 20px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+        .add-to-cart:hover { background: #d14e00; }
+
+        /* Capacity badge */
+        .capacity-badge { display: inline-flex; align-items: center; gap: 4px; background: #e8f5e9; color: #2d6a4f; padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600; margin-top: 8px; }
+
+        /* Footer */
+        footer { background: #1a1a2e; color: #8a8aad; padding: 60px 40px 30px; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+        .footer-grid h4 { color: white; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 16px; }
+        .footer-grid a { color: #8a8aad; text-decoration: none; display: block; margin-bottom: 8px; font-size: 14px; }
+        .footer-grid a:hover { color: white; }
+        .footer-brand { font-size: 14px; line-height: 1.6; }
+        .footer-bottom { border-top: 1px solid #2a2a4e; padding-top: 24px; display: flex; justify-content: space-between; font-size: 13px; }
+        .payment-icons { display: flex; gap: 12px; }
+        .payment-icon { background: #2a2a4e; padding: 6px 12px; border-radius: 6px; font-size: 12px; color: #aaa; }
+
+        /* Category tabs */
+        .category-tabs { display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap; }
+        .cat-tab { padding: 10px 24px; border-radius: 8px; border: 1px solid #ddd; background: white; font-size: 14px; cursor: pointer; transition: all 0.2s; font-weight: 500; }
+        .cat-tab:hover { border-color: #e85d04; color: #e85d04; }
+        .cat-tab.active { background: #e85d04; color: white; border-color: #e85d04; }
+
+        /* Responsive */
+        @media (max-width: 1024px) { .products-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 768px) {
+            .shop-layout { flex-direction: column; padding: 0 16px 40px; }
+            .filters { width: 100%; }
+            .products-grid { grid-template-columns: 1fr; }
+            .hero h1 { font-size: 28px; }
+            .hero-stats { flex-direction: column; gap: 20px; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="top-bar">
+        <div>Free delivery on orders over 500&#8364; | <strong>Finland & Baltics</strong></div>
+        <div>
+            <a href="#">FI</a>
+            <a href="#">EN</a>
+            <a href="#">Help</a>
+            <a href="#">My Account</a>
+        </div>
+    </div>
+    <div class="main-nav">
+        <div class="logo">BALT<span>SCAND</span></div>
+        <nav>
+            <a href="#" class="active">Shelving</a>
+            <a href="#">Platforms</a>
+            <a href="#">Accessories</a>
+            <a href="#">Solutions</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="nav-actions">
+            <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35" stroke-linecap="round"/></svg>
+            <div style="position:relative; display:flex;">
+                <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5"><path d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span class="cart-badge">2</span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Hero -->
+<div class="hero">
+    <h1>PROSPACE<span>+</span> Metal Shelving</h1>
+    <p>Professional modular shelving systems for warehouse, workshop and retail. Designed and manufactured in Europe.</p>
+    <div class="hero-stats">
+        <div class="hero-stat">
+            <div class="num">2,100 kg</div>
+            <div class="label">Max load per upright pair</div>
+        </div>
+        <div class="hero-stat">
+            <div class="num">5,000 mm</div>
+            <div class="label">Max height (single piece)</div>
+        </div>
+        <div class="hero-stat">
+            <div class="num">38+</div>
+            <div class="label">Standard configurations</div>
+        </div>
+    </div>
+</div>
+
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+    <a href="#">Home</a> &rsaquo; <a href="#">Shelving</a> &rsaquo; PROSPACE+ Range
+</div>
+
+<!-- Shop Layout -->
+<div class="shop-layout">
+
+    <!-- Sidebar Filters -->
+    <aside class="filters">
+        <div class="filter-card">
+            <h3>Shelf Type</h3>
+            <label class="filter-option"><input type="checkbox" checked> Tubular Shelving <span class="count">24</span></label>
+            <label class="filter-option"><input type="checkbox" checked> Metal Sheet Shelving <span class="count">14</span></label>
+        </div>
+        <div class="filter-card">
+            <h3>Length</h3>
+            <label class="filter-option"><input type="checkbox"> 670 mm <span class="count">8</span></label>
+            <label class="filter-option"><input type="checkbox"> 970 mm <span class="count">15</span></label>
+            <label class="filter-option"><input type="checkbox"> 1240 mm <span class="count">15</span></label>
+        </div>
+        <div class="filter-card">
+            <h3>Depth</h3>
+            <label class="filter-option"><input type="checkbox"> 300 mm <span class="count">5</span></label>
+            <label class="filter-option"><input type="checkbox"> 400 mm <span class="count">5</span></label>
+            <label class="filter-option"><input type="checkbox"> 500 mm <span class="count">5</span></label>
+            <label class="filter-option"><input type="checkbox"> 600 mm <span class="count">5</span></label>
+            <label class="filter-option"><input type="checkbox"> 700 mm <span class="count">5</span></label>
+            <label class="filter-option"><input type="checkbox"> 800 mm <span class="count">5</span></label>
+            <label class="filter-option"><input type="checkbox"> 1000 mm <span class="count">3</span></label>
+        </div>
+        <div class="filter-card">
+            <h3>Load Capacity</h3>
+            <label class="filter-option"><input type="checkbox"> Up to 125 kg</label>
+            <label class="filter-option"><input type="checkbox"> 125 - 200 kg</label>
+            <label class="filter-option"><input type="checkbox"> 200 - 275 kg</label>
+        </div>
+        <div class="filter-card">
+            <h3>Price Range</h3>
+            <div class="price-range">
+                <input type="text" placeholder="Min &euro;">
+                <span>&ndash;</span>
+                <input type="text" placeholder="Max &euro;">
+            </div>
+        </div>
+        <div class="filter-card">
+            <h3>Finish</h3>
+            <label class="filter-option"><input type="checkbox"> Epoxy Paint RAL 7035</label>
+            <label class="filter-option"><input type="checkbox"> Galvanised</label>
+        </div>
+    </aside>
+
+    <!-- Products -->
+    <main class="products-area">
+        <div class="products-header">
+            <div>
+                <h2>All Shelving Units</h2>
+                <span class="count">Showing 9 of 38 products</span>
+            </div>
+            <select class="sort-select">
+                <option>Sort by: Popular</option>
+                <option>Price: Low to High</option>
+                <option>Price: High to Low</option>
+                <option>Load Capacity</option>
+            </select>
+        </div>
+
+        <!-- Category Tabs -->
+        <div class="category-tabs">
+            <div class="cat-tab active">All Products</div>
+            <div class="cat-tab">Tubular Shelves</div>
+            <div class="cat-tab">Metal Sheet Shelves</div>
+            <div class="cat-tab">Uprights &amp; Frames</div>
+            <div class="cat-tab">Accessories</div>
+        </div>
+
+        <div class="products-grid">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <span class="product-badge">Popular</span>
+                <div class="product-image">
+                    <svg viewBox="0 0 100 100" fill="none" stroke="#999" stroke-width="1">
+                        <rect x="15" y="10" width="3" height="80" rx="1" fill="#bbb"/>
+                        <rect x="82" y="10" width="3" height="80" rx="1" fill="#bbb"/>
+                        <rect x="15" y="20" width="70" height="3" rx="1" fill="#ddd"/>
+                        <rect x="15" y="40" width="70" height="3" rx="1" fill="#ddd"/>
+                        <rect x="15" y="60" width="70" height="3" rx="1" fill="#ddd"/>
+                        <rect x="15" y="80" width="70" height="3" rx="1" fill="#ddd"/>
+                    </svg>
+                    <button class="quick-view">Quick View</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Tubular Shelving</div>
+                    <div class="product-name">PROSPACE+ Tubular Shelf Unit 970 x 500</div>
+                    <div class="product-specs">
+                        <span>L: 970 mm</span> <span>D: 500 mm</span> <span>Standard</span>
+                    </div>
+                    <div class="capacity-badge">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>
+                        175 kg load capacity
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-price">&euro;89.00 <span class="vat">excl. VAT</span></div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <span class="product-badge new">New</span>
+                <div class="product-image">
+                    <svg viewBox="0 0 100 100" fill="none" stroke="#999" stroke-width="1">
+                        <rect x="15" y="10" width="3" height="80" rx="1" fill="#bbb"/>
+                        <rect x="82" y="10" width="3" height="80" rx="1" fill="#bbb"/>
+                        <rect x="15" y="20" width="70" height="4" rx="1" fill="#ccc"/>
+                        <rect x="15" y="40" width="70" height="4" rx="1" fill="#ccc"/>
+                        <rect x="15" y="60" width="70" height="4" rx="1" fill="#ccc"/>
+                        <rect x="15" y="80" width="70" height="4" rx="1" fill="#ccc"/>
+                        <rect x="14" y="10" width="1" height="80" fill="#ddd"/>
+                        <rect x="85" y="10" width="1" height="80" fill="#ddd"/>
+                    </svg>
+                    <button class="quick-view">Quick View</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Metal Sheet Shelving</div>
+                    <div class="product-name">PROSPACE+ Metal Sheet Unit 1240 x 600</div>
+                    <div class="product-specs">
+                        <span>L: 1240 mm</span> <span>D: 600 mm</span> <span>Closed Frame</span>
+                    </div>
+                    <div class="capacity-badge">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>
+                        200 kg load capacity
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-price">&euro;149.00 <span class="vat">excl. VAT</span></div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <svg viewBox="0 0 100 100" fill="none" stroke="#999" stroke-width="1">
+                        <rect x="15" y="10" width="3" height="80" rx="1" fill="#bbb"/>
+                        <rect x="82" y="10" width="3" height="80" rx="1" fill="#bbb"/>
+                        <rect x="15" y="20" width="70" height="3" rx="1" fill="#ddd"/>
+                        <rect x="15" y="40" width="70" height="3" rx="1" fill="#ddd"/>
+                        <rect x="15" y="60" width="70" height="3" rx="1" fill="#ddd"/>
+                        <rect x="15" y="80" width="70" height="3" rx="1" fill="#ddd"/>
+                    </svg>
+                    <button class="quick-view">Quick View</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Tubular Shelving</div>
+                    <div class="product-name">PROSPACE+ Tubular Shelf Unit 670 x 300</div>
+                    <div class="product-specs">
+                        <span>L: 670 mm</span> <span>D: 300 mm</span> <span>Standard</span>
+                    </div>
+                    <div class="capacity-badge">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>
+                        200 kg load capacity
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-price">&euro;59.00 <span class="vat">excl. VAT</span></div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <span class="product-badge">Best Value</span>
+                <div class="product-image">
+                    <svg viewBox="0 0 100 100" fill="none" stroke="#999" stroke-width="1">
+                        <rect x="15" y="10" width="3" height="80" rx="1" fill="#bbb"/>
+                        <rect x="82" y="10" width="3" height="80" rx="1" fill="#bbb"/>
+                        <rect x="15" y="20" width="70" height="3" rx="1" fill="#ddd"/>
+                        <rect x="15" y="40" width="70" height="3" rx="1" fill="#ddd"/>
+                        <rect x="15" y="60" width="70" height="3" rx="1" fill="#ddd"/>
+                        <rect x="15" y="80" width="70" height="3" rx="1" fill="#ddd"/>
+                    </svg>
+                    <button class="quick-view">Quick View</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Tubular Shelving</div>
+                    <div class="product-name">PROSPACE+ Tubular Shelf Unit 1240 x 700</div>
+                    <div class="product-specs">
+                        <span>L: 1240 mm</span> <span>D: 700 mm</span> <span>Reinforced</span>
+                    </div>
+                    <div class="capacity-badge">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>
+                        200 kg load capacity
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-price">&euro;129.00 <span class="vat">excl. VAT</span></div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <svg viewBox="0 0 100 100" fill="none" stroke="#999" stroke-width="1">
+                        <rect x="15" y="10" width="3" height="80" rx="1" fill="#bbb"/>
+                        <rect x="82" y="10" width="3" height="80" rx="1" fill="#bbb"/>
+                        <rect x="15" y="20" width="70" height="4" rx="1" fill="#ccc"/>
+                        <rect x="15" y="40" width="70" height="4" rx="1" fill="#ccc"/>
+                        <rect x="15" y="60" width="70" height="4" rx="1" fill="#ccc"/>
+                        <rect x="15" y="80" width="70" height="4" rx="1" fill="#ccc"/>
+                        <rect x="14" y="10" width="1" height="80" fill="#ddd"/>
+                        <rect x="85" y="10" width="1" height="80" fill="#ddd"/>
+                    </svg>
+                    <button class="quick-view">Quick View</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Metal Sheet Shelving</div>
+                    <div class="product-name">PROSPACE+ Metal Sheet Unit 970 x 400</div>
+                    <div class="product-specs">
+                        <span>L: 970 mm</span> <span>D: 400 mm</span> <span>Open Frame</span>
+                    </div>
+                    <div class="capacity-badge">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>
+                        150 kg load capacity
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-price">&euro;109.00 <span class="vat">excl. VAT</span></div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <svg viewBox="0 0 100 100" fill="none" stroke="#999" stroke-width="1">
+                        <rect x="15" y="10" width="3" height="80" rx="1" fill="#bbb"/>
+                        <rect x="82" y="10" width="3" height="80" rx="1" fill="#bbb"/>
+                        <rect x="15" y="20" width="70" height="3" rx="1" fill="#ddd"/>
+                        <rect x="15" y="40" width="70" height="3" rx="1" fill="#ddd"/>
+                        <rect x="15" y="60" width="70" height="3" rx="1" fill="#ddd"/>
+                        <rect x="15" y="80" width="70" height="3" rx="1" fill="#ddd"/>
+                    </svg>
+                    <button class="quick-view">Quick View</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Tubular Shelving</div>
+                    <div class="product-name">PROSPACE+ Tubular Shelf Unit 970 x 1000</div>
+                    <div class="product-specs">
+                        <span>L: 970 mm</span> <span>D: 1000 mm</span> <span>Reinforced</span>
+                    </div>
+                    <div class="capacity-badge">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>
+                        225 kg load capacity
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-price">&euro;139.00 <span class="vat">excl. VAT</span></div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Accessory 1 -->
+            <div class="product-card">
+                <div class="product-image" style="background: #f5f0eb;">
+                    <svg viewBox="0 0 100 100" fill="none" stroke="#999" stroke-width="1.5">
+                        <rect x="20" y="30" width="60" height="40" rx="2" fill="none" stroke="#aaa"/>
+                        <line x1="20" y1="45" x2="80" y2="45" stroke="#ccc"/>
+                        <line x1="20" y1="55" x2="80" y2="55" stroke="#ccc"/>
+                        <line x1="40" y1="30" x2="40" y2="70" stroke="#ccc"/>
+                        <line x1="60" y1="30" x2="60" y2="70" stroke="#ccc"/>
+                    </svg>
+                    <button class="quick-view">Quick View</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Accessory</div>
+                    <div class="product-name">Wire Mesh Back Panel</div>
+                    <div class="product-specs">
+                        <span>For all PROSPACE+</span> <span>Galvanised</span>
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-price">&euro;29.00 <span class="vat">excl. VAT</span></div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Accessory 2 -->
+            <div class="product-card">
+                <div class="product-image" style="background: #f5f0eb;">
+                    <svg viewBox="0 0 100 100" fill="none" stroke="#999" stroke-width="1.5">
+                        <rect x="25" y="25" width="50" height="50" rx="3" fill="none" stroke="#aaa"/>
+                        <rect x="25" y="25" width="50" height="8" fill="#ddd" rx="1"/>
+                    </svg>
+                    <button class="quick-view">Quick View</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Accessory</div>
+                    <div class="product-name">Hardboard Shelf Cover</div>
+                    <div class="product-specs">
+                        <span>For tubular shelves</span> <span>Multiple sizes</span>
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-price">&euro;15.00 <span class="vat">excl. VAT</span></div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Accessory 3 -->
+            <div class="product-card">
+                <div class="product-image" style="background: #f5f0eb;">
+                    <svg viewBox="0 0 100 100" fill="none" stroke="#999" stroke-width="1.5">
+                        <rect x="30" y="20" width="40" height="60" rx="2" fill="none" stroke="#aaa"/>
+                        <line x1="30" y1="35" x2="70" y2="35" stroke="#ccc"/>
+                        <line x1="30" y1="50" x2="70" y2="50" stroke="#ccc"/>
+                        <line x1="30" y1="65" x2="70" y2="65" stroke="#ccc"/>
+                        <circle cx="50" cy="27" r="3" fill="#ccc"/>
+                    </svg>
+                    <button class="quick-view">Quick View</button>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">Accessory</div>
+                    <div class="product-name">Swing Doors (pair)</div>
+                    <div class="product-specs">
+                        <span>Close 1+ bays</span> <span>Metal Sheet compatible</span>
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-price">&euro;69.00 <span class="vat">excl. VAT</span></div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-grid">
+        <div>
+            <div class="logo" style="margin-bottom: 16px;">BALT<span style="color: #e85d04;">SCAND</span></div>
+            <p class="footer-brand">Professional storage and shelving solutions for Finland and the Baltics. Authorized PROSPACE+ distributor. Quality European manufacturing with local service and support.</p>
+        </div>
+        <div>
+            <h4>Products</h4>
+            <a href="#">Tubular Shelving</a>
+            <a href="#">Metal Sheet Shelving</a>
+            <a href="#">Uprights & Frames</a>
+            <a href="#">Accessories</a>
+            <a href="#">Storage Platforms</a>
+        </div>
+        <div>
+            <h4>Support</h4>
+            <a href="#">Contact Us</a>
+            <a href="#">Request a Quote</a>
+            <a href="#">Installation Guide</a>
+            <a href="#">Load Calculator</a>
+            <a href="#">FAQ</a>
+        </div>
+        <div>
+            <h4>Company</h4>
+            <a href="#">About Baltscand</a>
+            <a href="#">baltscand.com</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Delivery Info</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>&copy; 2026 Baltscand. All rights reserved.</span>
+        <div class="payment-icons">
+            <span class="payment-icon">Visa</span>
+            <span class="payment-icon">Mastercard</span>
+            <span class="payment-icon">Klarna</span>
+            <span class="payment-icon">Paytrail</span>
+            <span class="payment-icon">MobilePay</span>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

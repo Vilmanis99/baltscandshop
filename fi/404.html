@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sivua ei löydy — Baltscand</title>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a class="logo" href="index.html">BALT<span>SCAND</span></a>
+    <button class="hamburger" onclick="this.classList.toggle('open');document.getElementById('navLinks').classList.toggle('open')" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="navLinks">
+      <a href="index.html" class="active">Tuotteet</a>
+      <a href="https://www.baltscand.com/shelving">Tietoa Baltscandista</a>
+      <a href="https://www.baltscand.com">baltscand.com</a>
+      <a class="lang-switch" href="/en/404.html" title="English">🇬🇧 English</a>
+    </nav>
+    <a class="nav-cta" href="javascript:void(0)" onclick="openQuoteModal('Yleinen tiedustelu')">Ota yhteyttä</a>
+  </div>
+</header>
+<div style="text-align:center;padding:120px 40px 80px;max-width:600px;margin:0 auto">
+  <h1 style="font-size:72px;font-weight:900;color:#e8e8ee;margin-bottom:16px">404</h1>
+  <h2 style="font-size:28px;font-weight:800;margin-bottom:12px">Sivua ei löydy</h2>
+  <p style="color:#666;font-size:16px;line-height:1.6;margin-bottom:32px">Etsimääsi sivua ei ole tai se on siirretty. Selaa tuotteitamme tai ota yhteyttä myyntitiimiimme.</p>
+  <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+    <a class="btn-primary" href="index.html">Selaa tuotteita</a>
+    <a class="btn-ghost" href="javascript:void(0)" onclick="openQuoteModal('Yleinen tiedustelu')">Ota yhteyttä</a>
+  </div>
+</div>
+
+<div class="modal-overlay" id="quoteModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <button class="close" onclick="closeModal()" aria-label="Close dialog">&times;</button>
+    <h2 id="modalTitle">Kysy asiantuntijoiltamme</h2>
+    <p class="sub">Myyntitiimimme auttaa löytämään oikean ratkaisun. Vastaamme yleensä 1 arkipäivän kuluessa.</p>
+    <div class="summary" id="quoteSummary"></div>
+    <label for="formName">Nimi *</label><input id="formName" name="name" type="text" placeholder="Koko nimesi" required>
+    <label for="formCompany">Yritys</label><input id="formCompany" name="company" type="text" placeholder="Yrityksen nimi">
+    <label for="formEmail">Sähköposti *</label><input id="formEmail" name="email" type="email" placeholder="sinun@sahkoposti.fi" required>
+    <label for="formPhone">Puhelin</label><input id="formPhone" name="phone" type="tel" placeholder="+358...">
+    <label for="formMessage">Kerro tarpeistasi</label>
+    <textarea id="formMessage" name="message" placeholder="Mistä tuotteista olet kiinnostunut? Määrät? Erityisvaatimuksia?"></textarea>
+    <button class="btn-submit" id="btnSubmit" onclick="submitQ()">Lähetä tiedustelu</button>
+  </div>
+</div>
+<script>
+function openQuoteModal(p){
+  document.getElementById('quoteSummary').innerHTML='<strong>Kiinnostuksen kohde: '+p+'</strong>';
+  document.getElementById('quoteModal').classList.add('show');
+  document.getElementById('formName').focus();
+}
+function closeModal(){
+  document.getElementById('quoteModal').classList.remove('show');
+  document.querySelectorAll('#quoteModal input,#quoteModal textarea').forEach(function(el){el.value=''});
+  var b=document.getElementById('btnSubmit');b.textContent='Lähetä tiedustelu';b.style.background='';b.disabled=false;
+}
+function submitQ(){
+  var n=document.getElementById('formName').value.trim();
+  var e=document.getElementById('formEmail').value.trim();
+  if(!n){document.getElementById('formName').focus();document.getElementById('formName').style.borderColor='#e85d04';return}
+  if(!e||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)){document.getElementById('formEmail').focus();document.getElementById('formEmail').style.borderColor='#e85d04';return}
+  var b=document.getElementById('btnSubmit');
+  b.textContent='Lähetetään...';b.disabled=true;b.style.background='#999';
+  setTimeout(function(){
+    b.textContent='Lähetetty! Otamme yhteyttä.';b.style.background='#2d6a4f';b.disabled=true;
+    setTimeout(function(){closeModal()},2000);
+  },800);
+}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal()});
+</script>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <span>&copy; 2026 Baltscand Oy. Kaikki oikeudet pidätetään.</span>
+      <span class="footer-sep">&middot;</span>
+      <a href="https://www.baltscand.com">baltscand.com</a>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.baltscand.com/shelving">Hyllyjärjestelmät</a>
+      <span class="footer-sep">&middot;</span>
+      <a href="javascript:void(0)" onclick="openQuoteModal('Yleinen tiedustelu')">Ota yhteyttä</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

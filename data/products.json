@@ -1,0 +1,3352 @@
+{
+  "brand": "Baltscand",
+  "tagline": "Professional Storage & Shelving Solutions",
+  "region": "Finland & Baltics",
+  "series": [
+    {
+      "id": "prospace",
+      "name": "PROSPACE+",
+      "slug": "prospace-plus",
+      "tagline": "Efficient, Competitive Storage",
+      "subtitle": "Adaptable, Upgradable, Universal",
+      "category": "Light Shelving",
+      "description": "Modular shelving for light loads, enabling optimum use of storage space. Clip-in assembly without tools. Suitable for warehouse, workshop, office and retail.",
+      "heroImage": "images/prospace/page5_img0.png",
+      "features": [
+        "Load capacity up to 2,100 kg per pair of uprights",
+        "Height up to 5,000 mm in one piece",
+        "Adjustment pitch 40 mm",
+        "Depth up to 1,000 mm",
+        "Load up to 275 kg per shelf (evenly distributed)",
+        "Clip-in assembly, no tools required",
+        "Guaranteed European origin"
+      ],
+      "finishes": [
+        {
+          "name": "Epoxy Paint",
+          "code": "RAL 7035",
+          "color": "#b8b8b0"
+        },
+        {
+          "name": "Galvanised",
+          "code": "Sendzimir",
+          "color": "#d0d0c8"
+        }
+      ],
+      "products": [
+        {
+          "id": "prospace-tubular",
+          "name": "PROSPACE+ Tubular Shelf",
+          "type": "Tubular Shelving",
+          "description": "Tubular shelves with front beams, side beams and inner tubes. Directly attached to uprights. Available with hardboard, galvanised sheet or mesh cover.",
+          "image": "images/prospace/page5_img0.png",
+          "gallery": [
+            "images/prospace/page5_img0.png",
+            "images/prospace/page1_img0.png",
+            "images/prospace/page7_img0.png",
+            "images/prospace/page4_img0.png",
+            "images/prospace/page4_img1.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prospace/page8_img2.png",
+              "label": "Warehouse Storage"
+            },
+            {
+              "image": "images/prospace/page9_img1.png",
+              "label": "Workshop & Production"
+            },
+            {
+              "image": "images/prospace/page11_img3.png",
+              "label": "Retail Back-of-Store"
+            },
+            {
+              "image": "images/prospace/page10_img2.png",
+              "label": "Industrial Parts Storage"
+            },
+            {
+              "image": "images/prospace/page13_img1.png",
+              "label": "Archive & Document Storage"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROSPACE+",
+            "Shelf Type": "Tubular",
+            "Available Lengths": "670, 970, 1240 mm",
+            "Available Depths": "300, 350, 400, 500, 600, 700, 800, 1000 mm",
+            "Max Height": "5,000 mm (single upright)",
+            "Standard Finish": "Epoxy paint RAL 7035 (light grey)",
+            "Optional Finish": "Sendzimir galvanised",
+            "Assembly": "Clip-in system, no tools required",
+            "Configurations": "24 standard shelf formats",
+            "Cover Options": "Hardboard, galvanised sheet metal, metal mesh"
+          },
+          "options": {
+            "lengths": [
+              670,
+              970,
+              1240
+            ],
+            "depths": [
+              300,
+              350,
+              400,
+              500,
+              600,
+              700,
+              800,
+              1000
+            ],
+            "reinforcement": [
+              "Standard",
+              "Reinforced"
+            ]
+          },
+          "loadTable": {
+            "title": "Tubular Shelving — Uniformly Distributed Load (kg)",
+            "columns": [
+              "Depth",
+              "670 mm",
+              "970 mm",
+              "1240 mm"
+            ],
+            "standard": [
+              [
+                "300 mm",
+                200,
+                175,
+                125
+              ],
+              [
+                "350 mm",
+                200,
+                175,
+                125
+              ],
+              [
+                "400 mm",
+                200,
+                175,
+                125
+              ],
+              [
+                "500 mm",
+                250,
+                175,
+                125
+              ],
+              [
+                "600 mm",
+                275,
+                175,
+                125
+              ],
+              [
+                "700 mm",
+                225,
+                175,
+                125
+              ],
+              [
+                "800 mm",
+                200,
+                150,
+                125
+              ],
+              [
+                "1000 mm",
+                175,
+                150,
+                125
+              ]
+            ],
+            "reinforced": [
+              [
+                "300 mm",
+                null,
+                null,
+                null
+              ],
+              [
+                "350 mm",
+                null,
+                null,
+                null
+              ],
+              [
+                "400 mm",
+                null,
+                null,
+                null
+              ],
+              [
+                "500 mm",
+                null,
+                225,
+                200
+              ],
+              [
+                "600 mm",
+                null,
+                225,
+                200
+              ],
+              [
+                "700 mm",
+                275,
+                225,
+                200
+              ],
+              [
+                "800 mm",
+                250,
+                225,
+                200
+              ],
+              [
+                "1000 mm",
+                200,
+                225,
+                200
+              ]
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Hardboard Shelf Cover",
+              "description": "Covers the tubular shelf frame to create a flat surface for small items."
+            },
+            {
+              "name": "Galvanised Sheet Cover",
+              "description": "Metal sheet covering for the tubular frame."
+            },
+            {
+              "name": "Metal Mesh Cover",
+              "description": "Wire mesh covering, ideal for sprinkler-equipped environments."
+            },
+            {
+              "name": "Wire Dividers",
+              "description": "Vertical dividers to organize items on shelves."
+            },
+            {
+              "name": "Wire Mesh Back Panel",
+              "description": "Galvanised wire mesh for rear stability and fall protection."
+            },
+            {
+              "name": "Central Stop",
+              "description": "For double-access storage configurations."
+            },
+            {
+              "name": "Retention Tray",
+              "description": "With grating, for chemical storage."
+            },
+            {
+              "name": "Signage Plate",
+              "description": "For labelling shelf contents."
+            }
+          ],
+          "uprights": {
+            "types": [
+              {
+                "name": "Type A",
+                "load": "1,400 kg (1.4 t) per pair"
+              },
+              {
+                "name": "Type C",
+                "load": "2,100 kg (2.1 t) per pair"
+              }
+            ],
+            "features": [
+              "Non-perforated front, 0.8 or 1.2 mm steel",
+              "Continuous cold-rolled, 10 folds, Ω-shaped",
+              "Standard finishes: grey epoxy RAL 7016 or galvanised",
+              "Adjustment pitch 40 mm",
+              "No mounting direction"
+            ]
+          },
+          "metaDescription": "PROSPACE+ tubular shelving: clip-in assembly, up to 275 kg/shelf, depths 300-1000mm. Professional storage solutions for warehouses and workshops in Finland & Baltics.",
+          "fi_name": "PROSPACE+ Putkihylly",
+          "fi_type": "Putkihylly",
+          "fi_description": "Putkihyllyt etupalkeilla, sivupalkeilla ja sisäputkilla. Kiinnittyvät suoraan pystytolppiin. Saatavana kovalevykansi, galvanoitu pelti tai verkkokansi.",
+          "fi_metaDescription": "PROSPACE+ putkihylly: modulaarinen varastohylly kevyille kuormille. 24 vakiomittaista hyllyvaihtoehtoa. Ammattitason varastointiratkaisu Suomeen ja Baltiaan."
+        },
+        {
+          "id": "prospace-metalsheet",
+          "name": "PROSPACE+ Metal Sheet Shelf",
+          "type": "Metal Sheet Shelving",
+          "description": "Cold-rolled steel shelves with 12-fold edge box profiles for high resistance. Perforated every 45 mm for accessories. Edge accepts adhesive or magnetic labels.",
+          "image": "images/prospace/page6_img2.png",
+          "gallery": [
+            "images/prospace/page6_img2.png",
+            "images/prospace/page7_img0.png",
+            "images/prospace/page1_img0.png",
+            "images/prospace/page6_img3.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prospace/page10_img2.png",
+              "label": "Industrial Parts Storage"
+            },
+            {
+              "image": "images/prospace/page11_img3.png",
+              "label": "Retail Storage"
+            },
+            {
+              "image": "images/prospace/page13_img1.png",
+              "label": "Archive Storage"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROSPACE+",
+            "Shelf Type": "Metal Sheet (cold-rolled steel)",
+            "Available Lengths": "970, 1240 mm",
+            "Available Depths": "300, 350, 400, 500, 600, 700, 800 mm",
+            "Profile": "12-fold edge box profiles",
+            "Perforation": "Every 45 mm for accessories",
+            "Labelling": "Edge accepts adhesive or magnetic labels",
+            "Attachment": "4 shelf clips per shelf",
+            "Standard Finish": "Epoxy paint RAL 7035",
+            "Optional Finish": "Galvanised",
+            "Configurations": "14 standard shelf formats",
+            "Frame Versions": "Open Frame (bracings) or Closed Frame (lateral metal sheets)"
+          },
+          "options": {
+            "lengths": [
+              970,
+              1240
+            ],
+            "depths": [
+              300,
+              350,
+              400,
+              500,
+              600,
+              700,
+              800
+            ],
+            "reinforcement": [
+              "0 reinforcements",
+              "1 reinforcement",
+              "2 reinforcements",
+              "3 reinforcements"
+            ]
+          },
+          "loadTable": {
+            "title": "Metal Sheet Shelving — Uniformly Distributed Load (kg)",
+            "note": "Shelf thickness 0.6 mm except where marked * (0.8 mm)",
+            "columns": [
+              "Depth",
+              "970 / 0 reinf.",
+              "970 / 1 reinf.",
+              "970 / 2 reinf.",
+              "1240 / 0 reinf.",
+              "1240 / 1 reinf.",
+              "1240 / 2 reinf.",
+              "1240 / 3 reinf."
+            ],
+            "standard": [
+              [
+                "300 mm",
+                200,
+                "—",
+                "—",
+                150,
+                "—",
+                "—",
+                "—"
+              ],
+              [
+                "350 mm",
+                150,
+                250,
+                "—",
+                100,
+                200,
+                "—",
+                "—"
+              ],
+              [
+                "400 mm",
+                150,
+                250,
+                "—",
+                100,
+                200,
+                "—",
+                "—"
+              ],
+              [
+                "500 mm",
+                100,
+                225,
+                "—",
+                75,
+                175,
+                225,
+                "—"
+              ],
+              [
+                "600 mm",
+                75,
+                200,
+                250,
+                50,
+                150,
+                200,
+                200
+              ],
+              [
+                "700 mm",
+                75,
+                200,
+                250,
+                50,
+                150,
+                200,
+                250
+              ],
+              [
+                "800 mm",
+                75,
+                200,
+                250,
+                50,
+                150,
+                200,
+                250
+              ]
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Swing Doors",
+              "description": "Lockable metal doors to close one or several bays."
+            },
+            {
+              "name": "Load Bar & Hooks",
+              "description": "To showcase products on the shelving."
+            },
+            {
+              "name": "Plastic Tray Holder",
+              "description": "Holder for plastic storage trays."
+            },
+            {
+              "name": "Raised Edge",
+              "description": "Keeps products securely on the shelf."
+            },
+            {
+              "name": "Mobile Divider",
+              "description": "Creates adjustable spaces (45 mm pitch)."
+            },
+            {
+              "name": "Metal Sheet Partition",
+              "description": "Creates fixed slots (45 mm pitch)."
+            },
+            {
+              "name": "Wire Dividers",
+              "description": "Adjustable wire dividers (45 mm pitch)."
+            },
+            {
+              "name": "Base Plinth",
+              "description": "Bottom closing panel for the shelving unit."
+            },
+            {
+              "name": "Frame Bracing",
+              "description": "Open frame structural bracing."
+            },
+            {
+              "name": "Cross Bracing",
+              "description": "Additional structural reinforcement."
+            }
+          ],
+          "metaDescription": "PROSPACE+ metal sheet shelving: cold-rolled steel, 12-fold edge profiles, up to 350 kg/shelf. Durable professional storage from Baltscand.",
+          "fi_name": "PROSPACE+ Metallilevyhylly",
+          "fi_type": "Metallilevyhylly",
+          "fi_description": "Kylmävalssatut teräslevyhyllyt, 12-kertaisen reunaprofiilin ansiosta erittäin kestävät. Saatavana kahdella runkotyypillä eri kuormituksille.",
+          "fi_metaDescription": "PROSPACE+ metallilevyhylly: kestävät teräslevyhyllyt 12-kertaisella reunaprofiililla. Ammattitason varastointi Suomeen ja Baltiaan."
+        },
+        {
+          "id": "prospace-workshop",
+          "name": "PROSPACE+ Workshop & Store Room",
+          "type": "Workshop Storage",
+          "description": "Complete workshop and store room storage solutions using PROSPACE+ modular shelving. Purpose-configured for tools, parts, supplies and equipment in workshops, maintenance areas and back-of-store rooms. Combines tubular and metal sheet shelves for mixed-load storage.",
+          "image": "images/prospace/page10_img0.png",
+          "gallery": [
+            "images/prospace/page10_img0.png",
+            "images/prospace/page10_img1.png",
+            "images/prospace/page10_img2.png",
+            "images/prospace/page10_img3.png",
+            "images/prospace/page11_img0.png",
+            "images/prospace/page11_img1.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prospace/page10_img0.png",
+              "label": "Workshop Storage Room"
+            },
+            {
+              "image": "images/prospace/page10_img1.png",
+              "label": "Parts & Supplies Store"
+            },
+            {
+              "image": "images/prospace/page10_img2.png",
+              "label": "Maintenance Area"
+            },
+            {
+              "image": "images/prospace/page11_img0.png",
+              "label": "Back-of-Store Room"
+            },
+            {
+              "image": "images/prospace/page11_img1.png",
+              "label": "Equipment Storage"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROSPACE+",
+            "Configuration": "Workshop & Store Room",
+            "Load Capacity": "Up to 2,100 kg per pair of uprights",
+            "Shelf Load": "Up to 275 kg per shelf (evenly distributed)",
+            "Max Height": "5,000 mm (single upright)",
+            "Depth Range": "300 to 1,000 mm",
+            "Assembly": "Clip-in system, no tools required",
+            "Shelf Types": "Tubular, metal sheet, or mixed",
+            "Finish": "Epoxy paint RAL 7035 or galvanised"
+          },
+          "options": {
+            "lengths": [
+              670,
+              970,
+              1240
+            ],
+            "depths": [
+              300,
+              350,
+              400,
+              500,
+              600,
+              700,
+              800,
+              1000
+            ]
+          },
+          "metaDescription": "PROSPACE+ workshop and store room shelving: modular storage for tools, parts and supplies. Clip-in assembly, no tools needed. Finland & Baltics.",
+          "fi_name": "PROSPACE+ Työpaja- ja varastotila",
+          "fi_type": "Työpajavarastointi",
+          "fi_description": "Kokonaisvaltainen työpaja- ja varastotilaratkaisu PROSPACE+-modulaarihyllystöllä. Työkalujen, osien, tarvikkeiden ja laitteiden varastointiin.",
+          "fi_metaDescription": "PROSPACE+ työpaja- ja varastotilahylly: modulaarinen ratkaisu työkaluille ja tarvikkeille. Napsautuskiinnitys ilman työkaluja."
+        },
+        {
+          "id": "prospace-heights",
+          "name": "PROSPACE+ High-Rise Storage",
+          "type": "High-Level Shelving",
+          "description": "High-rise PROSPACE+ shelving configurations reaching up to 5 metres in a single upright. Designed for applications where vertical space utilisation is critical — archives, warehouses and distribution centres. Multi-level access with walkways and staircases.",
+          "image": "images/prospace/page12_img0.png",
+          "gallery": [
+            "images/prospace/page12_img0.png",
+            "images/prospace/page12_img1.png",
+            "images/prospace/page12_img2.png",
+            "images/prospace/page12_img3.png",
+            "images/prospace/page12_img4.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prospace/page12_img0.png",
+              "label": "Multi-Level Shelving"
+            },
+            {
+              "image": "images/prospace/page12_img1.png",
+              "label": "High-Rise Archive"
+            },
+            {
+              "image": "images/prospace/page12_img2.png",
+              "label": "Distribution Centre"
+            },
+            {
+              "image": "images/prospace/page12_img3.png",
+              "label": "Walkway Access System"
+            },
+            {
+              "image": "images/prospace/page12_img4.png",
+              "label": "Vertical Space Utilisation"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROSPACE+",
+            "Configuration": "High-Rise / At-Heights Storage",
+            "Max Height": "5,000 mm in single upright",
+            "Load Capacity": "Up to 2,100 kg per pair of uprights",
+            "Shelf Load": "Up to 275 kg per shelf (evenly distributed)",
+            "Access": "Multi-level walkways and staircases",
+            "Assembly": "Clip-in system, no tools required",
+            "Finish": "Epoxy paint RAL 7035 or galvanised"
+          },
+          "options": {
+            "lengths": [
+              670,
+              970,
+              1240
+            ],
+            "depths": [
+              300,
+              350,
+              400,
+              500,
+              600,
+              700,
+              800,
+              1000
+            ]
+          },
+          "metaDescription": "PROSPACE+ high-rise shelving: up to 5m single upright with multi-level walkway access. Maximum vertical storage utilisation. Finland & Baltics.",
+          "fi_name": "PROSPACE+ Korkeavarastointi",
+          "fi_type": "Korkea hyllyjärjestelmä",
+          "fi_description": "Korkea PROSPACE+-hyllyjärjestelmä jopa 5 metrin yhtenäisellä pystytolpalla. Usean tason kulkuteillä ja portailla. Arkistoihin, varastoihin ja jakelukeskuksiin.",
+          "fi_metaDescription": "PROSPACE+ korkeavarastointi: jopa 5 m yhtenäinen pystytolppa, usean tason kulkutiet. Maksimoitu pystyvarastointi."
+        },
+        {
+          "id": "prospace-semitole",
+          "name": "PROSPACE+ Semi-Tôlé Shelf",
+          "type": "Semi-Tôlé Shelving",
+          "description": "Hybrid shelving combining a tubular frame structure with galvanised sheet metal side panels. Offers the structural versatility of tubular construction with enclosed aesthetics and item retention of sheet metal sides. Cross-braced back for rigidity. Ideal for retail, workshop and office environments.",
+          "image": "images/prospace/page12_img1.png",
+          "gallery": [
+            "images/prospace/page12_img1.png",
+            "images/prospace/page4_img2.png",
+            "images/prospace/page7_img0.png",
+            "images/prospace/page12_img0.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prospace/page12_img2.png",
+              "label": "Workshop & Industrial Parts"
+            },
+            {
+              "image": "images/prospace/page12_img3.png",
+              "label": "Retail Point-of-Sale"
+            },
+            {
+              "image": "images/prospace/page12_img4.png",
+              "label": "Small Parts & Bins Storage"
+            },
+            {
+              "image": "images/prospace/page10_img1.png",
+              "label": "Office & Stockroom"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROSPACE+",
+            "Shelf Type": "Semi-Tôlé (hybrid tubular frame + sheet metal sides)",
+            "Available Lengths": "940, 1210 mm",
+            "Available Depths": "400, 500, 600 mm",
+            "Standard Height": "2,000 mm",
+            "Shelves Included": "5 per unit",
+            "Shelf Construction": "Cold-formed galvanised steel, 12-fold profile",
+            "Side Panels": "Galvanised sheet metal with cross-bracing",
+            "Assembly": "Clip-in system, delivered unassembled",
+            "Adjustment Pitch": "40 mm",
+            "Origin": "Made in France"
+          },
+          "options": {
+            "lengths": [
+              940,
+              1210
+            ],
+            "depths": [
+              400,
+              500,
+              600
+            ]
+          },
+          "loadTable": {
+            "title": "Semi-Tôlé Shelving — Uniformly Distributed Load (kg)",
+            "columns": [
+              "Depth",
+              "940 mm",
+              "1210 mm"
+            ],
+            "standard": [
+              [
+                "400 mm",
+                150,
+                100
+              ],
+              [
+                "500 mm",
+                100,
+                75
+              ],
+              [
+                "600 mm",
+                75,
+                50
+              ]
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Painted Back Panel",
+              "description": "Rear closing panel in epoxy paint finish."
+            },
+            {
+              "name": "Galvanised Back Panel",
+              "description": "Rear closing panel in galvanised steel."
+            },
+            {
+              "name": "Swing Doors",
+              "description": "Lockable hinged doors to close one or several bays."
+            },
+            {
+              "name": "Wire Dividers",
+              "description": "Adjustable wire shelf dividers."
+            },
+            {
+              "name": "Metal Sheet Partition",
+              "description": "Fixed metal dividers for compartmentalisation."
+            }
+          ],
+          "metaDescription": "PROSPACE+ Semi-Tôlé hybrid shelving: tubular frame with sheet metal sides. 940/1210mm lengths, 400-600mm depths. Professional storage for Finland & Baltics.",
+          "fi_name": "PROSPACE+ Yhdistelmähylly (Semi-Tôlé)",
+          "fi_type": "Semi-Tôlé-hylly",
+          "fi_description": "Yhdistelmähylly, jossa putkimainen runko ja galvanoidut metallilevysivupaneelit. Ristituettu taustapaneeli. Ihanteellinen myymälöihin, työpajoihin ja toimistoihin.",
+          "fi_metaDescription": "PROSPACE+ Semi-Tôlé-yhdistelmähylly: putkimainen runko metallilevysivuilla. Ammattitason varastointiratkaisu."
+        },
+        {
+          "id": "prospace-archive",
+          "name": "PROSPACE+ Archive Shelf",
+          "type": "Archive Shelving (Tubular)",
+          "description": "Tubular shelving configured for archive and document storage. 7 shelf levels at 2,200 mm height with 350 mm depth optimised for standard archive boxes. Available in single-access (350 mm) or double-access (700 mm) depth. Clean aesthetic with no front-facing perforations, suitable for offices, hospitals and administrative environments.",
+          "image": "images/prospace/page9_img2.png",
+          "gallery": [
+            "images/prospace/page9_img2.png",
+            "images/prospace/page13_img1.png",
+            "images/prospace/page13_img0.png",
+            "images/prospace/page8_img1.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prospace/page9_img2.png",
+              "label": "Document Archive Storage"
+            },
+            {
+              "image": "images/prospace/page13_img1.png",
+              "label": "High-Density File Storage"
+            },
+            {
+              "image": "images/prospace/page13_img0.png",
+              "label": "Textile & Garment Archives"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROSPACE+",
+            "Shelf Type": "Tubular (Archive Configuration)",
+            "Available Lengths": "940, 1210 mm",
+            "Available Depths": "350 mm (single-access), 700 mm (double-access)",
+            "Standard Height": "2,200 mm",
+            "Shelves Included": "7 per unit",
+            "Upright Finish": "Epoxy paint RAL 7016 (anthracite grey)",
+            "Shelf Finish": "Epoxy paint RAL 7035 or Sendzimir galvanised",
+            "Assembly": "Clip-in system, no tools required",
+            "Adjustment Pitch": "40 mm",
+            "Aesthetic": "No front-facing perforations on uprights",
+            "Origin": "Made in France"
+          },
+          "options": {
+            "lengths": [
+              940,
+              1210
+            ],
+            "depths": [
+              350,
+              700
+            ]
+          },
+          "loadTable": {
+            "title": "Archive Tubular Shelving — Uniformly Distributed Load (kg)",
+            "columns": [
+              "Depth",
+              "940 mm",
+              "1210 mm"
+            ],
+            "standard": [
+              [
+                "350 mm",
+                175,
+                125
+              ],
+              [
+                "700 mm",
+                175,
+                125
+              ]
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Wood Shelf Cover",
+              "description": "Wooden covering panel for tubular shelf frames."
+            },
+            {
+              "name": "Additional Shelf Level",
+              "description": "Extra tubular shelf for customising level spacing."
+            },
+            {
+              "name": "Central Stop",
+              "description": "Divider for double-access (700 mm) configurations."
+            },
+            {
+              "name": "Signage Plate",
+              "description": "For labelling shelf contents and archive references."
+            }
+          ],
+          "metaDescription": "PROSPACE+ archive shelving: 7-level tubular shelving for document and archive box storage. 350/700mm depth, 2200mm height. Professional archive solution.",
+          "fi_name": "PROSPACE+ Arkistohylly",
+          "fi_type": "Arkistohylly (putkirakenne)",
+          "fi_description": "Putkihylly arkisto- ja asiakirjavarastointiin. 7 hyllytasoa, 2 200 mm korkeus, 350 mm syvyys arkistolaatikoille. Yksi- tai kaksipuolinen käyttö.",
+          "fi_metaDescription": "PROSPACE+ arkistohylly: 7-tasoinen putkihylly asiakirjojen ja arkistolaatikoiden varastointiin. Ammattitason arkistoratkaisu."
+        },
+        {
+          "id": "prospace-archive-semitole",
+          "name": "PROSPACE+ Archive Shelf (Semi-Tôlé)",
+          "type": "Archive Shelving (Semi-Tôlé)",
+          "description": "Semi-sheet metal archive shelving with enclosed side panels and cross-braced backs. 7 shelf levels at 2,200 mm height with 350 mm depth, optimised for archive box storage. The enclosed design prevents items falling from the sides — ideal for office and administrative archive rooms.",
+          "image": "images/prospace/page12_img0.png",
+          "gallery": [
+            "images/prospace/page12_img0.png",
+            "images/prospace/page13_img1.png",
+            "images/prospace/page13_img2.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prospace/page12_img0.png",
+              "label": "Office Archive Room"
+            },
+            {
+              "image": "images/prospace/page13_img1.png",
+              "label": "High-Density Document Storage"
+            },
+            {
+              "image": "images/prospace/page13_img2.png",
+              "label": "Multi-Level Archive Installation"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROSPACE+",
+            "Shelf Type": "Semi-Tôlé (Archive Configuration)",
+            "Available Lengths": "940, 1210 mm",
+            "Available Depths": "350 mm",
+            "Standard Height": "2,200 mm",
+            "Shelves Included": "7 per unit",
+            "Side Panels": "Galvanised sheet metal, enclosed",
+            "Back": "Cross-braced for rigidity",
+            "Shelf Finish": "Epoxy paint (grey)",
+            "Assembly": "Delivered unassembled",
+            "Adjustment Pitch": "40 mm",
+            "Aesthetic": "No front-facing perforations on uprights",
+            "Origin": "Made in France"
+          },
+          "options": {
+            "lengths": [
+              940,
+              1210
+            ],
+            "depths": [
+              350
+            ]
+          },
+          "loadTable": {
+            "title": "Archive Semi-Tôlé Shelving — Uniformly Distributed Load (kg)",
+            "columns": [
+              "Configuration",
+              "940 mm",
+              "1210 mm"
+            ],
+            "standard": [
+              [
+                "350 mm depth",
+                150,
+                100
+              ]
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Painted Back Panel",
+              "description": "Full rear closing panel in epoxy paint."
+            },
+            {
+              "name": "Galvanised Back Panel",
+              "description": "Full rear closing panel in galvanised steel."
+            },
+            {
+              "name": "Swing Doors",
+              "description": "Lockable doors for secure archive storage."
+            },
+            {
+              "name": "Additional Shelf Level",
+              "description": "Extra shelf for customising level spacing."
+            },
+            {
+              "name": "Signage Plate",
+              "description": "For labelling archive contents and references."
+            }
+          ],
+          "metaDescription": "PROSPACE+ Semi-Tôlé archive shelving: enclosed side panels for clean archive storage. 7 levels, 2200mm height. Professional document storage solution.",
+          "fi_name": "PROSPACE+ Arkistohylly (Semi-Tôlé)",
+          "fi_type": "Arkistohylly (Semi-Tôlé)",
+          "fi_description": "Semi-Tôlé-arkistohylly suljetuilla sivupaneeleilla ja ristituetulla taustalla. 7 hyllytasoa, 2 200 mm korkeus, 350 mm syvyys. Toimisto- ja hallintoarkistoihin.",
+          "fi_metaDescription": "PROSPACE+ Semi-Tôlé-arkistohylly: suljetut sivupaneelit arkistotiloihin. 7 tasoa, 2 200 mm korkeus."
+        }
+      ],
+      "brochure": "brochures/prospace-plus.pdf",
+      "fi_tagline": "Tehokas ja kustannuskilpailukykyinen varastointi",
+      "fi_subtitle": "Muunneltava, laajennettava, yleiskäyttöinen",
+      "fi_category": "Kevytkuormahyllyt",
+      "fi_description": "Modulaariset hyllyt kevyille kuormille – varastotilan optimaaliseen hyödyntämiseen. Napsautuskiinnitys ilman työkaluja. Soveltuu varastoon, työpajaan, toimistoon ja myymälään.",
+      "fi_features": [
+        "Kantavuus jopa 2 100 kg pystytolppaparia kohti",
+        "Korkeus jopa 5 000 mm yhtenäisenä rakenteena",
+        "Säätöväli 40 mm",
+        "Syvyys jopa 1 000 mm",
+        "Kuormitus jopa 275 kg hyllyä kohti (tasaisesti jakautunut)",
+        "Napsautuskiinnitys, ei työkaluja",
+        "Taattu eurooppalainen alkuperä"
+      ]
+    },
+    {
+      "id": "prorack",
+      "name": "PRORACK+",
+      "slug": "prorack-plus",
+      "tagline": "Store Your Medium-Heavy and Bulky Loads",
+      "subtitle": "Practical, Sturdy, Modular",
+      "category": "Medium-Heavy Racking",
+      "description": "Racking for manually handled medium-heavy and bulky loads. From 150 to 1,200 kg per level. Height up to 6 metres. Tested in accordance with European standard FEM 10.2.02.",
+      "heroImage": "images/prorack/page6_img0.png",
+      "features": [
+        "Load from 150 to 1,200 kg per level",
+        "Height up to 6,000 mm in one piece",
+        "Tested per European standard FEM 10.2.02",
+        "12 depths from 400 to 1,500 mm",
+        "15 heights from 1,800 to 6,000 mm",
+        "Adjustment range 50 mm",
+        "100% Sendzimir galvanised steel frames"
+      ],
+      "finishes": [
+        {
+          "name": "Galvanised",
+          "code": "Sendzimir",
+          "color": "#d0d0c8"
+        },
+        {
+          "name": "Epoxy Paint (beams)",
+          "code": "RAL 1028 Yellow",
+          "color": "#f0c040"
+        }
+      ],
+      "products": [
+        {
+          "id": "prorack-frames",
+          "name": "PRORACK+ Frames",
+          "type": "Frames",
+          "description": "Cold-rolled 6-fold uprights with horizontal and diagonal bracing. Reversible uprights. Available dismantled, bolted or welded. Type 1.5 (up to 3.5 t) or Type 2 (up to 4.8 t).",
+          "image": "images/prorack/page4_img0.png",
+          "gallery": [
+            "images/prorack/page3_img0.png",
+            "images/prorack/page4_img0.png",
+            "images/prorack/page5_img0.png",
+            "images/prorack/page6_img0.png",
+            "images/prorack/page1_img0.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prorack/page6_img1.png",
+              "label": "Tyre Storage at Heights"
+            },
+            {
+              "image": "images/prorack/page6_img2.png",
+              "label": "Platform with Walkway"
+            },
+            {
+              "image": "images/prorack/page8_img0.png",
+              "label": "Workshop Storage"
+            },
+            {
+              "image": "images/prorack/page9_img0.png",
+              "label": "Bicycle Assembly Workshop"
+            },
+            {
+              "image": "images/prorack/page10_img0.png",
+              "label": "Picking Zone on Mezzanine"
+            },
+            {
+              "image": "images/prorack/page13_img0.png",
+              "label": "Platform with Walkways"
+            }
+          ],
+          "specs": {
+            "Product Range": "PRORACK+",
+            "Component": "Frames (uprights + bracing)",
+            "Upright Type": "Cold-rolled 6-fold",
+            "Frame Type 1.5": "Up to 3,500 kg per frame (1.5 mm thickness)",
+            "Frame Type 2": "Up to 4,800 kg per frame (2 mm thickness)",
+            "Available Depths": "400 to 1,500 mm (100 mm increments)",
+            "Available Heights": "1,800 to 6,000 mm (300 mm increments)",
+            "Versions": "Dismantled, Bolted, Welded",
+            "Finish": "100% Sendzimir galvanised steel"
+          },
+          "options": {
+            "depths": [
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+              1000,
+              1100,
+              1200,
+              1300,
+              1400,
+              1500
+            ],
+            "heights": [
+              1800,
+              2100,
+              2400,
+              2700,
+              3000,
+              3300,
+              3600,
+              3900,
+              4200,
+              4500,
+              4800,
+              5100,
+              5400,
+              5700,
+              6000
+            ],
+            "types": [
+              "Type 1.5 (up to 3.5 t)",
+              "Type 2 (up to 4.8 t)"
+            ],
+            "versions": [
+              "Dismantled",
+              "Bolted",
+              "Welded"
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Base Plate",
+              "description": "For ground anchoring of frames."
+            },
+            {
+              "name": "Levelling Plate",
+              "description": "Adjustable plate for uneven floors."
+            },
+            {
+              "name": "Tie Bar",
+              "description": "Maintains regular spacing between two rows of frames."
+            },
+            {
+              "name": "Upright Junction",
+              "description": "To raise an existing unit by connecting additional frame height."
+            },
+            {
+              "name": "Safety Pin",
+              "description": "Holds beams securely in position on the frame."
+            }
+          ],
+          "metaDescription": "PRORACK+ racking frames: cold-rolled steel uprights, heights up to 6m, depths 400-1500mm. Medium-heavy load storage for Finland & Baltics.",
+          "fi_name": "PRORACK+ Rungot",
+          "fi_type": "Hyllyrungot",
+          "fi_description": "Kylmävalssatut galvanoidut teräsrungot. Kantavuus jopa 3 000 kg. Jatkuva korkeudensäätö 50 mm välein. Kolme profiilityyppiä eri kuormituksille.",
+          "fi_metaDescription": "PRORACK+ rungot: galvanoidut teräsrungot jopa 3 000 kg kantavuus. Ammattitason hyllyjärjestelmä Suomeen ja Baltiaan."
+        },
+        {
+          "id": "prorack-beams",
+          "name": "PRORACK+ Beams",
+          "type": "Beams",
+          "description": "Reversible beams from 1,000 to 2,700 mm length. Load up to 1,240 kg per level. 4 beam types: Rectangular, Oval, Type B, Type Z.",
+          "image": "images/prorack/page4_img0.png",
+          "gallery": [
+            "images/prorack/page4_img1.png",
+            "images/prorack/page4_img0.png",
+            "images/prorack/page3_img1.png",
+            "images/prorack/page8_img1.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prorack/page10_img0.png",
+              "label": "Picking Zone"
+            },
+            {
+              "image": "images/prorack/page11_img0.png",
+              "label": "Dynamic Racking"
+            },
+            {
+              "image": "images/prorack/page7_img0.png",
+              "label": "Shop Storage Area"
+            },
+            {
+              "image": "images/prorack/page9_img1.png",
+              "label": "Workshop Installation"
+            }
+          ],
+          "specs": {
+            "Product Range": "PRORACK+",
+            "Component": "Beams",
+            "Available Lengths": "1,000 to 2,700 mm",
+            "Max Load": "1,240 kg per level (evenly distributed)",
+            "Adjustment Range": "50 mm",
+            "Finish": "Yellow epoxy paint RAL 1028 (except Type Z)",
+            "Beam Types": "Rectangular (40x30, 60x30), Oval (40x20), Type B (45x30, 70x30), Type Z (72x30)",
+            "Thickness": "1.5 mm or 2 mm (Rectangular and Oval)"
+          },
+          "options": {
+            "lengths": [
+              1000,
+              1300,
+              1600,
+              1800,
+              2000,
+              2200,
+              2500,
+              2700
+            ],
+            "beamTypes": [
+              "Rectangular 40x30",
+              "Rectangular 60x30",
+              "Oval 40x20",
+              "Type B 45x30",
+              "Type B 70x30",
+              "Type Z 72x30"
+            ]
+          },
+          "loadTable": {
+            "title": "Beam Load Capacity — Evenly Distributed (kg)",
+            "columns": [
+              "Length",
+              "Rect 40x30 /1.5",
+              "Rect 40x30 /2",
+              "Rect 60x30 /1.5",
+              "Rect 60x30 /2",
+              "Type B 45x30",
+              "Type B 70x30",
+              "Type Z 72x30",
+              "Oval 40x20"
+            ],
+            "standard": [
+              [
+                "1000 mm",
+                520,
+                690,
+                940,
+                1240,
+                400,
+                880,
+                null,
+                170
+              ],
+              [
+                "1300 mm",
+                400,
+                520,
+                720,
+                950,
+                300,
+                660,
+                620,
+                120
+              ],
+              [
+                "1600 mm",
+                290,
+                370,
+                580,
+                770,
+                null,
+                520,
+                500,
+                90
+              ],
+              [
+                "1800 mm",
+                220,
+                330,
+                520,
+                680,
+                null,
+                460,
+                null,
+                70
+              ],
+              [
+                "2000 mm",
+                180,
+                260,
+                470,
+                580,
+                null,
+                400,
+                400,
+                50
+              ],
+              [
+                "2200 mm",
+                150,
+                200,
+                410,
+                530,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                "2500 mm",
+                null,
+                null,
+                null,
+                410,
+                null,
+                null,
+                null,
+                null
+              ],
+              [
+                "2700 mm",
+                null,
+                null,
+                null,
+                350,
+                null,
+                null,
+                null,
+                null
+              ]
+            ]
+          },
+          "metaDescription": "PRORACK+ beams: 4 beam types, loads 150-1200 kg/level, lengths 1006-2706mm. Tested to FEM 10.2.02 European standard.",
+          "fi_name": "PRORACK+ Palkit",
+          "fi_type": "Hyllypalkit",
+          "fi_description": "Neljä palkkityyppiä eri kuormituksille ja leveyksille. Maalatut palkit (RAL 1028 keltainen) lukitaan varmistustapeilla.",
+          "fi_metaDescription": "PRORACK+ palkit: neljä palkkityyppiä 150–1 200 kg kuormitukselle. Ammattitason hyllyjärjestelmä."
+        },
+        {
+          "id": "prorack-coverings",
+          "name": "PRORACK+ Coverings & Accessories",
+          "type": "Coverings",
+          "description": "Choose coverings based on product type and environment. Chipboard, solid wood, wire-mesh or galvanised sheet metal trays. Plus dividers, partitions and wire mesh sides.",
+          "image": "images/prorack/page8_img0.png",
+          "gallery": [
+            "images/prorack/page4_img2.png",
+            "images/prorack/page4_img3.png",
+            "images/prorack/page5_img0.png",
+            "images/prorack/page8_img2.png",
+            "images/prorack/page12_img1.png"
+          ],
+          "specs": {
+            "Product Range": "PRORACK+",
+            "Component": "Coverings & Accessories",
+            "Chipboard Decking": "19 mm and 25 mm thickness — most cost-effective solution",
+            "Solid Wood Decking": "For dirty products (oil, grease) and sprinkler-equipped areas",
+            "Wire-Mesh Decking": "Zinc-plated, for sprinkler systems and visibility",
+            "Sheet Metal Tray": "Galvanised, protects products from dust",
+            "Decking Stop": "Locks chipboard panel on rectangular beams",
+            "Panel Support Bracket": "Locks sheet metal trays on rectangular beams",
+            "Safety Bar": "Placed on rectangular beams for reinforcement or bulky load support"
+          },
+          "options": {
+            "coveringTypes": [
+              "Chipboard Decking (19 mm)",
+              "Chipboard Decking (25 mm)",
+              "Solid Wood Decking",
+              "Wire-Mesh Decking",
+              "Galvanised Sheet Metal Tray"
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Decking Stop",
+              "description": "Locks the chipboard panel on the rectangular beams."
+            },
+            {
+              "name": "Panel Support Bracket",
+              "description": "Locks sheet metal trays on the rectangular beams."
+            },
+            {
+              "name": "Safety Bar",
+              "description": "Placed on rectangular beams to reinforce chipboard or support bulky loads without covering."
+            },
+            {
+              "name": "Tie Bar",
+              "description": "For Type B crosspieces. Reinforces chipboard panel."
+            },
+            {
+              "name": "Horizontal Divider",
+              "description": "Creates spaces to store long products vertically."
+            },
+            {
+              "name": "Support Divider",
+              "description": "For level division."
+            },
+            {
+              "name": "Wire Divider",
+              "description": "For level division, adjustable."
+            },
+            {
+              "name": "Vertical Sheet Metal Partition",
+              "description": "For level division."
+            },
+            {
+              "name": "Wire Mesh Backing",
+              "description": "Encloses the rear of a unit for fall protection."
+            },
+            {
+              "name": "Wire Mesh Side",
+              "description": "Equips a frame side for fall protection."
+            },
+            {
+              "name": "Perforated Sheet Metal Side",
+              "description": "Wall addition to showcase products using hooks."
+            }
+          ],
+          "useCases": [
+            {
+              "image": "images/prorack/page8_img1.png",
+              "label": "Road Sign Storage Boxes"
+            },
+            {
+              "image": "images/prorack/page8_img2.png",
+              "label": "Adjustable Levels & Accessories"
+            },
+            {
+              "image": "images/prorack/page8_img3.png",
+              "label": "Secure Storage with Doors"
+            },
+            {
+              "image": "images/prorack/page12_img0.png",
+              "label": "Long Load Storage"
+            },
+            {
+              "image": "images/prorack/page12_img2.png",
+              "label": "Clean Room Equipment"
+            }
+          ],
+          "metaDescription": "PRORACK+ coverings & accessories: chipboard, wire mesh, steel sheet and solid wood decking. Complete your racking system.",
+          "fi_name": "PRORACK+ Kansirakenteet",
+          "fi_type": "Tasorakenteet",
+          "fi_description": "Neljä tasovaihtoehtoa: lastulevytaso, metallitaso, teräsritiläpohja ja puukannella. Valitse tuotteiden, käyttöympäristön ja budjetin mukaan.",
+          "fi_metaDescription": "PRORACK+ kansirakenteet: lastulevy-, metalli-, ritilä- ja puutasot. Valitse käyttöympäristön mukaan."
+        },
+        {
+          "id": "prorack-tire-rack",
+          "name": "PRORACK+ Tire Rack",
+          "type": "Tire Storage",
+          "description": "Purpose-built tire storage using PRORACK+ frames and beams. Tires rest directly on beams without coverings, allowing drainage and ventilation. Multi-level storage up to 6 metres for garages, dealerships and warehouses.",
+          "image": "images/prorack/page6_img2.png",
+          "gallery": [
+            "images/prorack/page6_img0.png",
+            "images/prorack/page6_img1.png",
+            "images/prorack/page6_img2.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prorack/page6_img0.png",
+              "label": "High-Density Tire Warehouse"
+            },
+            {
+              "image": "images/prorack/page6_img1.png",
+              "label": "Multi-Level Tire Storage"
+            },
+            {
+              "image": "images/prorack/page6_img2.png",
+              "label": "Dealership Tire Rack"
+            }
+          ],
+          "specs": {
+            "Product Range": "PRORACK+",
+            "Configuration": "Tire Storage Rack",
+            "Load Capacity": "150 to 1,200 kg per level",
+            "Max Height": "6,000 mm",
+            "Available Depths": "400 to 1,500 mm",
+            "Available Widths": "1,000 to 2,700 mm (beam length)",
+            "Coverings": "None required — tires rest directly on beams",
+            "Frame Finish": "Sendzimir galvanised steel",
+            "Beam Finish": "Yellow epoxy paint RAL 1028",
+            "Standards": "FEM 10.2.02"
+          },
+          "options": {
+            "depths": [
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+              1000,
+              1100,
+              1200,
+              1300,
+              1400,
+              1500
+            ],
+            "heights": [
+              1800,
+              2100,
+              2400,
+              2700,
+              3000,
+              3300,
+              3600,
+              3900,
+              4200,
+              4500,
+              4800,
+              5100,
+              5400,
+              5700,
+              6000
+            ]
+          },
+          "metaDescription": "PRORACK+ tire rack: multi-level tire storage up to 6m height, 150-1200 kg/level. Professional tire storage for garages and dealerships in Finland & Baltics.",
+          "fi_name": "PRORACK+ Rengashylly",
+          "fi_type": "Rengasvarastointi",
+          "fi_description": "Erityisesti renkaiden varastointiin suunniteltu ratkaisu PRORACK+-rungoilla. Renkaat lepäävät suoraan palkkien päällä ilman kansirakennetta.",
+          "fi_metaDescription": "PRORACK+ rengashylly: monitasoinen rengasvarastointi jopa 6 m korkeuteen. Ammattitason ratkaisu."
+        },
+        {
+          "id": "prorack-garment-rack",
+          "name": "PRORACK+ Garment Rack",
+          "type": "Garment Storage",
+          "description": "Garment hanging configuration using PRORACK+ frames with horizontal hanging rails. For clothing storage in retail, laundry, uniform management and textile warehouses. Can combine upper shelf levels for boxed items above hanging garments.",
+          "image": "images/prorack/page8_img3.png",
+          "gallery": [
+            "images/prorack/page8_img3.png",
+            "images/prorack/page8_img0.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prorack/page8_img3.png",
+              "label": "Uniform & Workwear Storage"
+            }
+          ],
+          "specs": {
+            "Product Range": "PRORACK+",
+            "Configuration": "Garment Hanging Rack (Pendery)",
+            "Hanging Rail": "Horizontal rail mounted between uprights",
+            "Height Adjustment": "50 mm pitch",
+            "Max Height": "6,000 mm",
+            "Available Depths": "400 to 1,000 mm",
+            "Available Widths": "1,000 to 2,700 mm (beam length)",
+            "Frame Finish": "Sendzimir galvanised steel",
+            "Standards": "FEM 10.2.02",
+            "Options": "Can be enclosed with curtains or doors for dust protection"
+          },
+          "options": {
+            "depths": [
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+              1000
+            ],
+            "heights": [
+              1800,
+              2100,
+              2400,
+              2700,
+              3000
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Hanging Rail",
+              "description": "Chrome or galvanised rail for garment hangers, mounts between uprights."
+            },
+            {
+              "name": "Curtain/Door Enclosure",
+              "description": "Fabric curtains or solid doors to protect garments from dust."
+            }
+          ],
+          "metaDescription": "PRORACK+ garment rack: hanging rails for clothing storage in retail, laundry and warehouses. Professional garment racking from Baltscand.",
+          "fi_name": "PRORACK+ Vaatehylly",
+          "fi_type": "Vaatevarastointi",
+          "fi_description": "Ripustusjärjestelmä vaatteiden ja tekstiilien varastointiin. Ripustustangot ja lisävarusteet integroituna PRORACK+-runkoon.",
+          "fi_metaDescription": "PRORACK+ vaatehylly: ripustusratkaisu vaatteiden ja tekstiilien varastointiin. Ammattitason ratkaisu."
+        },
+        {
+          "id": "prorack-dynamic-flow",
+          "name": "PRORACK+ Dynamic Flow Racking",
+          "type": "Dynamic Racking",
+          "description": "FIFO dynamic racking with roller conveyors integrated into PRORACK+ frames. Cartons loaded at rear flow by gravity to picking face. Ideal for order picking, e-commerce fulfilment and high-throughput warehouses.",
+          "image": "images/prorack/page11_img1.png",
+          "gallery": [
+            "images/prorack/page11_img0.png",
+            "images/prorack/page11_img1.png",
+            "images/prorack/page11_img2.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prorack/page11_img0.png",
+              "label": "Carton Flow Picking Zone"
+            },
+            {
+              "image": "images/prorack/page11_img1.png",
+              "label": "Multi-Level Flow Racking"
+            },
+            {
+              "image": "images/prorack/page11_img2.png",
+              "label": "Roller Conveyor Lanes"
+            }
+          ],
+          "specs": {
+            "Product Range": "PRORACK+",
+            "Configuration": "Dynamic Flow Racking (FIFO)",
+            "Flow Method": "Gravity roller conveyors or inclined wheel lanes",
+            "Load Capacity": "Up to 1,200 kg per level",
+            "Max Height": "6,000 mm",
+            "Available Depths": "600 to 1,500 mm",
+            "Frame Finish": "Sendzimir galvanised steel",
+            "Beam Finish": "Yellow epoxy paint RAL 1028",
+            "Standards": "FEM 10.2.02"
+          },
+          "options": {
+            "depths": [
+              600,
+              700,
+              800,
+              900,
+              1000,
+              1100,
+              1200,
+              1300,
+              1400,
+              1500
+            ],
+            "flowTypes": [
+              "Roller Conveyor",
+              "Inclined Wheel Lanes"
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Roller Conveyor Lane",
+              "description": "Gravity roller track fitted between beams for carton or bin flow."
+            },
+            {
+              "name": "Wheel Lane",
+              "description": "Inclined wheel track for lighter items and smaller cartons."
+            },
+            {
+              "name": "Lane Divider",
+              "description": "Separates individual flow lanes within a level."
+            },
+            {
+              "name": "End Stop",
+              "description": "Prevents cartons from falling off the picking face."
+            }
+          ],
+          "metaDescription": "PRORACK+ dynamic flow racking: FIFO gravity roller conveyors for order picking. High-throughput warehouse solutions from Baltscand.",
+          "fi_name": "PRORACK+ Dynaaminen painovoimahyllytys",
+          "fi_type": "Dynaaminen hyllytys (FIFO)",
+          "fi_description": "Kallistetut rullaradat FIFO-periaatteella. Täyttö takaa, keräily edestä. Vähentää fyysistä kuormitusta ja nopeuttaa keräilyä.",
+          "fi_metaDescription": "PRORACK+ dynaaminen painovoimahyllytys: FIFO-rullaradat tehokkaaseen keräilyyn. Ammattitason varastointi."
+        },
+        {
+          "id": "prorack-carton-storage",
+          "name": "PRORACK+ Carton & Bin Storage",
+          "type": "Compartmentalized Storage",
+          "description": "High-density compartmentalized storage for small parts, cartons and bins. Closely-spaced beam levels with vertical dividers create individual compartments. Ideal for spare parts, e-commerce SKUs and small-item warehousing.",
+          "image": "images/prorack/page12_img2.png",
+          "gallery": [
+            "images/prorack/page12_img2.png",
+            "images/prorack/page10_img1.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prorack/page12_img2.png",
+              "label": "Spare Parts Compartments"
+            },
+            {
+              "image": "images/prorack/page10_img1.png",
+              "label": "Warehouse Picking Bays"
+            }
+          ],
+          "specs": {
+            "Product Range": "PRORACK+",
+            "Configuration": "Carton & Bin Compartmentalized Storage",
+            "Load Capacity": "150 to 1,200 kg per level",
+            "Max Height": "6,000 mm",
+            "Available Depths": "400 to 1,200 mm",
+            "Level Adjustment": "50 mm pitch for closely-spaced shelves",
+            "Frame Finish": "Sendzimir galvanised steel",
+            "Beam Finish": "Yellow epoxy paint RAL 1028",
+            "Standards": "FEM 10.2.02"
+          },
+          "options": {
+            "depths": [
+              400,
+              500,
+              600,
+              700,
+              800,
+              900,
+              1000,
+              1100,
+              1200
+            ],
+            "heights": [
+              1800,
+              2100,
+              2400,
+              2700,
+              3000,
+              3300,
+              3600,
+              3900,
+              4200,
+              4500,
+              4800,
+              5100,
+              5400,
+              5700,
+              6000
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Vertical Sheet Metal Partition",
+              "description": "Divides a level into individual compartments."
+            },
+            {
+              "name": "Wire Divider",
+              "description": "Adjustable divider for flexible compartment sizing."
+            },
+            {
+              "name": "Label Holders",
+              "description": "Clip-on label holders for compartment identification."
+            }
+          ],
+          "metaDescription": "PRORACK+ carton & bin storage: compartmentalized racking for spare parts and small items. Professional storage from Baltscand.",
+          "fi_name": "PRORACK+ Lokerovarastointi",
+          "fi_type": "Lokerovarastointi",
+          "fi_description": "Väliseinillä varustettu hyllyjärjestelmä pienten ja keskisuurten tuotteiden lajitteluun ja varastointiin. Säädettävät lokerot.",
+          "fi_metaDescription": "PRORACK+ lokerovarastointi: väliseinillä varustettu hyllyjärjestelmä tuotteiden lajitteluun. Ammattitason ratkaisu."
+        },
+        {
+          "id": "prorack-platform",
+          "name": "PRORACK+ Platform & Mezzanine",
+          "type": "Multi-Level Platform",
+          "description": "Multi-level storage platforms built on PRORACK+ frames. Doubles or triples floor space by adding walkable levels above ground floor racking. Includes staircases, safety railings and access gates.",
+          "image": "images/prorack/page13_img2.png",
+          "gallery": [
+            "images/prorack/page13_img0.png",
+            "images/prorack/page13_img1.png",
+            "images/prorack/page13_img2.png",
+            "images/prorack/page13_img3.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/prorack/page13_img0.png",
+              "label": "Platform with Overhead Walkway"
+            },
+            {
+              "image": "images/prorack/page13_img1.png",
+              "label": "High-Bay Racking with Mezzanine"
+            },
+            {
+              "image": "images/prorack/page13_img2.png",
+              "label": "Two-Level Platform with Staircase"
+            },
+            {
+              "image": "images/prorack/page13_img3.png",
+              "label": "Multi-Level Warehouse"
+            }
+          ],
+          "specs": {
+            "Product Range": "PRORACK+",
+            "Configuration": "Platform & Mezzanine System",
+            "Structure": "Built on PRORACK+ frames with walkable flooring",
+            "Max Height": "6,000 mm (frame height)",
+            "Number of Levels": "2 or 3 (ground + 1 or 2 platforms)",
+            "Flooring Options": "Chipboard, steel grating or solid steel deck",
+            "Frame Finish": "Sendzimir galvanised steel",
+            "Safety Features": "Railings, toe boards, safety gates, staircases",
+            "Standards": "FEM 10.2.02, EN ISO 14122"
+          },
+          "options": {
+            "levels": [
+              "Single Platform (2-level)",
+              "Double Platform (3-level)"
+            ],
+            "flooringTypes": [
+              "Chipboard Decking",
+              "Steel Grating",
+              "Solid Steel Deck"
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Staircase",
+              "description": "Steel staircase with handrails for safe access between levels."
+            },
+            {
+              "name": "Safety Railing",
+              "description": "Perimeter railing with toe board on all open platform edges."
+            },
+            {
+              "name": "Self-Closing Safety Gate",
+              "description": "Swing gate at loading points, closes automatically for fall protection."
+            },
+            {
+              "name": "Platform Flooring",
+              "description": "Chipboard, steel grating or solid steel deck panels."
+            }
+          ],
+          "metaDescription": "PRORACK+ platform & mezzanine: multi-level storage platforms on racking frames. Double your warehouse floor space with Baltscand.",
+          "fi_name": "PRORACK+ Tasoratkaisu",
+          "fi_type": "Monitasoratkaisu",
+          "fi_description": "Monitasoratkaisu PRORACK+-runkojen varaan. Kulkuteillä varustettu taso, joka hyödyntää rakennuksen koko korkeuden.",
+          "fi_metaDescription": "PRORACK+ tasoratkaisu: monitasoinen hyllyratkaisu kulkuteillä. Ammattitason varastointiratkaisu."
+        }
+      ],
+      "brochure": "brochures/prorack-plus.pdf",
+      "fi_tagline": "Keskiraskaat ja tilavat kuormat",
+      "fi_subtitle": "Käytännöllinen, vahva, modulaarinen",
+      "fi_category": "Keskiraskaat hyllyt",
+      "fi_description": "Hyllyjärjestelmä manuaalisesti käsiteltäville keskiraskaille ja tilaa vieville kuormille. Monipuolinen ratkaisu työpajoihin, varastoihin ja keräilyyn.",
+      "fi_features": [
+        "Kuormitus 150–1 200 kg tasoa kohden",
+        "Korkeus jopa 6 000 mm yhtenä kappaleena",
+        "Tasokorkeuden säätö 50 mm välein",
+        "Palkit lukitaan varmistustapilla",
+        "Lastulevytaso, metallitaso, ritiläpohja tai puukannella",
+        "Galvanoitu runko ja maalatut palkit",
+        "Testattu FEM 10.2.02 -standardin mukaisesti"
+      ]
+    },
+    {
+      "id": "propal3",
+      "name": "PROPAL 3",
+      "slug": "propal-3",
+      "tagline": "Store Your Heavy Loads and Pallets",
+      "subtitle": "Flexible, Reliable, Efficient, Practical",
+      "category": "Heavy-Duty Pallet Racking",
+      "description": "High-performance pallet racking. Capacity up to 18 tons per frame and 6,000 kg per level. Loading height up to 10 metres. Designed per EN 15512 and EN 15620.",
+      "heroImage": "images/propal3/page12_img0.png",
+      "features": [
+        "Capacity up to 18 tons per frame",
+        "Load up to 6,000 kg per level",
+        "Loading height up to 10 metres",
+        "Adjustment pitch 50 mm",
+        "10 depths (600 to 1,500 mm), 28 heights (1,800 to 10,000 mm)",
+        "Beam lengths 300 to 4,900 mm",
+        "Designed per EN 15512 & EN 15620 standards",
+        "Indoor and outdoor use with canopy/cladding"
+      ],
+      "finishes": [
+        {
+          "name": "Galvanised Frames",
+          "code": "Standard",
+          "color": "#d0d0c8"
+        },
+        {
+          "name": "Epoxy Paint (beams)",
+          "code": "RAL 2004 Orange",
+          "color": "#e85d04"
+        }
+      ],
+      "products": [
+        {
+          "id": "propal3-static",
+          "name": "PROPAL 3 Static Pallet Racking",
+          "type": "Static Racking",
+          "description": "Standard pallet racking for heavy loads. HEL steel construction. Available with safety accessories including nets, pallet stops, corner protections and loading instructions.",
+          "image": "images/propal3/page2_img0.png",
+          "gallery": [
+            "images/propal3/page2_img0.png",
+            "images/propal3/page3_img0.png",
+            "images/propal3/page12_img0.png",
+            "images/propal3/page14_img0.png",
+            "images/propal3/page1_img0.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/propal3/page12_img0.png",
+              "label": "Warehouse with Sprinkler System"
+            },
+            {
+              "image": "images/propal3/page13_img0.png",
+              "label": "Pedestrian Walkway & Safety Net"
+            },
+            {
+              "image": "images/propal3/page14_img0.png",
+              "label": "Dynamic Coverings for Picking"
+            },
+            {
+              "image": "images/propal3/page14_img1.png",
+              "label": "3,000 m² Installation, 4 Levels"
+            },
+            {
+              "image": "images/propal3/page15_img0.png",
+              "label": "Picking with Separators"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROPAL 3",
+            "Type": "Static Pallet Racking",
+            "Max Frame Capacity": "18,000 kg",
+            "Max Level Load": "6,000 kg",
+            "Max Loading Height": "10,000 mm",
+            "Adjustment Pitch": "50 mm",
+            "Available Depths": "600, 700, 800, 900, 1000, 1050, 1100, 1200, 1350, 1500 mm",
+            "Available Heights": "1,800 to 10,000 mm (28 sizes)",
+            "Beam Lengths": "300 to 4,900 mm",
+            "Standards": "EN 15512, EN 15620, INRS ED771",
+            "Material": "HEL (High Elastic Limit) cold-rolled steel",
+            "Origin": "Guaranteed French origin, certified by Bureau Veritas"
+          },
+          "options": {
+            "depths": [
+              600,
+              700,
+              800,
+              900,
+              1000,
+              1050,
+              1100,
+              1200,
+              1350,
+              1500
+            ],
+            "beamLengths": [
+              1350,
+              1800,
+              2225,
+              2700,
+              3300,
+              3600,
+              3900,
+              4200,
+              4500,
+              4900
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Anti-Collapse Net/Mesh",
+              "description": "Fall protection at the back or sides of the racking."
+            },
+            {
+              "name": "Pallet Stop",
+              "description": "Prevents pallets from being pushed through."
+            },
+            {
+              "name": "Vertical Divider",
+              "description": "Separates storage locations on the same level."
+            },
+            {
+              "name": "Horizontal Divider",
+              "description": "Creates sub-levels for different product heights."
+            },
+            {
+              "name": "Reel Holder",
+              "description": "Arms for storage of cable drums and reels."
+            },
+            {
+              "name": "Upright Corner Protection",
+              "description": "Protects uprights from forklift impact."
+            },
+            {
+              "name": "Upright Shoe-Type Protection",
+              "description": "Heavy-duty upright base protection."
+            },
+            {
+              "name": "Single/Double Lateral Protection",
+              "description": "Side protection available in wood or metal tubes."
+            },
+            {
+              "name": "Safety Bars",
+              "description": "For different pallet dimensions on same level or to reinforce coverings."
+            },
+            {
+              "name": "Platform Stop",
+              "description": "Positions the pallet more easily in its slot."
+            },
+            {
+              "name": "Foam Protection",
+              "description": "Soft protection for uprights and beams."
+            },
+            {
+              "name": "Loading Instructions",
+              "description": "Signage specifying load capacity and level heights."
+            },
+            {
+              "name": "Dynamic Covering",
+              "description": "Converts static level into dynamic box picking solution."
+            },
+            {
+              "name": "Pallet Drawer",
+              "description": "Easier product retrieval with access on three sides."
+            }
+          ],
+          "metaDescription": "PROPAL 3 pallet racking: frame capacity up to 18 tonnes, heights to 10m, EN 15512 certified. Heavy-duty warehouse storage.",
+          "fi_name": "PROPAL 3 Staattinen kuormalavahylly",
+          "fi_type": "Staattinen kuormalavahylly",
+          "fi_description": "Perinteinen kuormalavahylly suoralla trukkilähestyksellä. Kantavuus jopa 18 tonnia per kehikko, kuormitus jopa 6 000 kg per taso. Lastauskorkeus jopa 10 metriä.",
+          "fi_metaDescription": "PROPAL 3 staattinen kuormalavahylly: kantavuus 18 t per kehikko, 6 000 kg per taso. Ammattitason varastointi."
+        },
+        {
+          "id": "propal3-driveIn",
+          "name": "PROPAL 3 Drive-In / Drive-Through",
+          "type": "Accumulation Racking",
+          "description": "Store pallets in large quantities with limited SKUs. Saves space by removing aisles. Drive-In (LIFO) or Drive-Through (FIFO) configurations. Bracing tower or corner bracket stabilisation.",
+          "image": "images/propal3/page12_img0.png",
+          "gallery": [
+            "images/propal3/page6_img0.png",
+            "images/propal3/page6_img1.png",
+            "images/propal3/page6_img2.png",
+            "images/propal3/page7_img0.png"
+          ],
+          "specs": {
+            "Product Range": "PROPAL 3",
+            "Type": "Accumulation Racking (Drive-In / Drive-Through)",
+            "Drive-In": "LIFO — goods in/out on the same side",
+            "Drive-Through": "FIFO — handling from either side, first in/first out",
+            "Bracing Tower": "Stabilises without restricting aisle depth. 1 tower per 11 aisles.",
+            "Corner Brackets": "Stabilises without losing storage surface on ground.",
+            "Rail Bracket 50 mm": "For overhanging pallet up to 50 mm",
+            "Rail Bracket 100 mm": "For overhanging pallet up to 100 mm",
+            "Rail Bracket 200 mm": "For overhanging pallet up to 200 mm",
+            "Railing Capacity": "Thickness 2 mm, galvanised, max reach 2,000 mm",
+            "Standards": "EN 15512, EN 15620, FEM 10.2.07"
+          },
+          "options": {
+            "configurations": [
+              "Drive-In (LIFO)",
+              "Drive-Through (FIFO)"
+            ],
+            "bracingTypes": [
+              "Bracing Tower",
+              "Corner Brackets"
+            ]
+          },
+          "useCases": [
+            {
+              "image": "images/propal3/page6_img3.png",
+              "label": "Drive-In Aisle Loading"
+            },
+            {
+              "image": "images/propal3/page6_img4.png",
+              "label": "Drive-Through Storage"
+            }
+          ],
+          "loadTable": {
+            "title": "Railing Capacity (kg/mm) per Pair",
+            "columns": [
+              "Distance",
+              "1000 mm",
+              "1100 mm",
+              "1200 mm",
+              "1300 mm",
+              "1400 mm",
+              "1500 mm",
+              "1600 mm",
+              "1700 mm",
+              "1800 mm",
+              "1900 mm",
+              "2000 mm"
+            ],
+            "standard": [
+              [
+                "Capacity",
+                3.27,
+                2.7,
+                2.26,
+                1.93,
+                1.63,
+                1.44,
+                1.27,
+                1.12,
+                0.99,
+                0.89,
+                0.8
+              ]
+            ]
+          },
+          "metaDescription": "PROPAL 3 drive-in/drive-through racking: LIFO and FIFO configurations for high-density pallet storage. Maximise warehouse space.",
+          "fi_name": "PROPAL 3 Kertymähyllystö (Drive-In)",
+          "fi_type": "Kertymähyllystö",
+          "fi_description": "Kertymähyllystö suurten kuormalavamäärien varastointiin rajoitetulla nimikemäärällä. Ajo sisään (LIFO) tai läpiajo (FIFO). Säästää tilaa poistamalla käytävät.",
+          "fi_metaDescription": "PROPAL 3 kertymähyllystö: drive-in LIFO tai läpiajo FIFO. Tilaa säästävä ratkaisu suurille kuormalavamäärille."
+        },
+        {
+          "id": "propal3-pushback",
+          "name": "PROPAL 3 Pushback Carrier",
+          "type": "Dynamic Storage",
+          "description": "LIFO pushback accumulation storage. Operator doesn't enter the unit. Up to 9 pallets deep, loads up to 1,200 kg per pallet. Reduces risks of collision and falling products.",
+          "image": "images/propal3/page12_img0.png",
+          "gallery": [
+            "images/propal3/page8_img0.png",
+            "images/propal3/page8_img1.png",
+            "images/propal3/page8_img2.png"
+          ],
+          "specs": {
+            "Product Range": "PROPAL 3",
+            "Type": "Pushback Carrier (LIFO)",
+            "Max Depth": "9 pallets",
+            "Max Pallet Load": "1,200 kg per pallet",
+            "Operation": "Gravity return — operator never enters the unit",
+            "Loading": "Pallets dropped at aisle entrance on mobile frame, moved by pushback",
+            "Unloading": "First pallet removed, following pallets advance by gravity",
+            "Benefits": "Saves space, saves time, less damage to unit"
+          },
+          "useCases": [
+            {
+              "image": "images/propal3/page8_img0.png",
+              "label": "Pushback Loading Zone"
+            },
+            {
+              "image": "images/propal3/page9_img0.png",
+              "label": "Multi-Level Pushback Storage"
+            }
+          ],
+          "metaDescription": "PROPAL 3 pushback carrier: up to 9 pallets deep, 1200 kg max pallet load, gravity-return LIFO system for efficient storage.",
+          "fi_name": "PROPAL 3 Pushback-kuljetin",
+          "fi_type": "Pushback-järjestelmä",
+          "fi_description": "Pushback-akkumulaatiovarastointijärjestelmä LIFO-periaatteella. Trukin kuljettajan ei tarvitse ajaa hyllystöön. Syvyys jopa 9 kuormalavaa, kantavuus jopa 1 200 kg per lava.",
+          "fi_metaDescription": "PROPAL 3 pushback-kuljetin: LIFO-varastointi jopa 9 lavan syvyydellä. Turvallinen ja tehokas ratkaisu."
+        },
+        {
+          "id": "propal3-outdoor",
+          "name": "PROPAL 3 Outdoor with Canopy",
+          "type": "Outdoor Racking",
+          "description": "Outdoor pallet racking with canopy, rear and side cladding for weather protection. Rainwater evacuation system. Ideal for lumber yards, materials yards, and outdoor storage.",
+          "image": "images/propal3/page16_img0.png",
+          "gallery": [
+            "images/propal3/page5_img0.png",
+            "images/propal3/page16_img0.png",
+            "images/propal3/page16_img1.png",
+            "images/propal3/page17_img0.png",
+            "images/propal3/page17_img3.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/propal3/page16_img0.png",
+              "label": "Wood & Drywall Panel Storage"
+            },
+            {
+              "image": "images/propal3/page16_img1.png",
+              "label": "Secured Outdoor Unit with Wire Mesh"
+            },
+            {
+              "image": "images/propal3/page16_img2.png",
+              "label": "Lumber Yard Storage"
+            },
+            {
+              "image": "images/propal3/page17_img0.png",
+              "label": "Road Sign Storage"
+            },
+            {
+              "image": "images/propal3/page17_img2.png",
+              "label": "Materials Yard with Full Cladding"
+            },
+            {
+              "image": "images/propal3/page17_img3.png",
+              "label": "Self-Supporting Building on Rack Base"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROPAL 3",
+            "Type": "Outdoor Racking with Canopy & Cladding",
+            "Canopy": "Roof protection with finishing angle",
+            "Rear Cladding": "Weather protection for the back of the unit",
+            "Side Cladding": "Weather protection for the sides",
+            "Rainwater Evacuation": "Integrated drainage system",
+            "Finish": "Galvanised for outdoor durability",
+            "Configurations": "Canopy only, canopy + rear, canopy + sides, canopy + rear + sides",
+            "Standards": "EN 15512, EN 15620"
+          },
+          "metaDescription": "PROPAL 3 outdoor racking with canopy: galvanised finish, rainwater evacuation, cladding options. Protected outdoor storage.",
+          "fi_name": "PROPAL 3 Ulkohyllystö",
+          "fi_type": "Ulkovarastointi",
+          "fi_description": "Kuormalavahyllystö ulkokäyttöön. Galvanoitu rakenne, katos ja verhousrakenteet sääsuojauksen varmistamiseksi. Materiaalipihoille ja ulkovarastoille.",
+          "fi_metaDescription": "PROPAL 3 ulkohyllystö: sääsuojattu kuormalavahylly materiaalipihoille ja ulkovarastoille."
+        },
+        {
+          "id": "propal3-automated-shuttle",
+          "name": "PROPAL 3 Automated Shuttle",
+          "type": "Automated Shuttle Racking",
+          "description": "High-density storage using a motorised shuttle for ultra-deep pallet aisles. The shuttle moves along rails to load and unload pallets automatically, removing the need for forklifts inside storage lanes. Compatible with all PROPAL 3 rack dimensions. Remote-controlled or fully automated operation.",
+          "image": "images/propal3/page9_img0.png",
+          "gallery": [
+            "images/propal3/page9_img0.png",
+            "images/propal3/page9_img1.png",
+            "images/propal3/page9_img2.png",
+            "images/propal3/page9_img3.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/propal3/page9_img0.png",
+              "label": "Automated Shuttle Operation"
+            },
+            {
+              "image": "images/propal3/page9_img1.png",
+              "label": "Deep Aisle Pallet Storage"
+            },
+            {
+              "image": "images/propal3/page9_img2.png",
+              "label": "High-Density Warehouse"
+            },
+            {
+              "image": "images/propal3/page9_img3.png",
+              "label": "Shuttle Loading Bay"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROPAL 3",
+            "Configuration": "Automated Shuttle System",
+            "Operation": "Remote-controlled or fully automated",
+            "Pallet Depth": "Very deep aisles for maximum densification",
+            "Frame Capacity": "Up to 18 tonnes per frame",
+            "Load per Level": "Up to 6,000 kg",
+            "Loading Height": "Up to 10 metres",
+            "Compatibility": "All PROPAL 3 rack dimensions",
+            "Adjustment Pitch": "50 mm",
+            "Standards": "Eurocode 3, EN 15512, FEM 10.2.02"
+          },
+          "options": {
+            "depths": [
+              800,
+              900,
+              1050,
+              1100
+            ],
+            "heights": [
+              3000,
+              4000,
+              5000,
+              6000,
+              7000,
+              8000,
+              9000,
+              10000
+            ]
+          },
+          "metaDescription": "PROPAL 3 automated shuttle: motorised pallet shuttle for ultra-deep storage aisles. Remote or fully automated operation. Maximum warehouse densification.",
+          "fi_name": "PROPAL 3 Automaattinen Shuttle",
+          "fi_type": "Automaattinen shuttle-järjestelmä",
+          "fi_description": "Shuttle-järjestelmään perustuva varastointiratkaisu suurille kuormalavamäärille. Moottoroitu shuttle liikkuu kiskoja pitkin ja hoitaa lastauksen ja purun automaattisesti. Kauko-ohjattu tai täysin automatisoitu.",
+          "fi_metaDescription": "PROPAL 3 automaattinen shuttle: moottoroitu kuormalavojen käsittely syville varastokäytäville. Maksimaalinen varastotiheys."
+        },
+        {
+          "id": "propal3-pallet-drawer",
+          "name": "PROPAL 3 Pallet Drawer",
+          "type": "Pallet Drawer System",
+          "description": "The pallet drawer system provides access on three sides, making ground-level order preparation easier and reducing posture constraints. Ideal for picking operations where ergonomic access to palletised goods is critical.",
+          "image": "images/propal3/page3_img0.png",
+          "gallery": [
+            "images/propal3/page3_img0.png",
+            "images/propal3/page3_img2.png",
+            "images/propal3/page3_img3.png",
+            "images/propal3/page3_img4.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/propal3/page3_img0.png",
+              "label": "Pallet Drawer Extended"
+            },
+            {
+              "image": "images/propal3/page3_img2.png",
+              "label": "Ergonomic Order Picking"
+            },
+            {
+              "image": "images/propal3/page13_img0.png",
+              "label": "Warehouse Integration"
+            },
+            {
+              "image": "images/propal3/page13_img1.png",
+              "label": "Multi-Level Picking"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROPAL 3",
+            "Configuration": "Pallet Drawer",
+            "Access": "Three-sided access for easy retrieval",
+            "Purpose": "Ground-level order preparation",
+            "Ergonomics": "Reduces posture constraints during picking",
+            "Frame Capacity": "Up to 18 tonnes per frame",
+            "Load per Level": "Up to 6,000 kg",
+            "Adjustment Pitch": "50 mm",
+            "Standards": "Eurocode 3, EN 15512, FEM 10.2.02"
+          },
+          "options": {
+            "depths": [
+              800,
+              900,
+              1050,
+              1100
+            ],
+            "heights": [
+              3000,
+              4000,
+              5000,
+              6000,
+              7000,
+              8000,
+              9000,
+              10000
+            ]
+          },
+          "metaDescription": "PROPAL 3 pallet drawer: three-sided pallet access for ergonomic order picking. Reduces posture strain at ground level. Professional warehouse solution.",
+          "fi_name": "PROPAL 3 Kuormalavavetotaso",
+          "fi_type": "Kuormalavavetotaso",
+          "fi_description": "Kuormalavavetotaso helpottaa tuotteiden keräämistä kolmelta sivulta. Vähentää ergonomista kuormitusta lattiatason keräilytyössä.",
+          "fi_metaDescription": "PROPAL 3 kuormalavavetotaso: kolmelta sivulta käsiksi pääsy, ergonominen keräilyratkaisu. Ammattitason varastointi."
+        },
+        {
+          "id": "propal3-dynamic-covering",
+          "name": "PROPAL 3 Dynamic Covering",
+          "type": "Dynamic Box Storage",
+          "description": "Dynamic covering placed on standard PROPAL 3 beams converts a static pallet level into a dynamic FIFO solution for boxes. Boxes are loaded from the rear and picked from the front, ensuring stock rotation. Ideal for combining pallet storage with box-level picking.",
+          "image": "images/propal3/page3_img3.png",
+          "gallery": [
+            "images/propal3/page3_img3.png",
+            "images/propal3/page3_img4.png",
+            "images/propal3/page13_img0.png",
+            "images/propal3/page13_img2.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/propal3/page3_img3.png",
+              "label": "Dynamic Covering on Beams"
+            },
+            {
+              "image": "images/propal3/page13_img0.png",
+              "label": "Combined Pallet & Box Storage"
+            },
+            {
+              "image": "images/propal3/page13_img2.png",
+              "label": "Picking Level Integration"
+            },
+            {
+              "image": "images/propal3/page14_img0.png",
+              "label": "Multi-Product Warehouse"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROPAL 3",
+            "Configuration": "Dynamic Covering (FIFO)",
+            "Operation": "Gravity-fed: load from rear, pick from front",
+            "Purpose": "Convert static pallet level to dynamic box picking",
+            "Compatibility": "Fits standard PROPAL 3 beams",
+            "Frame Capacity": "Up to 18 tonnes per frame",
+            "Load per Level": "Up to 6,000 kg",
+            "Standards": "Eurocode 3, EN 15512, FEM 10.2.02"
+          },
+          "options": {
+            "depths": [
+              800,
+              900,
+              1050,
+              1100
+            ],
+            "heights": [
+              3000,
+              4000,
+              5000,
+              6000,
+              7000,
+              8000,
+              9000,
+              10000
+            ]
+          },
+          "metaDescription": "PROPAL 3 dynamic covering: convert pallet racking to FIFO box picking. Gravity-fed system for efficient stock rotation. Professional warehouse solution.",
+          "fi_name": "PROPAL 3 Dynaaminen taso",
+          "fi_type": "Dynaaminen laatikkovarastointi",
+          "fi_description": "Dynaaminen taso, joka muuttaa staattisen kuormalavatason ratkaisuksi laatikoille. Laatikot kerätään ja lastataan edestäpäin. FIFO-periaate.",
+          "fi_metaDescription": "PROPAL 3 dynaaminen taso: muuttaa lavahyllyn FIFO-laatikkokeräilyyn. Tehokas varastokierto."
+        },
+        {
+          "id": "propal3-canopy-cladding",
+          "name": "PROPAL 3 Canopy & Cladding",
+          "type": "Weather Protection",
+          "description": "Protective canopy and cladding system for PROPAL 3 outdoor racking. Includes rear cladding, side cladding, rainwater evacuation and roof finishing angles. Protects stored goods from rain, sun and debris in outdoor yards and materials storage areas.",
+          "image": "images/propal3/page4_img0.png",
+          "gallery": [
+            "images/propal3/page4_img0.png",
+            "images/propal3/page4_img1.png",
+            "images/propal3/page4_img2.png",
+            "images/propal3/page4_img3.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/propal3/page4_img0.png",
+              "label": "Rack with Canopy"
+            },
+            {
+              "image": "images/propal3/page4_img1.png",
+              "label": "Canopy & Rear Cladding"
+            },
+            {
+              "image": "images/propal3/page4_img2.png",
+              "label": "Full Weather Protection"
+            },
+            {
+              "image": "images/propal3/page15_img0.png",
+              "label": "Outdoor Yard Installation"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROPAL 3",
+            "Configuration": "Canopy & Cladding System",
+            "Options": "Canopy only, canopy + rear, canopy + rear + side",
+            "Features": "Rainwater evacuation, roof finishing angles",
+            "Material": "Galvanised steel cladding",
+            "Frame Capacity": "Up to 18 tonnes per frame",
+            "Load per Level": "Up to 6,000 kg",
+            "Standards": "Eurocode 3, EN 15512, FEM 10.2.02"
+          },
+          "options": {
+            "depths": [
+              800,
+              900,
+              1050,
+              1100
+            ],
+            "heights": [
+              3000,
+              4000,
+              5000,
+              6000,
+              7000,
+              8000,
+              9000,
+              10000
+            ]
+          },
+          "metaDescription": "PROPAL 3 canopy & cladding: weather protection for outdoor pallet racking. Canopy, rear and side cladding with rainwater evacuation. Finland & Baltics.",
+          "fi_name": "PROPAL 3 Katos ja verhous",
+          "fi_type": "Sääsuojaus",
+          "fi_description": "Suojaava katos- ja verhousjärjestelmä PROPAL 3 -ulkohyllystöille. Takaverhous, sivuverhous, sadeveden poisto ja katon viimeistelylista.",
+          "fi_metaDescription": "PROPAL 3 katos ja verhous: sääsuojaus ulkokuormalavahyllyille. Katos, taka- ja sivuverhous."
+        }
+      ],
+      "standards": [
+        "EN 15512",
+        "EN 15620",
+        "INRS ED 771"
+      ],
+      "brochure": "brochures/propal-3.pdf",
+      "fi_tagline": "Raskaiden kuormien ja lavojen varastointiin",
+      "fi_subtitle": "Joustava, luotettava, tehokas ja käytännöllinen",
+      "fi_category": "Kuormalavahyllyt",
+      "fi_description": "Suorituskykyinen kuormalavahyllyjärjestelmä raskaiden kuormien varastointiin. Kestävä kylmävalssattu rakenne, kantavuus jopa 18 tonnia per kehikko. Sisä- ja ulkokäyttöön.",
+      "fi_features": [
+        "Kantavuus jopa 18 tonnia per kehikko",
+        "Kuormitus jopa 6 000 kg per taso",
+        "Lastauskorkeus jopa 10 metriä",
+        "Säätöväli 50 mm",
+        "10 syvyyttä (600–1 500 mm) ja 28 korkeutta",
+        "Palkkien pituus 300–4 900 mm",
+        "EN 15512 ja EN 15620 -standardien mukainen"
+      ]
+    },
+    {
+      "id": "proplus-lp3",
+      "name": "PROPLUS LP3",
+      "slug": "proplus-lp3",
+      "tagline": "Double or Triple Your Space",
+      "subtitle": "Economical, Modular, Upgradable, Dismountable",
+      "category": "Storage Platforms / Mezzanines",
+      "description": "Long span, heavy load platform system. Maximum span up to 10 metres. Up to 850 kg/m2 load capacity. EU-certified, designed per Eurocode 3. Fully modular and upgradable.",
+      "heroImage": "images/proplus-lp3/page8_img0.png",
+      "features": [
+        "Maximum span up to 10 metres",
+        "Up to 850 kg/m2 load capacity",
+        "EU-certified platform, Eurocode 3",
+        "3 flooring types: wood, grating, sheet metal",
+        "Fully modular — add/reduce square metres",
+        "Bolted assembly with 50 mm pitch",
+        "Alternative to construction without extra rent"
+      ],
+      "finishes": [
+        {
+          "name": "Epoxy Paint",
+          "code": "RAL 7016",
+          "color": "#3a3a3a"
+        }
+      ],
+      "products": [
+        {
+          "id": "proplus-platform",
+          "name": "PROPLUS LP3 Storage Platform",
+          "type": "Platform",
+          "description": "Complete mezzanine/platform system with load-bearing columns, primary and secondary beams, and flooring. Bolted assembly. Change layout, add square metres, reposition columns.",
+          "image": "images/proplus-lp3/page8_img0.png",
+          "gallery": [
+            "images/proplus-lp3/page2_img0.png",
+            "images/proplus-lp3/page3_img0.png",
+            "images/proplus-lp3/page4_img0.png",
+            "images/proplus-lp3/page8_img0.png",
+            "images/proplus-lp3/page9_img0.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/proplus-lp3/page7_img0.png",
+              "label": "Platform with Pallet Gate"
+            },
+            {
+              "image": "images/proplus-lp3/page7_img1.png",
+              "label": "Platform with Integrated Staircase"
+            },
+            {
+              "image": "images/proplus-lp3/page8_img0.png",
+              "label": "Self-Supporting Platform"
+            },
+            {
+              "image": "images/proplus-lp3/page8_img1.png",
+              "label": "Heavy Load Handling"
+            },
+            {
+              "image": "images/proplus-lp3/page9_img0.png",
+              "label": "Special Colours on Request"
+            },
+            {
+              "image": "images/proplus-lp3/page10_img0.png",
+              "label": "Two-Storey Office Area"
+            },
+            {
+              "image": "images/proplus-lp3/page11_img0.png",
+              "label": "Storage Platform"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROPLUS LP3",
+            "Type": "Storage Platform / Mezzanine",
+            "Max Span": "10,000 mm",
+            "Max Load": "850 kg/m2 (higher on request)",
+            "Standard": "Eurocode 3, EU-certified",
+            "Assembly": "Bolted, 50 mm pitch perforation",
+            "Column Sizes": "100x2, 100x3, 120x3, 120x4 mm",
+            "Beam Heights": "200, 300, 400 mm",
+            "Flooring": "Wood (19/25/38 mm), Steel Grating, Sheet Metal",
+            "Colour": "RAL 7016",
+            "Column Bracket PB 200": "Width 290, Height 203, Thickness 4 mm, 2x4 bolts",
+            "Column Bracket PB 300": "Width 290, Height 300, Thickness 4 mm, 2x4 bolts",
+            "Column Bracket PB 400": "Width 290, Height 402, Thickness 5 mm, 2x4 bolts",
+            "Footplate": "200 x 200 mm with three-point floor anchoring"
+          },
+          "options": {
+            "flooring": [
+              "Wood (19 mm)",
+              "Wood (25 mm double layer)",
+              "Wood (38 mm)",
+              "Steel Grating",
+              "Sheet Metal"
+            ],
+            "columns": [
+              "100x2 mm",
+              "100x3 mm",
+              "120x3 mm",
+              "120x4 mm"
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Load Struts",
+              "description": "Bolted to posts with articulated plate. 6 types depending on column height."
+            },
+            {
+              "name": "Cross Bracing",
+              "description": "For two-tier or heavily loaded platforms. Attached to columns with through-bolt."
+            },
+            {
+              "name": "Wood Flooring",
+              "description": "Tongue-and-groove slats, 19/25/38 mm. White underside for brightness."
+            },
+            {
+              "name": "Steel Grating",
+              "description": "Hot-dip galvanised perforated panels. For sprinkler/smoke suppression systems."
+            },
+            {
+              "name": "Sheet Metal Flooring",
+              "description": "Galvanised panels with folded edges. For wood-prohibited environments."
+            }
+          ],
+          "loadTable": {
+            "title": "Primary/Secondary Beam Availability",
+            "columns": [
+              "Thickness (mm)",
+              "Height 200 mm",
+              "Height 300 mm",
+              "Height 400 mm"
+            ],
+            "standard": [
+              [
+                "1.5 mm",
+                "Yes",
+                "Yes",
+                "—"
+              ],
+              [
+                "2 mm",
+                "Yes",
+                "Yes",
+                "Yes"
+              ],
+              [
+                "2.5 mm",
+                "—",
+                "Yes",
+                "Yes"
+              ],
+              [
+                "3 mm",
+                "Yes",
+                "Yes",
+                "Yes"
+              ],
+              [
+                "4 mm",
+                "Yes",
+                "Yes",
+                "Yes"
+              ]
+            ]
+          },
+          "metaDescription": "PROPLUS LP3 mezzanine platform: spans up to 10m, load 850 kg/m2, Eurocode 3 certified. Double your warehouse floor space.",
+          "fi_name": "PROPLUS LP3 Tasoratkaisu",
+          "fi_type": "Välikerros / Taso",
+          "fi_description": "Pitkän jännevälin modulaarinen tasoratkaisu. Kaksin- tai kolminkertaistaa tilan. Jänneväli jopa 10 metriä. 3 lattiatyyppiä: puu, ritilä, teräspelti.",
+          "fi_metaDescription": "PROPLUS LP3 tasoratkaisu: modulaarinen välikerros jopa 10 m jännevälillä. Kaksin- tai kolminkertaista tilasi."
+        },
+        {
+          "id": "proplus-staircases",
+          "name": "PROPLUS LP3 Staircases & Safety",
+          "type": "Staircases",
+          "description": "Straight and spiral staircases, certified guardrails, pallet safety gates. Main staircase 34° or secondary 45°. Tilt-up or folding pallet gates.",
+          "image": "images/proplus-lp3/page7_img0.png",
+          "gallery": [
+            "images/proplus-lp3/page5_img0.png",
+            "images/proplus-lp3/page5_img1.png",
+            "images/proplus-lp3/page6_img0.png",
+            "images/proplus-lp3/page6_img1.png",
+            "images/proplus-lp3/page7_img0.png"
+          ],
+          "specs": {
+            "Product Range": "PROPLUS LP3",
+            "Type": "Staircases & Safety Equipment",
+            "Main Staircase 34°": "Effective width 1,000 mm, overall 1,200 mm, height 1,100–3,500 mm",
+            "Secondary Staircase 45°": "Effective width 800 mm, overall 1,000 mm, height 1,100–3,900 mm, floor space = height − 131.5 mm",
+            "Spiral Staircase Ø1820": "Clear width 800 mm",
+            "Spiral Staircase Ø1420": "Clear width 600 mm",
+            "Guardrail Industrial": "H 1,035 mm per NF E85-015 — storage platforms",
+            "Guardrail Work": "H 1,115 mm per EN ISO 14122-3 — near machines/conveyors",
+            "Guardrail Public": "H 1,075 mm per NF P01-012 — public access buildings",
+            "Toeboard": "Metal, 100 mm height",
+            "Tilt-Up Gate Widths": "1,700, 2,100, 2,500, 3,100 mm",
+            "Folding Gate Widths": "1,700, 2,100, 2,500, 3,100 mm",
+            "Swing Gate": "Overall 1,700 mm, effective 1,395 mm, H 1,035 mm",
+            "Sliding Gate": "Overall 3,000 mm, effective 1,600 mm, H 1,030 mm"
+          },
+          "options": {
+            "staircaseTypes": [
+              "Main 34°",
+              "Secondary 45°",
+              "Spiral (Ø1820)",
+              "Spiral (Ø1420)"
+            ],
+            "gateTypes": [
+              "Tilt-up",
+              "Folding"
+            ],
+            "gateWidths": [
+              1700,
+              2100,
+              2500,
+              3100
+            ]
+          },
+          "loadTable": {
+            "title": "Pallet Safety Gate Dimensions (mm)",
+            "columns": [
+              "Type",
+              "Max Load Width",
+              "Max Load Depth",
+              "Load Height T1/T2/T3",
+              "Min Ceiling T1/T2/T3"
+            ],
+            "standard": [
+              [
+                "Tilt-up",
+                "Width − 500",
+                "1,450",
+                "1650 / 2000 / 2350",
+                "2100 / 2435 / 2619"
+              ],
+              [
+                "Folding",
+                "Width − 500",
+                "1,450",
+                "1790 / 2000 / 2350",
+                "2100 / 2200 / 2533"
+              ]
+            ]
+          },
+          "useCases": [
+            {
+              "image": "images/proplus-lp3/page7_img0.png",
+              "label": "Tilt-Up Pallet Safety Gate"
+            },
+            {
+              "image": "images/proplus-lp3/page7_img1.png",
+              "label": "Integrated Staircase & Folding Gate"
+            },
+            {
+              "image": "images/proplus-lp3/page7_img2.png",
+              "label": "Gate with Stacking Area"
+            },
+            {
+              "image": "images/proplus-lp3/page10_img1.png",
+              "label": "Platform with Office Partitioning"
+            },
+            {
+              "image": "images/proplus-lp3/page11_img1.png",
+              "label": "Built-In Conveyor Platform"
+            }
+          ],
+          "accessories": [
+            {
+              "name": "Continuous Handrail Guardrail",
+              "description": "Certified guardrail with continuous handrail. Max 1,400 mm between columns."
+            },
+            {
+              "name": "Metal Toeboard",
+              "description": "100 mm height toe protection at platform edge."
+            },
+            {
+              "name": "Tilt-Up Pallet Gate",
+              "description": "For regular use. Safe pallet loading/unloading. Prevents risk of falling objects."
+            },
+            {
+              "name": "Folding Pallet Gate",
+              "description": "Space-saving folding mechanism for regular pallet handling."
+            },
+            {
+              "name": "Self-Closing Swing Gate",
+              "description": "For occasional use. Overall 1,700 mm, effective width 1,395 mm."
+            },
+            {
+              "name": "Self-Locking Sliding Gate",
+              "description": "For occasional use. Overall 3,000 mm, effective width 1,600 mm."
+            }
+          ],
+          "metaDescription": "PROPLUS LP3 staircases & safety: 34 and 45 degree stairs, guard rails, pallet gates. Complete platform access solutions.",
+          "fi_name": "PROPLUS LP3 Portaat ja kaiteet",
+          "fi_type": "Portaat ja kaiteet",
+          "fi_description": "Suorat ja kierreportaat sekä sertifioidut kaiteet PROPLUS LP3 -tasoille. Kolme kaidetyyppiä ja useita portasvaihtoehtoja.",
+          "fi_metaDescription": "PROPLUS LP3 portaat ja kaiteet: suorat ja kierreportaat, sertifioidut kaiteet. EU-sertifioitu turvallisuus."
+        },
+        {
+          "id": "proplus-safety-gates",
+          "name": "PROPLUS LP3 Pallet Safety Gates",
+          "type": "Safety Equipment",
+          "description": "Tilt-up and folding pallet safety gates for safe loading and unloading on mezzanine platforms. Prevents falling objects and maintains worker safety when handling palletised goods at height. Two gate types available for regular and intensive use.",
+          "image": "images/proplus-lp3/page5_img0.png",
+          "gallery": [
+            "images/proplus-lp3/page5_img0.png",
+            "images/proplus-lp3/page5_img1.png",
+            "images/proplus-lp3/page5_img2.png",
+            "images/proplus-lp3/page5_img3.png",
+            "images/proplus-lp3/page5_img4.png",
+            "images/proplus-lp3/page5_img5.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/proplus-lp3/page5_img0.png",
+              "label": "Tilt-Up Pallet Gate"
+            },
+            {
+              "image": "images/proplus-lp3/page5_img1.png",
+              "label": "Folding Safety Gate"
+            },
+            {
+              "image": "images/proplus-lp3/page5_img2.png",
+              "label": "Gate Operation Sequence"
+            },
+            {
+              "image": "images/proplus-lp3/page6_img0.png",
+              "label": "Platform with Gate Installed"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROPLUS LP3",
+            "Configuration": "Pallet Safety Gates",
+            "Gate Types": "Tilt-up and folding",
+            "Purpose": "Safe pallet loading/unloading at height",
+            "Safety": "Prevents falling objects",
+            "Platform Span": "Up to 10 metres",
+            "Flooring": "Wood, grating or sheet metal",
+            "Standards": "EU-certified, Eurocode 3"
+          },
+          "options": {},
+          "metaDescription": "PROPLUS LP3 pallet safety gates: tilt-up and folding gates for safe mezzanine loading. EU-certified fall prevention. Professional platform solution.",
+          "fi_name": "PROPLUS LP3 Lavaturvaportit",
+          "fi_type": "Turvavarusteet",
+          "fi_description": "Kääntö- ja taittuvat lavaturvaportit turvalliseen lastaukseen ja purkuun välitasolla. Estää putoavat esineet. Säännölliseen ja satunnaiseen käyttöön.",
+          "fi_metaDescription": "PROPLUS LP3 lavaturvaportit: kääntö- ja taittuvat portit turvalliseen tasokuormaukseen. EU-sertifioitu."
+        },
+        {
+          "id": "proplus-order-picking",
+          "name": "PROPLUS LP3 Order Picking Platform",
+          "type": "Picking Mezzanine",
+          "description": "Tailor-made mezzanine platforms optimised for order picking operations. Multi-level configurations double or triple floor space for efficient pick-pack-ship workflows. Available with integrated conveyors, special colours and custom layouts.",
+          "image": "images/proplus-lp3/page8_img0.png",
+          "gallery": [
+            "images/proplus-lp3/page8_img0.png",
+            "images/proplus-lp3/page8_img1.png",
+            "images/proplus-lp3/page7_img2.png",
+            "images/proplus-lp3/page10_img0.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/proplus-lp3/page8_img0.png",
+              "label": "Order Picking Mezzanine"
+            },
+            {
+              "image": "images/proplus-lp3/page8_img1.png",
+              "label": "Custom Colour Platform"
+            },
+            {
+              "image": "images/proplus-lp3/page10_img0.png",
+              "label": "Conveyor Integration"
+            },
+            {
+              "image": "images/proplus-lp3/page10_img1.png",
+              "label": "Multi-Level Picking"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROPLUS LP3",
+            "Configuration": "Order Picking Platform",
+            "Max Span": "Up to 10 metres",
+            "Levels": "Multi-tier (2-3 levels)",
+            "Flooring": "Wood, grating or sheet metal",
+            "Accessories": "Conveyors, guardrails, pallet gates",
+            "Custom": "Special colours and layouts available",
+            "Standards": "EU-certified, Eurocode 3"
+          },
+          "options": {},
+          "metaDescription": "PROPLUS LP3 order picking platform: multi-level mezzanine for pick-pack-ship workflows. Conveyor integration, custom layouts. Finland & Baltics.",
+          "fi_name": "PROPLUS LP3 Keräilytaso",
+          "fi_type": "Keräilyvälitaso",
+          "fi_description": "Räätälöity tasoratkaisu keräilytoimintoihin. Monitasoinen rakenne kaksin- tai kolminkertaistaa lattiatilan. Integroitavissa kuljettimiin.",
+          "fi_metaDescription": "PROPLUS LP3 keräilytaso: monitasoinen ratkaisu keräilyyn. Kuljettimien integrointi, erikoisvärit saatavilla."
+        },
+        {
+          "id": "proplus-office-platform",
+          "name": "PROPLUS LP3 Office Platform",
+          "type": "Office Mezzanine",
+          "description": "Mezzanine platforms configured for office spaces, conference rooms and administrative areas within industrial buildings. Creates two-storey office environments without permanent construction. Combines with MODUL+ partitioning for complete office solutions.",
+          "image": "images/proplus-lp3/page9_img0.png",
+          "gallery": [
+            "images/proplus-lp3/page9_img0.png",
+            "images/proplus-lp3/page9_img1.png",
+            "images/proplus-lp3/page7_img0.png",
+            "images/proplus-lp3/page7_img1.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/proplus-lp3/page9_img0.png",
+              "label": "Office Platform with Partitions"
+            },
+            {
+              "image": "images/proplus-lp3/page9_img1.png",
+              "label": "Two-Storey Office Area"
+            },
+            {
+              "image": "images/proplus-lp3/page7_img0.png",
+              "label": "Industrial Office Solution"
+            },
+            {
+              "image": "images/proplus-lp3/page7_img1.png",
+              "label": "Heavy Load Platform"
+            }
+          ],
+          "specs": {
+            "Product Range": "PROPLUS LP3",
+            "Configuration": "Office Platform / Mezzanine",
+            "Max Span": "Up to 10 metres",
+            "Levels": "Multi-tier (typically 2 levels)",
+            "Flooring": "Wood or sheet metal",
+            "Partitioning": "Compatible with MODUL+ and M85 office partitions",
+            "Use": "Offices, conference rooms, admin areas",
+            "Standards": "EU-certified, Eurocode 3"
+          },
+          "options": {},
+          "metaDescription": "PROPLUS LP3 office platform: create two-storey office spaces in industrial buildings. Dismountable mezzanine with partition integration. Finland & Baltics.",
+          "fi_name": "PROPLUS LP3 Toimistotaso",
+          "fi_type": "Toimistovälitaso",
+          "fi_description": "Tasoratkaisu toimisto- ja neuvottelutiloihin teollisuusrakennuksissa. Kaksikerroksinen toimistoalue ilman pysyvää rakentamista. Yhdistettävissä MODUL+-väliseiniin.",
+          "fi_metaDescription": "PROPLUS LP3 toimistotaso: kaksikerroksinen toimistotila teollisuustiloihin. Purettava välikerros väliseinäintegraatiolla."
+        }
+      ],
+      "standards": [
+        "Eurocode 3",
+        "DTU 51.3",
+        "EN 1090",
+        "NF E85-015",
+        "NF P01-012"
+      ],
+      "brochure": "brochures/proplus-lp3.pdf",
+      "fi_tagline": "Kaksin- tai kolminkertaista tilasi",
+      "fi_subtitle": "Taloudellinen, modulaarinen, laajennettava ja purettava",
+      "fi_category": "Välikerrokset ja tasot",
+      "fi_description": "Pitkän jännevälin, raskaan kuorman ja erittäin modulaarinen tasoratkaisu. Jänneväli jopa 10 metriä. Kaksin- tai kolminkertaistaa käytettävissä olevan tilan.",
+      "fi_features": [
+        "Enimmäisjänneväli jopa 10 metriä",
+        "3 lattiatyyppiä: puu, ritilä, teräspelti",
+        "Eurokoodi 3 -standardin mukainen",
+        "EU-sertifioitu tasoratkaisu",
+        "Kuormitus jopa 850 kg/m²",
+        "Täysin modulaarinen ja purettava",
+        "Portaiden ja kaiteiden integrointi"
+      ]
+    },
+    {
+      "id": "modul",
+      "name": "MODUL+",
+      "slug": "modul-plus",
+      "tagline": "Separate, Organise and Secure Your Space",
+      "subtitle": "Reliable, Economical, Modular, Adaptable",
+      "category": "Wire Mesh Partitioning",
+      "description": "Economical, easy-to-install wire mesh partitions. Indoor or outdoor use (galvanised). Height up to 6,000 mm. Create storage areas, protect goods, separate dangerous zones.",
+      "heroImage": "images/modul/page8_img0.png",
+      "features": [
+        "Indoor or outdoor use (galvanised version)",
+        "Height up to 6,000 mm",
+        "Standard colours: Blue RAL 5019, Grey RAL 7016",
+        "Fully adaptable modular system",
+        "Security brackets — cannot be dismantled from outside",
+        "Hinged or sliding doors",
+        "Custom installation service available"
+      ],
+      "finishes": [
+        {
+          "name": "Epoxy Paint Blue",
+          "code": "RAL 5019",
+          "color": "#1b5583"
+        },
+        {
+          "name": "Epoxy Paint Grey",
+          "code": "RAL 7016",
+          "color": "#3a3a3a"
+        },
+        {
+          "name": "Galvanised",
+          "code": "For outdoor use",
+          "color": "#d0d0c8"
+        }
+      ],
+      "products": [
+        {
+          "id": "modul-panels",
+          "name": "MODUL+ Panels",
+          "type": "Panels",
+          "description": "Frame made of 20x20 mm square tubes with welded wire mesh 50x50 mm. 7 heights (1,800–3,000 mm), 4 widths (800–1,500 mm). Wire mesh, sheet metal, half mesh, or 5S transparent cladding.",
+          "image": "images/modul/page8_img0.png",
+          "gallery": [
+            "images/modul/page3_img1.png",
+            "images/modul/page3_img2.png",
+            "images/modul/page8_img0.png",
+            "images/modul/page9_img0.png",
+            "images/modul/page1_img0.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/modul/page8_img0.png",
+              "label": "Storage Area with Multiple Units"
+            },
+            {
+              "image": "images/modul/page8_img1.png",
+              "label": "Incoming Goods Delimitation"
+            },
+            {
+              "image": "images/modul/page8_img2.png",
+              "label": "Platform Security Partition"
+            },
+            {
+              "image": "images/modul/page9_img0.png",
+              "label": "Storage with Double Hinged Door"
+            },
+            {
+              "image": "images/modul/page10_img0.png",
+              "label": "Outdoor Galvanised Partition"
+            },
+            {
+              "image": "images/modul/page13_img0.png",
+              "label": "6,000 mm High Storage Area"
+            }
+          ],
+          "specs": {
+            "Product Range": "MODUL+",
+            "Type": "Wire Mesh Panels",
+            "Frame": "20x20 mm square tubes",
+            "Mesh": "Welded wire mesh 50x50 mm / 3 mm thick",
+            "Steel Thickness": "15/10th",
+            "Heights": "1,800, 2,000, 2,200, 2,400, 2,600, 2,800, 3,000 mm",
+            "Widths": "800, 1,000, 1,200, 1,500 mm",
+            "Cladding Options": "Wire mesh, Sheet metal, Half sheet/half mesh, 5S (transparent synthetic glass)",
+            "Post Types": "Rectangular 35x30 mm (space-saving, footplate 200x70 mm) or Round Ø55 mm (any angle, footplate 100x100 mm)",
+            "Assembly": "Inside bracket system — impossible to dismantle from outside",
+            "Floor Gap": "Adjustable for uneven floors"
+          },
+          "options": {
+            "heights": [
+              1800,
+              2000,
+              2200,
+              2400,
+              2600,
+              2800,
+              3000
+            ],
+            "widths": [
+              800,
+              1000,
+              1200,
+              1500
+            ],
+            "cladding": [
+              "Wire Mesh",
+              "Sheet Metal",
+              "Half Sheet/Half Mesh",
+              "5S Transparent"
+            ]
+          },
+          "accessories": [
+            {
+              "name": "Drop Counter Panel",
+              "description": "Pass small items without opening main door. Lockable steel shelf. W 1,130 × H 520 mm."
+            },
+            {
+              "name": "Wire-Mesh Roof",
+              "description": "Secure overhead closure for product storage areas."
+            },
+            {
+              "name": "Load Strut",
+              "description": "Reinforces stability and rigidity on uneven floors."
+            },
+            {
+              "name": "Finishing Kit",
+              "description": "Adjust partition length to fit the space available."
+            },
+            {
+              "name": "3D Kit",
+              "description": "Add extra space to the original cladding configuration."
+            },
+            {
+              "name": "Handle with Keypad",
+              "description": "Electronic access control for secured areas."
+            },
+            {
+              "name": "Crash Bar",
+              "description": "Emergency exit push bar."
+            },
+            {
+              "name": "Door Closer",
+              "description": "Automatic door closing mechanism."
+            },
+            {
+              "name": "Cylinder Locks with Master Key",
+              "description": "Identical or master-keyed cylinder locks."
+            }
+          ],
+          "metaDescription": "MODUL+ wire mesh panels: heights up to 6m, welded mesh or steel sheet cladding, secure industrial partitioning.",
+          "fi_name": "MODUL+ Verkkopaneelit",
+          "fi_type": "Verkkoseinäpaneelit",
+          "fi_description": "Taloudellinen ja helposti asennettava verkkoseinäjärjestelmä. Sisäpuolinen kiinnitysjärjestelmä tekee purkamisen ulkopuolelta mahdottomaksi. Korkeus jopa 6 000 mm.",
+          "fi_metaDescription": "MODUL+ verkkopaneelit: modulaarinen verkkoseinäjärjestelmä turvalliseen osastointiin. Korkeus jopa 6 000 mm."
+        },
+        {
+          "id": "modul-hinged-doors",
+          "name": "MODUL+ Hinged Doors",
+          "type": "Hinged Doors",
+          "description": "Single and double hinged doors. Choice of cladding. Aluminium lever handle, lock with 3 keys. Door opens inwards or outwards. Adjustable for uneven floors.",
+          "image": "images/modul/page8_img0.png",
+          "gallery": [
+            "images/modul/page4_img0.png",
+            "images/modul/page4_img1.png",
+            "images/modul/page4_img2.png",
+            "images/modul/page9_img0.png",
+            "images/modul/page6_img0.png"
+          ],
+          "specs": {
+            "Product Range": "MODUL+",
+            "Type": "Hinged Doors",
+            "Single Door Frame": "50 x 30 mm",
+            "Single Door Height": "2,200 mm",
+            "Single Door Widths": "805, 1005, 1205, 1505 mm (clear: 700, 900, 1100, 1400 mm)",
+            "Double Door Height": "2,200 to 3,000 mm",
+            "Double Door Width": "2,327 mm (clear: 2,130 mm)",
+            "Double Door Posts": "80 x 80 mm, no crossbar at top for vehicle entry",
+            "Lock": "Aluminium lever handle, lock with 3 keys",
+            "Floor Bolt": "Keeps 2nd door closed when not needed",
+            "Hinges": "180° opening, easy positioning",
+            "Cladding Options": "Wire mesh, sheet metal, half sheet/half mesh, 5S transparent",
+            "Low-Cost Option": "Full-mesh model with hasp and staple for padlock"
+          },
+          "options": {
+            "doorTypes": [
+              "Single Door",
+              "Double Door",
+              "Low-Cost Single Door"
+            ],
+            "widths_single": [
+              700,
+              900,
+              1100,
+              1400
+            ],
+            "widths_double": [
+              2130
+            ],
+            "cladding": [
+              "Wire Mesh",
+              "Sheet Metal",
+              "Half Sheet/Half Mesh",
+              "5S Transparent"
+            ]
+          },
+          "useCases": [
+            {
+              "image": "images/modul/page9_img0.png",
+              "label": "Storage Unit with Double Door"
+            },
+            {
+              "image": "images/modul/page9_img1.png",
+              "label": "5S Safe Working Area"
+            },
+            {
+              "image": "images/modul/page11_img0.png",
+              "label": "Secure Retail Top-Shelf Section"
+            },
+            {
+              "image": "images/modul/page11_img2.png",
+              "label": "Secure Racking Bays"
+            },
+            {
+              "image": "images/modul/page13_img1.png",
+              "label": "4,000 mm High Secured Area"
+            }
+          ],
+          "metaDescription": "MODUL+ hinged doors: single and double leaf options, multiple cladding types, integrated locks. Secure access for partitioned areas.",
+          "fi_name": "MODUL+ Saranaovet",
+          "fi_type": "Saranaovi",
+          "fi_description": "Saranaovet verkko-, yhdistelmä-, metallilevy- tai 5S-rakenteella. Avaussuunta valittavissa. Mukautuu epätasaiselle lattialle.",
+          "fi_metaDescription": "MODUL+ saranaovet: verkko-, yhdistelmä- tai metallilevyovet verkkoseinäjärjestelmään. Ammattitason osastointi."
+        },
+        {
+          "id": "modul-sliding-doors",
+          "name": "MODUL+ Sliding Doors",
+          "type": "Sliding Doors",
+          "description": "Space-saving sliding doors. Single or double. Do not obstruct traffic aisles. Guide rail system. Lock and latch included.",
+          "image": "images/modul/page8_img0.png",
+          "gallery": [
+            "images/modul/page5_img0.png",
+            "images/modul/page5_img1.png",
+            "images/modul/page5_img2.png",
+            "images/modul/page6_img0.png",
+            "images/modul/page6_img1.png"
+          ],
+          "specs": {
+            "Product Range": "MODUL+",
+            "Type": "Sliding Doors",
+            "Single Door Heights": "2,200 to 3,000 mm",
+            "Single Door Sizes": "2435 mm (clear 1020), 3035 mm (clear 1320), 4715 mm (clear 2050), 5915 mm (clear 2650)",
+            "Double Door Heights": "2,200 to 3,000 mm",
+            "Double Door Sizes": "4715 mm (clear 2050), 5915 mm (clear 2650)",
+            "Posts": "3 posts (single) or 2 posts (double), 35 x 30 mm",
+            "Rail System": "End stop, guide rail top and bottom",
+            "Lock": "Lock and latch included",
+            "Direction": "Slides left or right per your requirements",
+            "Cladding Options": "Wire mesh, sheet metal, half sheet/half mesh, 5S transparent",
+            "For Racking": "Special hinged and sliding doors for pallet rack bay access"
+          },
+          "options": {
+            "doorTypes": [
+              "Single Sliding",
+              "Double Sliding"
+            ],
+            "clearWidths_single": [
+              1020,
+              1320,
+              2050,
+              2650
+            ],
+            "clearWidths_double": [
+              2050,
+              2650
+            ]
+          },
+          "useCases": [
+            {
+              "image": "images/modul/page10_img2.png",
+              "label": "Outdoor Shelter with Sliding Doors"
+            },
+            {
+              "image": "images/modul/page10_img3.png",
+              "label": "Outdoor Storage Unit"
+            },
+            {
+              "image": "images/modul/page12_img0.png",
+              "label": "Chemical Storage with Sliding Doors"
+            },
+            {
+              "image": "images/modul/page12_img2.png",
+              "label": "Large Area with Mesh Roof & Sliding Doors"
+            }
+          ],
+          "loadTable": {
+            "title": "Racking Door Dimensions (mm)",
+            "columns": [
+              "Type",
+              "Height",
+              "Clear Width",
+              "CTC Distance"
+            ],
+            "standard": [
+              [
+                "Racking Hinged Door",
+                "2200–3000",
+                "2695 / 3295",
+                "2795 / 3395"
+              ],
+              [
+                "Racking Sliding Door",
+                "2200–3000",
+                "2695 / 3295",
+                "2×2795 / 2×3395"
+              ]
+            ]
+          },
+          "metaDescription": "MODUL+ sliding doors: space-saving rail system, single and double options, racking bay access versions.",
+          "fi_name": "MODUL+ Liukuovet",
+          "fi_type": "Liukuovi",
+          "fi_description": "Tilaa säästävät liukuovet verkkoseinäjärjestelmään. Eivät tuki kulkuväyliä. Saatavana yksi- ja kaksinovisina.",
+          "fi_metaDescription": "MODUL+ liukuovet: tilaa säästävä ovirakennus verkkoseinäjärjestelmään. Yksi- ja kaksinoviset mallit."
+        },
+        {
+          "id": "modul-racking-doors",
+          "name": "MODUL+ Doors for Racking",
+          "type": "Racking Security Doors",
+          "description": "Independent door system designed to secure racking bays without modifying the rack structure. No top crossbars needed, allowing easy forklift access to stored products. Can secure one or more bays and is suitable for narrow aisle configurations.",
+          "image": "images/modul/page5_img0.png",
+          "gallery": [
+            "images/modul/page5_img0.png",
+            "images/modul/page5_img1.png",
+            "images/modul/page5_img2.png",
+            "images/modul/page5_img3.png",
+            "images/modul/page5_img4.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/modul/page5_img0.png",
+              "label": "Secured Racking Bay"
+            },
+            {
+              "image": "images/modul/page10_img0.png",
+              "label": "High-Value Product Protection"
+            },
+            {
+              "image": "images/modul/page10_img1.png",
+              "label": "Gated Storage Area"
+            },
+            {
+              "image": "images/modul/page10_img2.png",
+              "label": "Retail Security"
+            }
+          ],
+          "specs": {
+            "Product Range": "MODUL+",
+            "Configuration": "Doors for Racking",
+            "Installation": "Independent of racking structure",
+            "Top Crossbars": "Not required — full forklift access",
+            "Bay Coverage": "One or more bays per door",
+            "Aisle Compatibility": "Narrow aisle suitable",
+            "Structure": "Horizontal crosstie for rigidity",
+            "Height": "Up to 6,000 mm",
+            "Colours": "Blue RAL 5019, grey RAL 7016 (others on request)"
+          },
+          "options": {},
+          "metaDescription": "MODUL+ racking doors: secure racking bays independently without structural modification. No top crossbars, narrow aisle compatible. Finland & Baltics.",
+          "fi_name": "MODUL+ Hyllystöovet",
+          "fi_type": "Hyllystön turvaovi",
+          "fi_description": "Hyllystöstä riippumaton ovijärjestelmä hyllystökäytävien turvaamiseen. Ei yläpalkkia – helppo trukkilähestyminen. Sopii kapeisiin käytäviin.",
+          "fi_metaDescription": "MODUL+ hyllystöovet: itsenäinen ovijärjestelmä hyllystökäytävien turvaamiseen. Ei rakenteellisia muutoksia."
+        },
+        {
+          "id": "modul-outdoor-partitioning",
+          "name": "MODUL+ Outdoor Partitioning",
+          "type": "Outdoor Enclosure",
+          "description": "Hot-dip galvanised MODUL+ partitioning designed for outdoor and damp environments. Delimits outdoor storage areas, shelters and yards. Withstands weather exposure while maintaining full modularity and security features.",
+          "image": "images/modul/page9_img0.png",
+          "gallery": [
+            "images/modul/page9_img0.png",
+            "images/modul/page9_img1.png",
+            "images/modul/page9_img2.png",
+            "images/modul/page9_img3.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/modul/page9_img0.png",
+              "label": "Outdoor Storage Delimitation"
+            },
+            {
+              "image": "images/modul/page9_img1.png",
+              "label": "Outdoor Shelter with Doors"
+            },
+            {
+              "image": "images/modul/page9_img2.png",
+              "label": "Outdoor Storage Unit"
+            },
+            {
+              "image": "images/modul/page9_img3.png",
+              "label": "Damp Environment Application"
+            }
+          ],
+          "specs": {
+            "Product Range": "MODUL+",
+            "Configuration": "Outdoor Partitioning",
+            "Finish": "Hot-dip galvanised (weather resistant)",
+            "Use": "Outdoor and damp environments",
+            "Height": "Up to 6,000 mm",
+            "Doors": "Hinged or sliding, single or double",
+            "Modularity": "Fully modular panel system",
+            "Security": "Inside bracket system, tamper-resistant"
+          },
+          "options": {},
+          "metaDescription": "MODUL+ outdoor partitioning: galvanised wire mesh for outdoor storage yards. Weather-resistant, modular, secure. Professional solution for Finland & Baltics.",
+          "fi_name": "MODUL+ Ulko-osastointi",
+          "fi_type": "Ulkotilan osastointi",
+          "fi_description": "Kuumasinkitty MODUL+-verkkoseinä ulko- ja kosteisiin tiloihin. Ulkovarastoalueiden ja pihojen rajaaminen säänkestävällä rakenteella.",
+          "fi_metaDescription": "MODUL+ ulko-osastointi: galvanoitu verkkoseinä ulkovarastopihoille. Säänkestävä ja modulaarinen."
+        },
+        {
+          "id": "modul-sensitive-goods",
+          "name": "MODUL+ Sensitive Goods Protection",
+          "type": "High-Security Enclosure",
+          "description": "Secure storage enclosures for high-value, hazardous or sensitive goods. Features wire mesh roof options, chemical-compatible retention trays, and integrated pallet racking bays. Ideal for pharmaceuticals, electronics, chemicals and restricted inventory.",
+          "image": "images/modul/page10_img0.png",
+          "gallery": [
+            "images/modul/page10_img0.png",
+            "images/modul/page10_img1.png",
+            "images/modul/page10_img2.png",
+            "images/modul/page10_img3.png",
+            "images/modul/page11_img0.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/modul/page10_img0.png",
+              "label": "Secured Racking for Valuables"
+            },
+            {
+              "image": "images/modul/page10_img1.png",
+              "label": "Gated High-Security Area"
+            },
+            {
+              "image": "images/modul/page11_img0.png",
+              "label": "Wire Mesh Roof Enclosure"
+            },
+            {
+              "image": "images/modul/page11_img1.png",
+              "label": "Chemical Storage with Retention"
+            }
+          ],
+          "specs": {
+            "Product Range": "MODUL+",
+            "Configuration": "Sensitive Goods Protection Enclosure",
+            "Roof": "Wire mesh roof option for full enclosure",
+            "Doors": "Hinged or sliding, lockable",
+            "Height": "Up to 6,000 mm",
+            "Features": "Retention trays for chemicals, advert panels",
+            "Integration": "Fits around pallet racking bays",
+            "Colours": "Blue RAL 5019, grey RAL 7016 (others on request)"
+          },
+          "options": {},
+          "metaDescription": "MODUL+ secure enclosures for high-value and hazardous goods. Wire mesh roof, chemical retention, lockable doors. Professional security solution.",
+          "fi_name": "MODUL+ Arvokkaan tavaran suojaus",
+          "fi_type": "Turva-aitaus",
+          "fi_description": "Turvalliset varastotilat arvokkaille, vaarallisille tai arkaluonteisille tuotteille. Verkkokattovaihtoehto, kemikaalien valuma-altaat ja lukittavat ovet.",
+          "fi_metaDescription": "MODUL+ turva-aitaus arvokkaille ja vaarallisille tuotteille. Verkkokatot, kemikaalien valuma-altaat."
+        },
+        {
+          "id": "modul-drop-counter",
+          "name": "MODUL+ Drop Counter & Partitioning Options",
+          "type": "Service Hatch & Options",
+          "description": "Versatile partitioning add-ons including drop counter panels for passing small items without opening the main door, lockable steel shelves, and various closing options. Enhances functionality of any MODUL+ installation.",
+          "image": "images/modul/page6_img0.png",
+          "gallery": [
+            "images/modul/page6_img0.png",
+            "images/modul/page6_img1.png",
+            "images/modul/page7_img0.png",
+            "images/modul/page7_img1.png"
+          ],
+          "useCases": [
+            {
+              "image": "images/modul/page6_img0.png",
+              "label": "Drop Counter Panel"
+            },
+            {
+              "image": "images/modul/page6_img1.png",
+              "label": "Service Hatch Options"
+            },
+            {
+              "image": "images/modul/page7_img0.png",
+              "label": "Indoor Installation"
+            },
+            {
+              "image": "images/modul/page7_img1.png",
+              "label": "Area Delimitation"
+            }
+          ],
+          "specs": {
+            "Product Range": "MODUL+",
+            "Configuration": "Drop Counter & Options",
+            "Drop Counter": "W 1130 mm x H 520 mm (standard)",
+            "Locking": "Steel shelf locks from inside with chains",
+            "Compatibility": "All MODUL+ panel configurations",
+            "Height": "Up to 6,000 mm",
+            "Colours": "Blue RAL 5019, grey RAL 7016 (others on request)"
+          },
+          "options": {},
+          "metaDescription": "MODUL+ drop counter and partitioning options: service hatches, lockable shelves, closing panels. Versatile add-ons for wire mesh partitions.",
+          "fi_name": "MODUL+ Luukku ja osastointivaihtoehdot",
+          "fi_type": "Palveluluukku ja lisävarusteet",
+          "fi_description": "Monipuoliset osastointilisävarusteet: luukkupaneelit pienten esineiden luovutukseen, lukittavat teräshyllyt ja sulkemisvaihtoehdot.",
+          "fi_metaDescription": "MODUL+ luukku ja osastointivaihtoehdot: palveluluukut, lukittavat hyllyt verkkoseinäjärjestelmiin."
+        }
+      ],
+      "brochure": "brochures/modul-plus.pdf",
+      "fi_tagline": "Erota, järjestä ja suojaa tilasi",
+      "fi_subtitle": "Luotettava, taloudellinen, modulaarinen, mukautuva",
+      "fi_category": "Verkkoseinät ja osastointi",
+      "fi_description": "Taloudellinen ja helposti asennettava verkkoseinäjärjestelmä. Sisä- tai ulkokäyttöön (galvanoitu versio ulkotiloihin). Korkeus jopa 6 000 mm. Täysin modulaarinen.",
+      "fi_features": [
+        "Sisä- tai ulkokäyttö (galvanoitu ulkotiloihin)",
+        "Korkeus jopa 6 000 mm",
+        "Vakiovärit: sininen RAL 5019, harmaa RAL 7016",
+        "Yksin- tai kaksinoviset saranoilla tai liukuovilla",
+        "Sisäpuolinen kiinnitys – ulkoa purkamaton",
+        "Täysin modulaarinen paneelirakenne",
+        "Yhteensopiva hyllystöjen kanssa"
+      ]
+    }
+  ]
+}
