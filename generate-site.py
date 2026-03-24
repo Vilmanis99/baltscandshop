@@ -824,15 +824,7 @@ def gen_index(lang):
     og = meta_tags(t(lang, 'site_title'), site_desc, data['series'][0]['heroImage'], f'{lang}/index.html')
     gi = t(lang, 'general_inquiry')
 
-    trust_strip = f"""
-<div class="trust-strip">
-  <div class="trust-strip-inner">
-    <span class="trust-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span class="accent">{t(lang, 'trust_certified')}</span></span>
-    <span class="trust-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>{t(lang, 'trust_made_in')}</span>
-    <span class="trust-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg><span class="accent">{t(lang, 'trust_standards')}</span></span>
-    <span class="trust-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>{t(lang, 'trust_since')}</span>
-  </div>
-</div>"""
+    trust_strip = ''  # Removed — trust signals moved to hero stats
 
     html_out = f"""<!DOCTYPE html>
 <html lang="{t(lang, 'html_lang')}">
@@ -866,8 +858,6 @@ def gen_index(lang):
     <div class="hero-stat"><div class="n">850 kg/m&sup2;</div><div class="l">{t(lang, 'platform_load')}</div></div>
   </div>
 </div>
-
-{trust_strip}
 
 <div id="products">
 {cards}
