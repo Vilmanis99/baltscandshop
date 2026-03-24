@@ -244,7 +244,7 @@ def jsonld_org(lang):
 {{"@context":"https://schema.org","@type":"Organization","name":"Baltscand","url":"https://www.baltscand.com","description":"{desc}","contactPoint":{{"@type":"ContactPoint","contactType":"sales","availableLanguage":["English","Finnish"]}}}}
 </script>"""
 
-FAVICON = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="16" fill="%230c0c1d"/><text x="50" y="68" text-anchor="middle" font-family="sans-serif" font-size="60" font-weight="900" fill="%23e85d04">B</text></svg>'
+FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%230c0c1d'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-family='sans-serif' font-size='60' font-weight='900' fill='%23e85d04'%3EB%3C/text%3E%3C/svg%3E"
 
 def favicon_link():
     return f'<link rel="icon" href="{FAVICON}">'
