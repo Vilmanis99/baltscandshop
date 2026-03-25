@@ -540,7 +540,6 @@ def nav(lang, prefix='', current_path=''):
     <nav id="navLinks">
       <a href="{base}/index.html">{t(lang, 'products')}</a>
       <a href="{base}/services.html">{t(lang, 'services')}</a>
-      <a href="{base}/industries/index.html">{t(lang, 'industries')}</a>
       <a href="{base}/about.html">{t(lang, 'about')}</a>
       {ls}
       <a class="mobile-call" href="tel:+358400298588">{t(lang, 'call_us')}</a>
@@ -1061,7 +1060,7 @@ footer{background:#072244;color:rgba(255,255,255,0.5);padding:48px 40px 24px}
 /* Team */
 .team-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
 .team-card{background:white;border:1px solid #e8e8ee;border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
-.team-card img{width:100%;height:280px;object-fit:cover;object-position:top}
+.team-card img{width:100%;height:260px;object-fit:contain;background:#f8fafc;padding:12px}
 .team-card-featured{border-color:#ff6a00;box-shadow:0 4px 20px rgba(255,106,0,0.1)}
 .team-info{padding:24px}
 .team-info h3{font-size:20px;font-weight:800;margin-bottom:4px}
