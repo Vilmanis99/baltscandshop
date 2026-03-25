@@ -1008,7 +1008,7 @@ def gen_root_index():
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Baltscand — Professional Storage & Shelving</title>
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=5">
 <script>
 // Auto-detect language from browser
 var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
@@ -1126,7 +1126,7 @@ def gen_index(lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=5">
 </head>
 <body>
 {nav(lang, '', current_path)}
@@ -1260,7 +1260,7 @@ def gen_series_page(series, lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=5">
 </head>
 <body>
 {nav(lang, '../../', current_path)}
@@ -1486,7 +1486,7 @@ def gen_product(series, product, lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=5">
 </head>
 <body>
 {nav(lang, '../../', current_path)}
@@ -1617,7 +1617,7 @@ def gen_services(lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=5">
 </head>
 <body>
 {nav(lang, '', current_path)}
@@ -1691,7 +1691,7 @@ def gen_about(lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=5">
 </head>
 <body>
 {nav(lang, '', current_path)}
@@ -1820,7 +1820,7 @@ def gen_industry_index(lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=5">
 </head>
 <body>
 {nav(lang, '../', current_path)}
@@ -1900,7 +1900,7 @@ def gen_industry_page(ind, lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=5">
 </head>
 <body>
 {nav(lang, '../', current_path)}
@@ -2008,7 +2008,7 @@ def gen_404(lang):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{t(lang, 'page_not_found')} — Baltscand</title>
 {favicon_link()}
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=5">
 </head>
 <body>
 {nav(lang, '', current_path)}
