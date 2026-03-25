@@ -36,9 +36,10 @@
       <span></span><span></span><span></span>
     </button>
     <nav id="navLinks">
-      <a href="../../index.html" class="active">Tuotteet</a>
-      <a href="https://www.baltscand.com/shelving">Tietoa Baltscandista</a>
-      <a href="https://www.baltscand.com">baltscand.com</a>
+      <a href="../../index.html">Tuotteet</a>
+      <a href="../../services.html">Palvelut</a>
+      <a href="../../industries/index.html">Toimialat</a>
+      <a href="../../about.html">Tietoa Baltscandista</a>
       <a class="lang-switch" href="/en/products/proplus-lp3/proplus-order-picking.html" title="English">🇬🇧 English</a>
       <a class="mobile-call" href="tel:+358401234567">Soita meille</a>
     </nav>
@@ -66,6 +67,8 @@
     <ul class="feats"><li>Enimmäisjänneväli jopa 10 metriä</li><li>3 lattiatyyppiä: puu, ritilä, teräspelti</li><li>Eurokoodi 3 -standardin mukainen</li><li>EU-sertifioitu tasoratkaisu</li><li>Kuormitus jopa 850 kg/m²</li><li>Täysin modulaarinen ja purettava</li><li>Portaiden ja kaiteiden integrointi</li></ul>
 
     <div class="std-badges-product"><span class="std-badge">Eurocode 3</span><span class="std-badge">DTU 51.3</span><span class="std-badge">EN 1090</span><span class="std-badge">NF E85-015</span><span class="std-badge">NF P01-012</span></div>
+    
+
     
 
     <div class="note-box">
@@ -148,6 +151,22 @@
     <label for="formCompany">Yritys</label><input id="formCompany" name="company" type="text" placeholder="Yrityksen nimi">
     <label for="formEmail">Sähköposti *</label><input id="formEmail" name="email" type="email" placeholder="sinun@sahkoposti.fi" required>
     <label for="formPhone">Puhelin</label><input id="formPhone" name="phone" type="tel" placeholder="+358...">
+    <label for="formIndustry">Toimiala *</label>
+    <select id="formIndustry" name="industry" style="width:100%;padding:13px 16px;border:2px solid #e8e8ee;border-radius:10px;font-size:15px;font-family:inherit;margin-bottom:16px;background:white;color:#333">
+      <option value="">Valitse toimialasi</option>
+      <option value="warehousing">Varastointi ja logistiikka</option>
+      <option value="retail">Vähittäiskauppa ja jakelu</option>
+      <option value="manufacturing">Teollisuus ja autoteollisuus</option>
+      <option value="archive">Arkistot ja toimistot</option>
+      <option value="other">Muu</option>
+    </select>
+    <label for="formProjectType">Projektityyppi</label>
+    <select id="formProjectType" name="project_type" style="width:100%;padding:13px 16px;border:2px solid #e8e8ee;border-radius:10px;font-size:15px;font-family:inherit;margin-bottom:16px;background:white;color:#333">
+      <option value="">Valitse projektityyppi</option>
+      <option value="new">Uusi asennus</option>
+      <option value="expansion">Laajennus / Lisäys</option>
+      <option value="replacement">Vaihto / Päivitys</option>
+    </select>
     <label for="formMessage">Kerro tarpeistasi</label>
     <textarea id="formMessage" name="message" placeholder="Mistä tuotteista olet kiinnostunut? Määrät? Erityisvaatimuksia?"></textarea>
     <button class="btn-submit" id="btnSubmit" onclick="submitQ()">Lähetä tiedustelu</button>

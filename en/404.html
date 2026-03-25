@@ -16,9 +16,10 @@
       <span></span><span></span><span></span>
     </button>
     <nav id="navLinks">
-      <a href="index.html" class="active">Products</a>
-      <a href="https://www.baltscand.com/shelving">About Baltscand</a>
-      <a href="https://www.baltscand.com">baltscand.com</a>
+      <a href="index.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="industries/index.html">Industries</a>
+      <a href="about.html">About Baltscand</a>
       <a class="lang-switch" href="/fi/404.html" title="Suomi">🇫🇮 Suomi</a>
       <a class="mobile-call" href="tel:+358401234567">Call Us</a>
     </nav>
@@ -45,6 +46,22 @@
     <label for="formCompany">Company</label><input id="formCompany" name="company" type="text" placeholder="Company name">
     <label for="formEmail">Email *</label><input id="formEmail" name="email" type="email" placeholder="your@email.com" required>
     <label for="formPhone">Phone</label><input id="formPhone" name="phone" type="tel" placeholder="+358...">
+    <label for="formIndustry">Industry *</label>
+    <select id="formIndustry" name="industry" style="width:100%;padding:13px 16px;border:2px solid #e8e8ee;border-radius:10px;font-size:15px;font-family:inherit;margin-bottom:16px;background:white;color:#333">
+      <option value="">Select your industry</option>
+      <option value="warehousing">Warehousing & Logistics</option>
+      <option value="retail">Retail & Distribution</option>
+      <option value="manufacturing">Manufacturing & Automotive</option>
+      <option value="archive">Archives & Office</option>
+      <option value="other">Other</option>
+    </select>
+    <label for="formProjectType">Project Type</label>
+    <select id="formProjectType" name="project_type" style="width:100%;padding:13px 16px;border:2px solid #e8e8ee;border-radius:10px;font-size:15px;font-family:inherit;margin-bottom:16px;background:white;color:#333">
+      <option value="">Select project type</option>
+      <option value="new">New Installation</option>
+      <option value="expansion">Expansion / Addition</option>
+      <option value="replacement">Replacement / Upgrade</option>
+    </select>
     <label for="formMessage">Tell us about your needs</label>
     <textarea id="formMessage" name="message" placeholder="What products are you interested in? Quantities? Any specific requirements?"></textarea>
     <button class="btn-submit" id="btnSubmit" onclick="submitQ()">Send Inquiry</button>

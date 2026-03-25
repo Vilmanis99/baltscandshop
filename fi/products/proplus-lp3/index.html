@@ -36,9 +36,10 @@
       <span></span><span></span><span></span>
     </button>
     <nav id="navLinks">
-      <a href="../../index.html" class="active">Tuotteet</a>
-      <a href="https://www.baltscand.com/shelving">Tietoa Baltscandista</a>
-      <a href="https://www.baltscand.com">baltscand.com</a>
+      <a href="../../index.html">Tuotteet</a>
+      <a href="../../services.html">Palvelut</a>
+      <a href="../../industries/index.html">Toimialat</a>
+      <a href="../../about.html">Tietoa Baltscandista</a>
       <a class="lang-switch" href="/en/products/proplus-lp3/index.html" title="English">🇬🇧 English</a>
       <a class="mobile-call" href="tel:+358401234567">Soita meille</a>
     </nav>
@@ -52,6 +53,7 @@
       <div class="eyebrow">Välikerrokset ja tasot</div>
       <h1>PROPLUS LP3</h1>
       <p>Pitkän jännevälin, raskaan kuorman ja erittäin modulaarinen tasoratkaisu. Jänneväli jopa 10 metriä. Kaksin- tai kolminkertaistaa käytettävissä olevan tilan.</p>
+      
       <a class="btn-primary" href="javascript:void(0)" onclick="openQuoteModal('PROPLUS LP3')">Pyydä tarjous: PROPLUS LP3</a>
       <a class="catalog-dl" href="../../../brochures/proplus-lp3.pdf" target="_blank" download>Lataa katalogi (PDF)</a>
     </div>
@@ -82,6 +84,7 @@
           <div class="product-card-body">
             <h3>PROPLUS LP3 Tasoratkaisu</h3>
             <p>Pitkän jännevälin modulaarinen tasoratkaisu. Kaksin- tai kolminkertaistaa tilan. Jänneväli jopa 10 metriä. 3 lattiatyypp...</p>
+            
             <span class="card-link">Näytä tiedot &rarr;</span>
           </div>
         </a>
@@ -90,6 +93,7 @@
           <div class="product-card-body">
             <h3>PROPLUS LP3 Portaat ja kaiteet</h3>
             <p>Suorat ja kierreportaat sekä sertifioidut kaiteet PROPLUS LP3 -tasoille. Kolme kaidetyyppiä ja useita portasvaihtoehtoja...</p>
+            <div class="price-tag"><span class="price-from">Alk.</span> <span class="price-amount">1464 &euro;</span></div>
             <span class="card-link">Näytä tiedot &rarr;</span>
           </div>
         </a>
@@ -98,6 +102,7 @@
           <div class="product-card-body">
             <h3>PROPLUS LP3 Lavaturvaportit</h3>
             <p>Kääntö- ja taittuvat lavaturvaportit turvalliseen lastaukseen ja purkuun välitasolla. Estää putoavat esineet. Säännöllis...</p>
+            <div class="price-tag"><span class="price-from">Alk.</span> <span class="price-amount">1340 &euro;</span></div>
             <span class="card-link">Näytä tiedot &rarr;</span>
           </div>
         </a>
@@ -106,6 +111,7 @@
           <div class="product-card-body">
             <h3>PROPLUS LP3 Keräilytaso</h3>
             <p>Räätälöity tasoratkaisu keräilytoimintoihin. Monitasoinen rakenne kaksin- tai kolminkertaistaa lattiatilan. Integroitavi...</p>
+            
             <span class="card-link">Näytä tiedot &rarr;</span>
           </div>
         </a>
@@ -114,6 +120,7 @@
           <div class="product-card-body">
             <h3>PROPLUS LP3 Toimistotaso</h3>
             <p>Tasoratkaisu toimisto- ja neuvottelutiloihin teollisuusrakennuksissa. Kaksikerroksinen toimistoalue ilman pysyvää rakent...</p>
+            
             <span class="card-link">Näytä tiedot &rarr;</span>
           </div>
         </a></div>
@@ -139,6 +146,22 @@
     <label for="formCompany">Yritys</label><input id="formCompany" name="company" type="text" placeholder="Yrityksen nimi">
     <label for="formEmail">Sähköposti *</label><input id="formEmail" name="email" type="email" placeholder="sinun@sahkoposti.fi" required>
     <label for="formPhone">Puhelin</label><input id="formPhone" name="phone" type="tel" placeholder="+358...">
+    <label for="formIndustry">Toimiala *</label>
+    <select id="formIndustry" name="industry" style="width:100%;padding:13px 16px;border:2px solid #e8e8ee;border-radius:10px;font-size:15px;font-family:inherit;margin-bottom:16px;background:white;color:#333">
+      <option value="">Valitse toimialasi</option>
+      <option value="warehousing">Varastointi ja logistiikka</option>
+      <option value="retail">Vähittäiskauppa ja jakelu</option>
+      <option value="manufacturing">Teollisuus ja autoteollisuus</option>
+      <option value="archive">Arkistot ja toimistot</option>
+      <option value="other">Muu</option>
+    </select>
+    <label for="formProjectType">Projektityyppi</label>
+    <select id="formProjectType" name="project_type" style="width:100%;padding:13px 16px;border:2px solid #e8e8ee;border-radius:10px;font-size:15px;font-family:inherit;margin-bottom:16px;background:white;color:#333">
+      <option value="">Valitse projektityyppi</option>
+      <option value="new">Uusi asennus</option>
+      <option value="expansion">Laajennus / Lisäys</option>
+      <option value="replacement">Vaihto / Päivitys</option>
+    </select>
     <label for="formMessage">Kerro tarpeistasi</label>
     <textarea id="formMessage" name="message" placeholder="Mistä tuotteista olet kiinnostunut? Määrät? Erityisvaatimuksia?"></textarea>
     <button class="btn-submit" id="btnSubmit" onclick="submitQ()">Lähetä tiedustelu</button>

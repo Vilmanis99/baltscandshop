@@ -36,9 +36,10 @@
       <span></span><span></span><span></span>
     </button>
     <nav id="navLinks">
-      <a href="../../index.html" class="active">Products</a>
-      <a href="https://www.baltscand.com/shelving">About Baltscand</a>
-      <a href="https://www.baltscand.com">baltscand.com</a>
+      <a href="../../index.html">Products</a>
+      <a href="../../services.html">Services</a>
+      <a href="../../industries/index.html">Industries</a>
+      <a href="../../about.html">About Baltscand</a>
       <a class="lang-switch" href="/fi/products/proplus-lp3/index.html" title="Suomi">🇫🇮 Suomi</a>
       <a class="mobile-call" href="tel:+358401234567">Call Us</a>
     </nav>
@@ -52,6 +53,7 @@
       <div class="eyebrow">Storage Platforms / Mezzanines</div>
       <h1>PROPLUS LP3</h1>
       <p>Long span, heavy load platform system. Maximum span up to 10 metres. Up to 850 kg/m2 load capacity. EU-certified, designed per Eurocode 3. Fully modular and upgradable.</p>
+      
       <a class="btn-primary" href="javascript:void(0)" onclick="openQuoteModal('PROPLUS LP3')">Get a Quote for PROPLUS LP3</a>
       <a class="catalog-dl" href="../../../brochures/proplus-lp3.pdf" target="_blank" download>Download Full Catalog (PDF)</a>
     </div>
@@ -82,6 +84,7 @@
           <div class="product-card-body">
             <h3>PROPLUS LP3 Storage Platform</h3>
             <p>Complete mezzanine/platform system with load-bearing columns, primary and secondary beams, and flooring. Bolted assembly...</p>
+            
             <span class="card-link">View Details &rarr;</span>
           </div>
         </a>
@@ -90,6 +93,7 @@
           <div class="product-card-body">
             <h3>PROPLUS LP3 Staircases &amp; Safety</h3>
             <p>Straight and spiral staircases, certified guardrails, pallet safety gates. Main staircase 34° or secondary 45°. Tilt-up ...</p>
+            <div class="price-tag"><span class="price-from">From</span> <span class="price-amount">1464 &euro;</span></div>
             <span class="card-link">View Details &rarr;</span>
           </div>
         </a>
@@ -98,6 +102,7 @@
           <div class="product-card-body">
             <h3>PROPLUS LP3 Pallet Safety Gates</h3>
             <p>Tilt-up and folding pallet safety gates for safe loading and unloading on mezzanine platforms. Prevents falling objects ...</p>
+            <div class="price-tag"><span class="price-from">From</span> <span class="price-amount">1340 &euro;</span></div>
             <span class="card-link">View Details &rarr;</span>
           </div>
         </a>
@@ -106,6 +111,7 @@
           <div class="product-card-body">
             <h3>PROPLUS LP3 Order Picking Platform</h3>
             <p>Tailor-made mezzanine platforms optimised for order picking operations. Multi-level configurations double or triple floo...</p>
+            
             <span class="card-link">View Details &rarr;</span>
           </div>
         </a>
@@ -114,6 +120,7 @@
           <div class="product-card-body">
             <h3>PROPLUS LP3 Office Platform</h3>
             <p>Mezzanine platforms configured for office spaces, conference rooms and administrative areas within industrial buildings....</p>
+            
             <span class="card-link">View Details &rarr;</span>
           </div>
         </a></div>
@@ -139,6 +146,22 @@
     <label for="formCompany">Company</label><input id="formCompany" name="company" type="text" placeholder="Company name">
     <label for="formEmail">Email *</label><input id="formEmail" name="email" type="email" placeholder="your@email.com" required>
     <label for="formPhone">Phone</label><input id="formPhone" name="phone" type="tel" placeholder="+358...">
+    <label for="formIndustry">Industry *</label>
+    <select id="formIndustry" name="industry" style="width:100%;padding:13px 16px;border:2px solid #e8e8ee;border-radius:10px;font-size:15px;font-family:inherit;margin-bottom:16px;background:white;color:#333">
+      <option value="">Select your industry</option>
+      <option value="warehousing">Warehousing & Logistics</option>
+      <option value="retail">Retail & Distribution</option>
+      <option value="manufacturing">Manufacturing & Automotive</option>
+      <option value="archive">Archives & Office</option>
+      <option value="other">Other</option>
+    </select>
+    <label for="formProjectType">Project Type</label>
+    <select id="formProjectType" name="project_type" style="width:100%;padding:13px 16px;border:2px solid #e8e8ee;border-radius:10px;font-size:15px;font-family:inherit;margin-bottom:16px;background:white;color:#333">
+      <option value="">Select project type</option>
+      <option value="new">New Installation</option>
+      <option value="expansion">Expansion / Addition</option>
+      <option value="replacement">Replacement / Upgrade</option>
+    </select>
     <label for="formMessage">Tell us about your needs</label>
     <textarea id="formMessage" name="message" placeholder="What products are you interested in? Quantities? Any specific requirements?"></textarea>
     <button class="btn-submit" id="btnSubmit" onclick="submitQ()">Send Inquiry</button>

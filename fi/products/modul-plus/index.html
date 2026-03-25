@@ -36,9 +36,10 @@
       <span></span><span></span><span></span>
     </button>
     <nav id="navLinks">
-      <a href="../../index.html" class="active">Tuotteet</a>
-      <a href="https://www.baltscand.com/shelving">Tietoa Baltscandista</a>
-      <a href="https://www.baltscand.com">baltscand.com</a>
+      <a href="../../index.html">Tuotteet</a>
+      <a href="../../services.html">Palvelut</a>
+      <a href="../../industries/index.html">Toimialat</a>
+      <a href="../../about.html">Tietoa Baltscandista</a>
       <a class="lang-switch" href="/en/products/modul-plus/index.html" title="English">🇬🇧 English</a>
       <a class="mobile-call" href="tel:+358401234567">Soita meille</a>
     </nav>
@@ -52,6 +53,7 @@
       <div class="eyebrow">Verkkoseinät ja osastointi</div>
       <h1>MODUL+</h1>
       <p>Taloudellinen ja helposti asennettava verkkoseinäjärjestelmä. Sisä- tai ulkokäyttöön (galvanoitu versio ulkotiloihin). Korkeus jopa 6 000 mm. Täysin modulaarinen.</p>
+      <div class="series-price" style="margin:16px 0"><span class="price-from">Alkaen</span> <span class="price-amount">460 &euro;</span> <span class="price-currency">alv 0 %</span></div>
       <a class="btn-primary" href="javascript:void(0)" onclick="openQuoteModal('MODUL+')">Pyydä tarjous: MODUL+</a>
       <a class="catalog-dl" href="../../../brochures/modul-plus.pdf" target="_blank" download>Lataa katalogi (PDF)</a>
     </div>
@@ -82,6 +84,7 @@
           <div class="product-card-body">
             <h3>MODUL+ Verkkopaneelit</h3>
             <p>Taloudellinen ja helposti asennettava verkkoseinäjärjestelmä. Sisäpuolinen kiinnitysjärjestelmä tekee purkamisen ulkopuo...</p>
+            
             <span class="card-link">Näytä tiedot &rarr;</span>
           </div>
         </a>
@@ -90,6 +93,7 @@
           <div class="product-card-body">
             <h3>MODUL+ Saranaovet</h3>
             <p>Saranaovet verkko-, yhdistelmä-, metallilevy- tai 5S-rakenteella. Avaussuunta valittavissa. Mukautuu epätasaiselle latti...</p>
+            <div class="price-tag"><span class="price-from">Alk.</span> <span class="price-amount">460 &euro;</span></div>
             <span class="card-link">Näytä tiedot &rarr;</span>
           </div>
         </a>
@@ -98,6 +102,7 @@
           <div class="product-card-body">
             <h3>MODUL+ Liukuovet</h3>
             <p>Tilaa säästävät liukuovet verkkoseinäjärjestelmään. Eivät tuki kulkuväyliä. Saatavana yksi- ja kaksinovisina....</p>
+            <div class="price-tag"><span class="price-from">Alk.</span> <span class="price-amount">5790 &euro;</span></div>
             <span class="card-link">Näytä tiedot &rarr;</span>
           </div>
         </a>
@@ -106,6 +111,7 @@
           <div class="product-card-body">
             <h3>MODUL+ Hyllystöovet</h3>
             <p>Hyllystöstä riippumaton ovijärjestelmä hyllystökäytävien turvaamiseen. Ei yläpalkkia – helppo trukkilähestyminen. Sopii ...</p>
+            
             <span class="card-link">Näytä tiedot &rarr;</span>
           </div>
         </a>
@@ -114,6 +120,7 @@
           <div class="product-card-body">
             <h3>MODUL+ Ulko-osastointi</h3>
             <p>Kuumasinkitty MODUL+-verkkoseinä ulko- ja kosteisiin tiloihin. Ulkovarastoalueiden ja pihojen rajaaminen säänkestävällä ...</p>
+            
             <span class="card-link">Näytä tiedot &rarr;</span>
           </div>
         </a>
@@ -122,6 +129,7 @@
           <div class="product-card-body">
             <h3>MODUL+ Arvokkaan tavaran suojaus</h3>
             <p>Turvalliset varastotilat arvokkaille, vaarallisille tai arkaluonteisille tuotteille. Verkkokattovaihtoehto, kemikaalien ...</p>
+            
             <span class="card-link">Näytä tiedot &rarr;</span>
           </div>
         </a>
@@ -130,6 +138,7 @@
           <div class="product-card-body">
             <h3>MODUL+ Luukku ja osastointivaihtoehdot</h3>
             <p>Monipuoliset osastointilisävarusteet: luukkupaneelit pienten esineiden luovutukseen, lukittavat teräshyllyt ja sulkemisv...</p>
+            
             <span class="card-link">Näytä tiedot &rarr;</span>
           </div>
         </a></div>
@@ -155,6 +164,22 @@
     <label for="formCompany">Yritys</label><input id="formCompany" name="company" type="text" placeholder="Yrityksen nimi">
     <label for="formEmail">Sähköposti *</label><input id="formEmail" name="email" type="email" placeholder="sinun@sahkoposti.fi" required>
     <label for="formPhone">Puhelin</label><input id="formPhone" name="phone" type="tel" placeholder="+358...">
+    <label for="formIndustry">Toimiala *</label>
+    <select id="formIndustry" name="industry" style="width:100%;padding:13px 16px;border:2px solid #e8e8ee;border-radius:10px;font-size:15px;font-family:inherit;margin-bottom:16px;background:white;color:#333">
+      <option value="">Valitse toimialasi</option>
+      <option value="warehousing">Varastointi ja logistiikka</option>
+      <option value="retail">Vähittäiskauppa ja jakelu</option>
+      <option value="manufacturing">Teollisuus ja autoteollisuus</option>
+      <option value="archive">Arkistot ja toimistot</option>
+      <option value="other">Muu</option>
+    </select>
+    <label for="formProjectType">Projektityyppi</label>
+    <select id="formProjectType" name="project_type" style="width:100%;padding:13px 16px;border:2px solid #e8e8ee;border-radius:10px;font-size:15px;font-family:inherit;margin-bottom:16px;background:white;color:#333">
+      <option value="">Valitse projektityyppi</option>
+      <option value="new">Uusi asennus</option>
+      <option value="expansion">Laajennus / Lisäys</option>
+      <option value="replacement">Vaihto / Päivitys</option>
+    </select>
     <label for="formMessage">Kerro tarpeistasi</label>
     <textarea id="formMessage" name="message" placeholder="Mistä tuotteista olet kiinnostunut? Määrät? Erityisvaatimuksia?"></textarea>
     <button class="btn-submit" id="btnSubmit" onclick="submitQ()">Lähetä tiedustelu</button>

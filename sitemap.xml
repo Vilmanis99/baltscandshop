@@ -14,6 +14,90 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/index.html"/>
   </url>
   <url>
+    <loc>https://baltscandshop.vercel.app/en/services.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/services.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/services.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/services.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/services.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/services.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/about.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/about.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/about.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/about.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/industries/index.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/industries/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/industries/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/industries/index.html</loc>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/industries/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/industries/index.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/industries/warehousing.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/industries/warehousing.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/industries/warehousing.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/industries/warehousing.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/industries/warehousing.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/industries/warehousing.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/industries/retail.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/industries/retail.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/industries/retail.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/industries/retail.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/industries/retail.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/industries/retail.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/industries/manufacturing.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/industries/manufacturing.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/industries/manufacturing.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/industries/manufacturing.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/industries/manufacturing.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/industries/manufacturing.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/en/industries/archive.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/industries/archive.html"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/industries/archive.html"/>
+  </url>
+  <url>
+    <loc>https://baltscandshop.vercel.app/fi/industries/archive.html</loc>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://baltscandshop.vercel.app/fi/industries/archive.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/industries/archive.html"/>
+  </url>
+  <url>
     <loc>https://baltscandshop.vercel.app/en/products/prospace-plus/index.html</loc>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://baltscandshop.vercel.app/en/products/prospace-plus/index.html"/>

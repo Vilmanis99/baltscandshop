@@ -98,6 +98,79 @@ UI = {
         'distributor_line': 'Baltscand — Official Provost distributor for Finland and the Baltics.',
         'sticky_quote': 'Get a Quote',
         'call_us': 'Call Us',
+        # Services page
+        'services': 'Services',
+        'services_title': 'Our Services',
+        'services_subtitle': 'From initial consultation to installation and beyond — we support your project at every stage.',
+        'svc_consult_title': 'Consultation & Project Planning',
+        'svc_consult_desc': 'Our experts assess your space, understand your storage needs, and recommend the optimal shelving and racking configuration. Free site assessment and detailed project proposals.',
+        'svc_delivery_title': 'Delivery & Logistics',
+        'svc_delivery_desc': 'Direct delivery across Finland, Estonia, Latvia and Lithuania. We coordinate logistics from Provost\'s European factories to your site, handling customs and transport.',
+        'svc_install_title': 'Professional Installation',
+        'svc_install_desc': 'Trained assembly teams handle the complete installation — from unloading to final inspection. Full compliance with safety regulations and site protocols.',
+        'svc_support_title': 'After-Sales Support',
+        'svc_support_desc': 'Need to expand, reconfigure, or maintain your system? We provide ongoing support, spare parts, and modification services as your business evolves.',
+        'start_project': 'Start Your Project',
+        # About page
+        'about_title': 'About Baltscand',
+        'about_intro': 'Baltscand is the official Provost distributor for Finland and the Baltic states. We bring European-quality industrial storage solutions with local expertise and service.',
+        'about_provost_title': 'About Provost',
+        'about_provost_desc': 'Founded in 1963 in Halluin, France, Provost has grown into one of Europe\'s leading manufacturers of industrial shelving and storage solutions. With over 800 employees, 6 European factories, and 80% in-house manufacturing, Provost delivers quality and reliability across 10,000+ product references.',
+        'about_provost_stats': '800+ employees | 6 factories | 60+ years | 80,000 customers',
+        'about_why_title': 'Why Choose Baltscand?',
+        'about_why_1': 'Local expertise — Finnish and English-speaking team with deep knowledge of Nordic industrial requirements.',
+        'about_why_2': 'Regional delivery network — direct logistics to Finland, Estonia, Latvia, and Lithuania.',
+        'about_why_3': 'Professional installation — trained teams for safe, compliant assembly on your site.',
+        'about_why_4': 'Single point of contact — from consultation to after-sales, one team handles everything.',
+        'about_certs_title': 'Certifications & Standards',
+        'about_cert_1': 'Origine France Garantie — certified French manufacturing for key product ranges',
+        'about_cert_2': 'EN 15512 / EN 15620 — European racking design and usage standards compliance',
+        'about_cert_3': 'EcoVadis evaluated — corporate social responsibility commitment',
+        # Industry pages
+        'industries': 'Industries',
+        'ind_warehousing': 'Warehousing & Logistics',
+        'ind_warehousing_desc': 'Maximise your warehouse capacity with pallet racking, long-span shelving, and multi-tier platforms designed for high-volume logistics operations.',
+        'ind_warehousing_challenge': 'Warehouses need to store more in less space while maintaining fast access for picking and dispatch. The right racking system can double or triple your usable storage area.',
+        'ind_retail': 'Retail & Distribution',
+        'ind_retail_desc': 'Organise your back-of-store and distribution centre with versatile shelving for varied product sizes — from small parts bins to bulk goods.',
+        'ind_retail_challenge': 'Retail environments demand flexibility: seasonal stock changes, varied product dimensions, and fast restocking cycles. Modular shelving adapts to your needs.',
+        'ind_manufacturing': 'Manufacturing & Automotive',
+        'ind_manufacturing_desc': 'Heavy-duty racking for raw materials, components, and finished goods. Tire storage, parts shelving, and workshop organisation for production environments.',
+        'ind_manufacturing_challenge': 'Manufacturing facilities handle heavy loads, oversized parts, and high-value inventory. Industrial-grade racking with verified load capacities keeps operations safe and efficient.',
+        'ind_archive': 'Archives & Office',
+        'ind_archive_desc': 'Compact archive shelving and document storage for offices, libraries, and records management. Space-efficient solutions that keep files organised and accessible.',
+        'ind_archive_challenge': 'Document archives grow continuously while floor space stays the same. Purpose-built archive shelving maximises vertical space with easy file retrieval.',
+        'recommended_products': 'Recommended Products',
+        'industry_challenge': 'The Challenge',
+        'explore_solutions': 'Explore Solutions',
+        # Solutions by Need (homepage)
+        'solutions_by_need': 'Solutions by Need',
+        'sbn_heavy_title': 'Heavy-Duty Storage',
+        'sbn_heavy_desc': 'Pallet racking and long-span shelving for warehouses and logistics centres.',
+        'sbn_light_title': 'Light Shelving',
+        'sbn_light_desc': 'Versatile industrial shelving for workshops, stockrooms, and archives.',
+        'sbn_bins_title': 'Bins & Small Parts',
+        'sbn_bins_desc': 'Modular bin storage for organised small parts, tools, and components.',
+        'sbn_platforms_title': 'Platforms & Mezzanines',
+        'sbn_platforms_desc': 'Multi-level platforms to double your floor space without building extensions.',
+        # Enhanced form
+        'industry_label': 'Industry *',
+        'industry_ph': 'Select your industry',
+        'ind_opt_warehousing': 'Warehousing & Logistics',
+        'ind_opt_retail': 'Retail & Distribution',
+        'ind_opt_manufacturing': 'Manufacturing & Automotive',
+        'ind_opt_archive': 'Archives & Office',
+        'ind_opt_other': 'Other',
+        'project_type_label': 'Project Type',
+        'project_type_ph': 'Select project type',
+        'pt_new': 'New Installation',
+        'pt_expansion': 'Expansion / Addition',
+        'pt_replacement': 'Replacement / Upgrade',
+        # Pricing
+        'from_price': 'From',
+        'price_excl_tax': 'excl. tax',
+        'price_note': 'Starting prices shown for reference. Final pricing depends on configuration, quantity and delivery location. Contact us for a detailed quote.',
+        'starting_from': 'Starting from',
     },
     'fi': {
         'lang_name': 'Suomi',
@@ -180,9 +253,117 @@ UI = {
         'distributor_line': 'Baltscand — Provostin virallinen jakelija Suomessa ja Baltiassa.',
         'sticky_quote': 'Pyydä tarjous',
         'call_us': 'Soita meille',
+        # Services page
+        'services': 'Palvelut',
+        'services_title': 'Palvelumme',
+        'services_subtitle': 'Alkukonsultaatiosta asennukseen ja sen jälkeen — tuemme projektiasi jokaisessa vaiheessa.',
+        'svc_consult_title': 'Konsultointi ja projektisuunnittelu',
+        'svc_consult_desc': 'Asiantuntijamme arvioivat tilasi, selvittävät varastointitarpeesi ja suosittelevat optimaalisen hylly- ja telinekokoonpanon. Ilmainen tilanarviointi ja yksityiskohtaiset projektiehdotukset.',
+        'svc_delivery_title': 'Toimitus ja logistiikka',
+        'svc_delivery_desc': 'Suorat toimitukset Suomeen, Viroon, Latviaan ja Liettuaan. Koordinoimme logistiikan Provostin Euroopan tehtailta kohteellesi, huolehdimme tullauksesta ja kuljetuksesta.',
+        'svc_install_title': 'Ammattimainen asennus',
+        'svc_install_desc': 'Koulutetut asennustiimimme hoitavat koko asennuksen — purkamisesta lopputarkastukseen. Täysi turvallisuusmääräysten ja työmaakäytäntöjen noudattaminen.',
+        'svc_support_title': 'Jälkimyyntituki',
+        'svc_support_desc': 'Tarvitsetko laajennusta, uudelleenjärjestelyä tai huoltoa? Tarjoamme jatkuvaa tukea, varaosia ja muutospalveluita liiketoimintasi kehittyessä.',
+        'start_project': 'Aloita projektisi',
+        # About page
+        'about_title': 'Tietoa Baltscandista',
+        'about_intro': 'Baltscand on Provostin virallinen jakelija Suomessa ja Baltian maissa. Tuomme eurooppalaisen laadun teollisiin varastoratkaisuihin paikallisella asiantuntemuksella ja palvelulla.',
+        'about_provost_title': 'Tietoa Provostista',
+        'about_provost_desc': 'Vuonna 1963 Halluinissa, Ranskassa perustettu Provost on kasvanut yhdeksi Euroopan johtavista teollisten hylly- ja varastointiratkaisujen valmistajista. Yli 800 työntekijää, 6 Euroopan tehdasta ja 80 % omaa valmistusta — Provost toimittaa laatua ja luotettavuutta yli 10 000 tuoteviitteellä.',
+        'about_provost_stats': '800+ työntekijää | 6 tehdasta | 60+ vuotta | 80 000 asiakasta',
+        'about_why_title': 'Miksi valita Baltscand?',
+        'about_why_1': 'Paikallinen asiantuntemus — suomea ja englantia puhuva tiimi, jolla on syvä tuntemus pohjoismaisista teollisuusvaatimuksista.',
+        'about_why_2': 'Alueellinen toimitusverkosto — suorat toimitukset Suomeen, Viroon, Latviaan ja Liettuaan.',
+        'about_why_3': 'Ammattimainen asennus — koulutetut tiimit turvalliseen ja säädöstenmukaiseen asennukseen.',
+        'about_why_4': 'Yksi yhteyshenkilö — konsultaatiosta jälkimyyntiin, yksi tiimi hoitaa kaiken.',
+        'about_certs_title': 'Sertifioinnit ja standardit',
+        'about_cert_1': 'Origine France Garantie — sertifioitu ranskalainen valmistus keskeisille tuotesarjoille',
+        'about_cert_2': 'EN 15512 / EN 15620 — eurooppalaiset kuormahyllystandardit',
+        'about_cert_3': 'EcoVadis-arvioitu — sitoutuminen yritysvastuuseen',
+        # Industry pages
+        'industries': 'Toimialat',
+        'ind_warehousing': 'Varastointi ja logistiikka',
+        'ind_warehousing_desc': 'Maksimoi varastokapasiteettisi kuormalavahyllyillä, pitkäjänteisillä hyllyillä ja monikerroksisilla tasoilla, jotka on suunniteltu suurten volyymien logistiikkatoimintoihin.',
+        'ind_warehousing_challenge': 'Varastot tarvitsevat enemmän tilaa vähemmällä alalla, samalla säilyttäen nopean pääsyn keräilyyn ja lähetykseen. Oikea hyllyjärjestelmä voi kaksinkertaistaa tai kolminkertaistaa käyttökelpoisen varastotilasi.',
+        'ind_retail': 'Vähittäiskauppa ja jakelu',
+        'ind_retail_desc': 'Järjestä takavarasto ja jakelukeskus monipuolisilla hyllyillä erikokoisille tuotteille — pienistä osalaatikoista suuriin tavaroihin.',
+        'ind_retail_challenge': 'Vähittäiskauppa vaatii joustavuutta: kausivaihtelut, vaihtelevat tuotekoot ja nopeat täydennysjaksot. Modulaariset hyllyt mukautuvat tarpeisiisi.',
+        'ind_manufacturing': 'Teollisuus ja autoteollisuus',
+        'ind_manufacturing_desc': 'Raskaiden kuormien hyllyt raaka-aineille, komponenteille ja valmiille tuotteille. Rengasvarastointi, osahyllyt ja työpajaorganisaatio tuotantoympäristöihin.',
+        'ind_manufacturing_challenge': 'Teollisuuslaitokset käsittelevät raskaita kuormia, ylimitoitettuja osia ja arvokasta varastoa. Teollisuuslaatuiset hyllyt varmennettuine kantavuuksineen pitävät toiminnan turvallisena ja tehokkaana.',
+        'ind_archive': 'Arkistot ja toimistot',
+        'ind_archive_desc': 'Kompaktit arkistohyllyt ja asiakirjavarastointi toimistoihin, kirjastoihin ja tiedonhallintaan. Tilatehokkaat ratkaisut, jotka pitävät tiedostot järjestyksessä ja saavutettavissa.',
+        'ind_archive_challenge': 'Asiakirja-arkistot kasvavat jatkuvasti, mutta lattiatila pysyy samana. Tarkoitukseen rakennetut arkistohyllyt maksimoivat pystytilan helpolla tiedostojen haulla.',
+        'recommended_products': 'Suositellut tuotteet',
+        'industry_challenge': 'Haaste',
+        'explore_solutions': 'Tutustu ratkaisuihin',
+        # Solutions by Need (homepage)
+        'solutions_by_need': 'Ratkaisut tarpeittain',
+        'sbn_heavy_title': 'Raskas varastointi',
+        'sbn_heavy_desc': 'Kuormalavahyllyt ja pitkäjänteiset hyllyt varastoihin ja logistiikkakeskuksiin.',
+        'sbn_light_title': 'Kevyet hyllyt',
+        'sbn_light_desc': 'Monikäyttöiset teollisuushyllyt työpajoihin, varastohuoneisiin ja arkistoihin.',
+        'sbn_bins_title': 'Laatikot ja pienet osat',
+        'sbn_bins_desc': 'Modulaarinen laatikkovarastointi järjestelmälliseen pienten osien, työkalujen ja komponenttien säilytykseen.',
+        'sbn_platforms_title': 'Tasot ja välikerrokset',
+        'sbn_platforms_desc': 'Monikerroksiset tasot, jotka kaksinkertaistavat lattiatilasi ilman laajennusrakentamista.',
+        # Enhanced form
+        'industry_label': 'Toimiala *',
+        'industry_ph': 'Valitse toimialasi',
+        'ind_opt_warehousing': 'Varastointi ja logistiikka',
+        'ind_opt_retail': 'Vähittäiskauppa ja jakelu',
+        'ind_opt_manufacturing': 'Teollisuus ja autoteollisuus',
+        'ind_opt_archive': 'Arkistot ja toimistot',
+        'ind_opt_other': 'Muu',
+        'project_type_label': 'Projektityyppi',
+        'project_type_ph': 'Valitse projektityyppi',
+        'pt_new': 'Uusi asennus',
+        'pt_expansion': 'Laajennus / Lisäys',
+        'pt_replacement': 'Vaihto / Päivitys',
+        # Pricing
+        'from_price': 'Alk.',
+        'price_excl_tax': 'alv 0 %',
+        'price_note': 'Aloitushinnat viitteellisiä. Lopullinen hinta riippuu kokoonpanosta, määrästä ja toimituspaikasta. Ota yhteyttä tarkkaa tarjousta varten.',
+        'starting_from': 'Alkaen',
     }
 }
 
+
+# ─── Pricing Data (from provost.fr, EUR excl. tax) ────────────────────────
+# Series-level "starting from" prices — matching provost.fr headline "à partir de"
+# All prices double-checked from provost.fr product pages, EUR excl. tax (HT)
+SERIES_PRICES = {
+    'prospace-plus': 105,    # provost.fr/593 — "à partir de 105,01 €"
+    'prorack-plus': 149,     # provost.fr/671 — "à partir de 148,98 €"
+    'propal-3': 359,         # provost.fr/915 — "à partir de 359,41 €"
+    'modul-plus': 460,       # provost.fr/3667 — "à partir de 459,86 €"
+    # proplus-lp3: custom project-based, no standard starting price
+}
+
+# Product-level prices — matching provost.fr headline "à partir de" on each page
+# Every price verified 2025-03-25 against the provost.fr URL in the comment
+PRODUCT_PRICES = {
+    # PROSPACE+
+    'prospace-tubular': 105,          # provost.fr/593 — "à partir de 105,01 €"
+    'prospace-metalsheet': 163,       # provost.fr/602 — "à partir de 163,27 €"
+    'prospace-semitole': 174,         # provost.fr/1652 — "à partir de 173,99 €"
+    'prospace-archive': 137,          # provost.fr/596 — "à partir de 136,84 €"
+    'prospace-archive-semitole': 222, # provost.fr/608 — "à partir de 222,26 €"
+    # PRORACK+
+    'prorack-frames': 206,            # provost.fr/583 — "à partir de 205,65 €"
+    'prorack-tire-rack': 150,         # provost.fr/584 — "à partir de 149,62 €"
+    'prorack-garment-rack': 149,      # provost.fr/671 — "à partir de 148,98 €"
+    'prorack-carton-storage': 231,    # provost.fr/581 — "à partir de 231,39 €"
+    # PROPAL 3
+    'propal3-static': 359,            # provost.fr/915 — "à partir de 359,41 €"
+    # PROPLUS LP3 — component prices (platforms are custom/project)
+    'proplus-staircases': 1464,       # provost.fr/1656 — "à partir de 1 464,44 €"
+    'proplus-safety-gates': 1340,     # provost.fr/1218 — "à partir de 1 339,90 €"
+    # MODUL+
+    'modul-hinged-doors': 460,        # provost.fr/3667 — "à partir de 459,86 €"
+    'modul-sliding-doors': 5790,      # provost.fr/3665 — "à partir de 5 789,71 €"
+}
 
 # ─── Data Helpers (language-aware) ──────────────────────────────────────
 
@@ -290,9 +471,10 @@ def nav(lang, prefix='', current_path=''):
       <span></span><span></span><span></span>
     </button>
     <nav id="navLinks">
-      <a href="{prefix}index.html" class="active">{t(lang, 'products')}</a>
-      <a href="https://www.baltscand.com/shelving">{t(lang, 'about')}</a>
-      <a href="https://www.baltscand.com">baltscand.com</a>
+      <a href="{prefix}index.html">{t(lang, 'products')}</a>
+      <a href="{prefix}services.html">{t(lang, 'services')}</a>
+      <a href="{prefix}industries/index.html">{t(lang, 'industries')}</a>
+      <a href="{prefix}about.html">{t(lang, 'about')}</a>
       {ls}
       <a class="mobile-call" href="tel:+358401234567">{t(lang, 'call_us')}</a>
     </nav>
@@ -337,6 +519,22 @@ def modal(lang):
     <label for="formCompany">{t(lang, 'company_label')}</label><input id="formCompany" name="company" type="text" placeholder="{t(lang, 'company_ph')}">
     <label for="formEmail">{t(lang, 'email_label')}</label><input id="formEmail" name="email" type="email" placeholder="{t(lang, 'email_ph')}" required>
     <label for="formPhone">{t(lang, 'phone_label')}</label><input id="formPhone" name="phone" type="tel" placeholder="{t(lang, 'phone_ph')}">
+    <label for="formIndustry">{t(lang, 'industry_label')}</label>
+    <select id="formIndustry" name="industry" style="width:100%;padding:13px 16px;border:2px solid #e8e8ee;border-radius:10px;font-size:15px;font-family:inherit;margin-bottom:16px;background:white;color:#333">
+      <option value="">{t(lang, 'industry_ph')}</option>
+      <option value="warehousing">{t(lang, 'ind_opt_warehousing')}</option>
+      <option value="retail">{t(lang, 'ind_opt_retail')}</option>
+      <option value="manufacturing">{t(lang, 'ind_opt_manufacturing')}</option>
+      <option value="archive">{t(lang, 'ind_opt_archive')}</option>
+      <option value="other">{t(lang, 'ind_opt_other')}</option>
+    </select>
+    <label for="formProjectType">{t(lang, 'project_type_label')}</label>
+    <select id="formProjectType" name="project_type" style="width:100%;padding:13px 16px;border:2px solid #e8e8ee;border-radius:10px;font-size:15px;font-family:inherit;margin-bottom:16px;background:white;color:#333">
+      <option value="">{t(lang, 'project_type_ph')}</option>
+      <option value="new">{t(lang, 'pt_new')}</option>
+      <option value="expansion">{t(lang, 'pt_expansion')}</option>
+      <option value="replacement">{t(lang, 'pt_replacement')}</option>
+    </select>
     <label for="formMessage">{t(lang, 'message_label')}</label>
     <textarea id="formMessage" name="message" placeholder="{t(lang, 'message_ph')}"></textarea>
     <button class="btn-submit" id="btnSubmit" onclick="submitQ()">{t(lang, 'send')}</button>
@@ -523,6 +721,19 @@ footer{background:#0c0c1d;color:rgba(255,255,255,0.5);padding:48px 40px 32px}
 .series-pcard-body{padding:14px 16px;flex:1;display:flex;flex-direction:column}
 .series-pcard-body h3{font-size:14px;font-weight:700;margin-bottom:4px;line-height:1.3;flex:1}
 .series-pcard-body .card-link{display:inline-flex;align-items:center;gap:4px;color:#e85d04;font-size:12px;font-weight:700;margin-top:6px}
+/* Pricing */
+.price-tag{display:inline-flex;align-items:baseline;gap:4px;margin-top:6px}
+.price-tag .price-from{font-size:11px;color:#888;font-weight:500}
+.price-tag .price-amount{font-size:16px;font-weight:800;color:#1a1a2e}
+.price-tag .price-currency{font-size:12px;color:#888;font-weight:500}
+.series-price{display:inline-flex;align-items:baseline;gap:6px;background:#fff3e6;padding:6px 14px;border-radius:8px;margin-left:auto}
+.series-price .price-from{font-size:12px;color:#8a6530;font-weight:500}
+.series-price .price-amount{font-size:20px;font-weight:900;color:#e85d04}
+.series-price .price-currency{font-size:13px;color:#8a6530;font-weight:600}
+.product-price{background:#fff3e6;border:1px solid #f0d8b8;border-radius:12px;padding:16px 20px;margin-bottom:20px}
+.product-price .price-from{font-size:13px;color:#8a6530;font-weight:500}
+.product-price .price-amount{font-size:28px;font-weight:900;color:#e85d04;margin:4px 0}
+.product-price .price-note{font-size:12px;color:#8a6530;line-height:1.5}
 
 /* ===== SERIES LANDING PAGE ===== */
 
@@ -689,6 +900,14 @@ footer{background:#0c0c1d;color:rgba(255,255,255,0.5);padding:48px 40px 32px}
   .series-hero-img{display:none}
   .series-body{padding:40px 20px}
   .footer-inner{flex-direction:column;text-align:center}
+  .services-grid{grid-template-columns:1fr;padding:32px 20px}
+  .page-hero{padding:60px 20px 40px}
+  .page-hero h1{font-size:32px}
+  .about-content{padding:32px 20px}
+  .industry-content{padding:32px 20px}
+  .industry-cards{grid-template-columns:1fr}
+  .sbn-grid{grid-template-columns:1fr 1fr}
+  .sbn-section{padding:32px 20px}
 }
 
 @media(max-width:480px){
@@ -699,7 +918,64 @@ footer{background:#0c0c1d;color:rgba(255,255,255,0.5);padding:48px 40px 32px}
   .series-title{font-size:26px}
   .info h1{font-size:24px}
   .fins{flex-direction:column}
+  .sbn-grid{grid-template-columns:1fr}
 }
+
+/* ===== SERVICES PAGE ===== */
+
+.page-hero{background:linear-gradient(135deg,#0c0c1d 0%,#162040 40%,#1a3a60 100%);color:white;padding:80px 40px 60px;text-align:center}
+.page-hero h1{font-size:44px;font-weight:900;margin-bottom:12px}
+.page-hero p{font-size:17px;color:rgba(255,255,255,0.6);max-width:640px;margin:0 auto;line-height:1.6}
+.services-grid{max-width:1240px;margin:0 auto;padding:60px 40px;display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.service-card{background:white;border:1px solid #e8e8ee;border-radius:16px;padding:36px;transition:all 0.25s}
+.service-card:hover{border-color:#e85d04;transform:translateY(-3px);box-shadow:0 12px 32px rgba(0,0,0,0.06)}
+.service-card .svc-icon{width:56px;height:56px;background:#fff3e6;border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:20px}
+.service-card .svc-icon svg{width:28px;height:28px;color:#e85d04}
+.service-card h3{font-size:20px;font-weight:800;margin-bottom:8px}
+.service-card p{font-size:14px;color:#666;line-height:1.7}
+
+/* ===== ABOUT PAGE ===== */
+
+.about-content{max-width:1240px;margin:0 auto;padding:60px 40px}
+.about-intro{font-size:17px;color:#555;line-height:1.8;max-width:800px;margin:0 auto 48px;text-align:center}
+.about-section{margin-bottom:48px}
+.about-section h2{font-size:24px;font-weight:800;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid #e8e8ee}
+.about-section p{font-size:15px;color:#555;line-height:1.7;margin-bottom:12px}
+.about-stats{display:flex;justify-content:center;gap:40px;flex-wrap:wrap;padding:32px;background:#f5f6f8;border-radius:16px;margin:20px 0 32px}
+.about-stat{text-align:center}
+.about-stat .n{font-size:32px;font-weight:900;color:#e85d04}
+.about-stat .l{font-size:12px;color:#888;text-transform:uppercase;letter-spacing:1.5px;margin-top:4px}
+.cert-list{list-style:none;padding:0}
+.cert-list li{display:flex;align-items:flex-start;gap:12px;padding:14px 18px;background:white;border-radius:10px;border:1px solid #e8e8ee;font-size:14px;color:#555;margin-bottom:8px}
+.cert-list li::before{content:'\\2713';color:#2d6a4f;font-weight:800;font-size:16px;flex-shrink:0}
+.about-why-list{list-style:none;padding:0}
+.about-why-list li{display:flex;align-items:flex-start;gap:12px;padding:14px 18px;background:white;border-radius:10px;border:1px solid #e8e8ee;font-size:14px;color:#555;margin-bottom:8px}
+.about-why-list li::before{content:'\\2713';color:#e85d04;font-weight:800;font-size:16px;flex-shrink:0}
+
+/* ===== INDUSTRY PAGES ===== */
+
+.industry-content{max-width:1240px;margin:0 auto;padding:60px 40px}
+.challenge-box{background:#fff8f0;border:1px solid #f0d8b8;border-radius:14px;padding:28px;margin-bottom:40px}
+.challenge-box h2{font-size:18px;font-weight:800;color:#8a6530;margin-bottom:8px}
+.challenge-box p{font-size:15px;color:#8a6530;line-height:1.7}
+.industry-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin:40px 0}
+.industry-card{background:white;border:1px solid #e8e8ee;border-radius:14px;padding:28px;display:flex;flex-direction:column;transition:all 0.25s}
+.industry-card:hover{border-color:#e85d04;transform:translateY(-3px);box-shadow:0 12px 32px rgba(0,0,0,0.06)}
+.industry-card h3{font-size:18px;font-weight:800;margin-bottom:6px}
+.industry-card p{font-size:14px;color:#666;line-height:1.6;margin-bottom:14px;flex:1}
+.industry-card .card-link{color:#e85d04;font-size:13px;font-weight:700}
+
+/* ===== SOLUTIONS BY NEED ===== */
+
+.sbn-section{max-width:1240px;margin:0 auto;padding:48px 40px}
+.sbn-section h2{font-size:28px;font-weight:900;text-align:center;margin-bottom:28px}
+.sbn-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.sbn-card{background:white;border:1px solid #e8e8ee;border-radius:14px;padding:28px;text-align:center;transition:all 0.25s}
+.sbn-card:hover{border-color:#e85d04;transform:translateY(-3px);box-shadow:0 12px 32px rgba(0,0,0,0.06)}
+.sbn-card .sbn-icon{width:56px;height:56px;background:#fff3e6;border-radius:14px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px}
+.sbn-card .sbn-icon svg{width:28px;height:28px;color:#e85d04}
+.sbn-card h3{font-size:16px;font-weight:800;margin-bottom:6px}
+.sbn-card p{font-size:13px;color:#666;line-height:1.5}
 
 /* ===== PRINT ===== */
 
@@ -783,16 +1059,25 @@ def gen_index(lang):
         if s.get('brochure'):
             brochure_btn = f'<a class="btn-catalog" href="../{s["brochure"]}" target="_blank" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>{t(lang, "catalog_pdf")}</a>'
 
+        # Series starting price badge
+        series_price_html = ''
+        sp = SERIES_PRICES.get(s['slug'])
+        if sp:
+            series_price_html = f'<div class="series-price"><span class="price-from">{t(lang, "from_price")}</span> <span class="price-amount">{sp} &euro;</span> <span class="price-currency">{t(lang, "price_excl_tax")}</span></div>'
+
         # Product cards with images
         pcards = ''
         for p in s['products']:
             pname = esc(s_get(p, 'name', lang))
             pimg = p.get('gallery', [p.get('image', '')])[0]
+            pp = PRODUCT_PRICES.get(p['id'])
+            pprice = f'<div class="price-tag"><span class="price-from">{t(lang, "from_price")}</span> <span class="price-amount">{pp} &euro;</span></div>' if pp else ''
             pcards += f"""
           <a href="products/{s['slug']}/{p['id']}.html" class="series-pcard">
             <img src="../{pimg}" alt="{pname}" loading="lazy">
             <div class="series-pcard-body">
               <h3>{pname}</h3>
+              {pprice}
               <span class="card-link">{t(lang, 'view_details')} &rarr;</span>
             </div>
           </a>"""
@@ -806,6 +1091,7 @@ def gen_index(lang):
               <h2 class="series-title"><a href="products/{s['slug']}/index.html">{sname_display}</a></h2>
               <span class="series-cat-badge">{category}</span>
               <span class="prod-count">{t(lang, 'n_products', n=len(s['products']))}</span>
+              {series_price_html}
               {stds}
             </div>
             <p class="series-desc">{desc}</p>
@@ -863,6 +1149,32 @@ def gen_index(lang):
 {cards}
 </div>
 
+<div class="sbn-section">
+  <h2>{t(lang, 'solutions_by_need')}</h2>
+  <div class="sbn-grid">
+    <a href="industries/warehousing.html" class="sbn-card">
+      <div class="sbn-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+      <h3>{t(lang, 'sbn_heavy_title')}</h3>
+      <p>{t(lang, 'sbn_heavy_desc')}</p>
+    </a>
+    <a href="industries/retail.html" class="sbn-card">
+      <div class="sbn-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
+      <h3>{t(lang, 'sbn_light_title')}</h3>
+      <p>{t(lang, 'sbn_light_desc')}</p>
+    </a>
+    <a href="industries/manufacturing.html" class="sbn-card">
+      <div class="sbn-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+      <h3>{t(lang, 'sbn_bins_title')}</h3>
+      <p>{t(lang, 'sbn_bins_desc')}</p>
+    </a>
+    <a href="industries/archive.html" class="sbn-card">
+      <div class="sbn-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></div>
+      <h3>{t(lang, 'sbn_platforms_title')}</h3>
+      <p>{t(lang, 'sbn_platforms_desc')}</p>
+    </a>
+  </div>
+</div>
+
 {consult(lang)}
 {modal(lang)}
 {foot(lang)}
@@ -893,12 +1205,15 @@ def gen_series_page(series, lang):
         img = P + p.get('gallery', [p.get('image', '')])[0]
         pname = esc(s_get(p, 'name', lang))
         pdesc = esc(s_get(p, 'description', lang)[:120])
+        pp = PRODUCT_PRICES.get(p['id'])
+        pprice = f'<div class="price-tag"><span class="price-from">{t(lang, "from_price")}</span> <span class="price-amount">{pp} &euro;</span></div>' if pp else ''
         product_cards += f"""
         <a href="{p['id']}.html" class="product-card">
           <img src="{img}" alt="{pname}" loading="lazy">
           <div class="product-card-body">
             <h3>{pname}</h3>
             <p>{pdesc}...</p>
+            {pprice}
             <span class="card-link">{t(lang, 'view_details')} &rarr;</span>
           </div>
         </a>"""
@@ -955,6 +1270,7 @@ def gen_series_page(series, lang):
       <div class="eyebrow">{category}</div>
       <h1>{sname}</h1>
       <p>{esc(desc)}</p>
+      {'<div class="series-price" style="margin:16px 0"><span class="price-from">' + t(lang, "starting_from") + '</span> <span class="price-amount">' + str(SERIES_PRICES[slug]) + ' &euro;</span> <span class="price-currency">' + t(lang, "price_excl_tax") + '</span></div>' if slug in SERIES_PRICES else ''}
       <a class="btn-primary" href="javascript:void(0)" onclick="openQuoteModal('{sname}')">{t(lang, 'get_quote_for', name=sname)}</a>
       {brochure_btn}
     </div>
@@ -1012,6 +1328,16 @@ def gen_product(series, product, lang):
     sname = esc(series['name'])
     ptype = esc(s_get(product, 'type', lang))
     pdesc = esc(s_get(product, 'description', lang))
+
+    # Price
+    pprice = PRODUCT_PRICES.get(pid)
+    price_html = ''
+    if pprice:
+        price_html = f'''<div class="product-price">
+      <div class="price-from">{t(lang, 'starting_from')}</div>
+      <div class="price-amount">{pprice} &euro; <span style="font-size:14px;font-weight:500;color:#8a6530">{t(lang, 'price_excl_tax')}</span></div>
+      <div class="price-note">{t(lang, 'price_note')}</div>
+    </div>'''
 
     # Gallery
     gallery = product.get('gallery', [product.get('image', '')])
@@ -1186,6 +1512,8 @@ def gen_product(series, product, lang):
     {stds_html}
     {uprights_html}
 
+    {price_html}
+
     <div class="note-box">
       {t(lang, 'contact_note')}
     </div>
@@ -1260,6 +1588,361 @@ document.addEventListener('keydown',function(e){{if(!document.getElementById('li
 
 
 # ═══════════════════════════════════════════════════════════════════════════
+# SERVICES PAGE
+# ═══════════════════════════════════════════════════════════════════════════
+
+def gen_services(lang):
+    lang_dir = os.path.join(BASE, lang)
+    os.makedirs(lang_dir, exist_ok=True)
+    current_path = f'/{lang}/services.html'
+    gi = t(lang, 'general_inquiry')
+
+    bc_ld = jsonld_breadcrumb([
+        (t(lang, 'home'), f'{lang}/index.html'),
+        (t(lang, 'services_title'), f'{lang}/services.html'),
+    ], lang)
+
+    page = f"""<!DOCTYPE html>
+<html lang="{t(lang, 'html_lang')}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{t(lang, 'services_title')} — Baltscand</title>
+<meta name="description" content="{esc(t(lang, 'services_subtitle'))}">
+{meta_tags(t(lang, 'services_title') + ' — Baltscand', t(lang, 'services_subtitle'), data['series'][0]['heroImage'], f'{lang}/services.html')}
+{hreflang_tags(lang, current_path)}
+{jsonld_org(lang)}
+{bc_ld}
+{favicon_link()}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+{nav(lang, '', current_path)}
+
+<div class="page-hero">
+  <h1>{t(lang, 'services_title')}</h1>
+  <p>{t(lang, 'services_subtitle')}</p>
+</div>
+
+<div class="services-grid">
+  <div class="service-card">
+    <div class="svc-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+    <h3>{t(lang, 'svc_consult_title')}</h3>
+    <p>{t(lang, 'svc_consult_desc')}</p>
+  </div>
+  <div class="service-card">
+    <div class="svc-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+    <h3>{t(lang, 'svc_delivery_title')}</h3>
+    <p>{t(lang, 'svc_delivery_desc')}</p>
+  </div>
+  <div class="service-card">
+    <div class="svc-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+    <h3>{t(lang, 'svc_install_title')}</h3>
+    <p>{t(lang, 'svc_install_desc')}</p>
+  </div>
+  <div class="service-card">
+    <div class="svc-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+    <h3>{t(lang, 'svc_support_title')}</h3>
+    <p>{t(lang, 'svc_support_desc')}</p>
+  </div>
+</div>
+
+{consult(lang)}
+{modal(lang)}
+{foot(lang)}
+{back_to_top()}
+</body>
+</html>"""
+
+    with open(os.path.join(lang_dir, 'services.html'), 'w') as f:
+        f.write(page)
+    print(f'  {lang}/services.html')
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# ABOUT PAGE
+# ═══════════════════════════════════════════════════════════════════════════
+
+def gen_about(lang):
+    lang_dir = os.path.join(BASE, lang)
+    os.makedirs(lang_dir, exist_ok=True)
+    current_path = f'/{lang}/about.html'
+    gi = t(lang, 'general_inquiry')
+
+    bc_ld = jsonld_breadcrumb([
+        (t(lang, 'home'), f'{lang}/index.html'),
+        (t(lang, 'about_title'), f'{lang}/about.html'),
+    ], lang)
+
+    page = f"""<!DOCTYPE html>
+<html lang="{t(lang, 'html_lang')}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{t(lang, 'about_title')} — Baltscand</title>
+<meta name="description" content="{esc(t(lang, 'about_intro')[:155])}">
+{meta_tags(t(lang, 'about_title') + ' — Baltscand', t(lang, 'about_intro')[:155], data['series'][0]['heroImage'], f'{lang}/about.html')}
+{hreflang_tags(lang, current_path)}
+{jsonld_org(lang)}
+{bc_ld}
+{favicon_link()}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+{nav(lang, '', current_path)}
+
+<div class="page-hero">
+  <h1>{t(lang, 'about_title')}</h1>
+</div>
+
+<div class="about-content">
+  <p class="about-intro">{t(lang, 'about_intro')}</p>
+
+  <div class="about-section">
+    <h2>{t(lang, 'about_provost_title')}</h2>
+    <p>{t(lang, 'about_provost_desc')}</p>
+    <div class="about-stats">
+      <div class="about-stat"><div class="n">800+</div><div class="l">{'Employees' if lang == 'en' else 'Työntekijää'}</div></div>
+      <div class="about-stat"><div class="n">6</div><div class="l">{'Factories' if lang == 'en' else 'Tehdasta'}</div></div>
+      <div class="about-stat"><div class="n">60+</div><div class="l">{'Years' if lang == 'en' else 'Vuotta'}</div></div>
+      <div class="about-stat"><div class="n">80,000</div><div class="l">{'Customers' if lang == 'en' else 'Asiakasta'}</div></div>
+    </div>
+  </div>
+
+  <div class="about-section">
+    <h2>{t(lang, 'about_why_title')}</h2>
+    <ul class="about-why-list">
+      <li>{t(lang, 'about_why_1')}</li>
+      <li>{t(lang, 'about_why_2')}</li>
+      <li>{t(lang, 'about_why_3')}</li>
+      <li>{t(lang, 'about_why_4')}</li>
+    </ul>
+  </div>
+
+  <div class="about-section">
+    <h2>{t(lang, 'about_certs_title')}</h2>
+    <ul class="cert-list">
+      <li>{t(lang, 'about_cert_1')}</li>
+      <li>{t(lang, 'about_cert_2')}</li>
+      <li>{t(lang, 'about_cert_3')}</li>
+    </ul>
+  </div>
+
+  <div style="text-align:center;margin-top:40px">
+    <a class="btn-primary" href="javascript:void(0)" onclick="openQuoteModal('{gi}')">{t(lang, 'start_project')}</a>
+  </div>
+</div>
+
+{consult(lang)}
+{modal(lang)}
+{foot(lang)}
+{back_to_top()}
+</body>
+</html>"""
+
+    with open(os.path.join(lang_dir, 'about.html'), 'w') as f:
+        f.write(page)
+    print(f'  {lang}/about.html')
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# INDUSTRY PAGES
+# ═══════════════════════════════════════════════════════════════════════════
+
+INDUSTRIES = [
+    {
+        'slug': 'warehousing',
+        'name_key': 'ind_warehousing',
+        'desc_key': 'ind_warehousing_desc',
+        'challenge_key': 'ind_warehousing_challenge',
+        'series_slugs': ['prorack-plus', 'propal-3', 'proplus-lp3'],
+    },
+    {
+        'slug': 'retail',
+        'name_key': 'ind_retail',
+        'desc_key': 'ind_retail_desc',
+        'challenge_key': 'ind_retail_challenge',
+        'series_slugs': ['prospace-plus', 'modul-plus'],
+    },
+    {
+        'slug': 'manufacturing',
+        'name_key': 'ind_manufacturing',
+        'desc_key': 'ind_manufacturing_desc',
+        'challenge_key': 'ind_manufacturing_challenge',
+        'series_slugs': ['prorack-plus', 'prospace-plus', 'propal-3'],
+    },
+    {
+        'slug': 'archive',
+        'name_key': 'ind_archive',
+        'desc_key': 'ind_archive_desc',
+        'challenge_key': 'ind_archive_challenge',
+        'series_slugs': ['prospace-plus', 'modul-plus'],
+    },
+]
+
+def gen_industry_index(lang):
+    """Generate the industries landing page listing all sectors."""
+    lang_dir = os.path.join(BASE, lang, 'industries')
+    os.makedirs(lang_dir, exist_ok=True)
+    current_path = f'/{lang}/industries/index.html'
+    gi = t(lang, 'general_inquiry')
+
+    bc_ld = jsonld_breadcrumb([
+        (t(lang, 'home'), f'{lang}/index.html'),
+        (t(lang, 'industries'), f'{lang}/industries/index.html'),
+    ], lang)
+
+    cards = ''
+    for ind in INDUSTRIES:
+        cards += f"""
+    <a href="{ind['slug']}.html" class="industry-card">
+      <h3>{t(lang, ind['name_key'])}</h3>
+      <p>{t(lang, ind['desc_key'])}</p>
+      <span class="card-link">{t(lang, 'explore_solutions')} &rarr;</span>
+    </a>"""
+
+    page = f"""<!DOCTYPE html>
+<html lang="{t(lang, 'html_lang')}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{t(lang, 'industries')} — Baltscand</title>
+<meta name="description" content="{esc(t(lang, 'hero_desc'))}">
+{meta_tags(t(lang, 'industries') + ' — Baltscand', t(lang, 'hero_desc'), data['series'][0]['heroImage'], f'{lang}/industries/index.html')}
+{hreflang_tags(lang, current_path)}
+{jsonld_org(lang)}
+{bc_ld}
+{favicon_link()}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+{nav(lang, '../', current_path)}
+
+<div class="page-hero">
+  <h1>{t(lang, 'industries')}</h1>
+  <p>{t(lang, 'hero_desc')}</p>
+</div>
+
+<div class="industry-content">
+  <div class="industry-cards">{cards}
+  </div>
+</div>
+
+{consult(lang, '../')}
+{modal(lang)}
+{foot(lang)}
+{back_to_top()}
+</body>
+</html>"""
+
+    with open(os.path.join(lang_dir, 'index.html'), 'w') as f:
+        f.write(page)
+    print(f'  {lang}/industries/index.html')
+
+
+def gen_industry_page(ind, lang):
+    """Generate a single industry page."""
+    lang_dir = os.path.join(BASE, lang, 'industries')
+    os.makedirs(lang_dir, exist_ok=True)
+    current_path = f'/{lang}/industries/{ind["slug"]}.html'
+    gi = t(lang, 'general_inquiry')
+
+    ind_name = t(lang, ind['name_key'])
+    ind_desc = t(lang, ind['desc_key'])
+    ind_challenge = t(lang, ind['challenge_key'])
+
+    bc_ld = jsonld_breadcrumb([
+        (t(lang, 'home'), f'{lang}/index.html'),
+        (t(lang, 'industries'), f'{lang}/industries/index.html'),
+        (ind_name, f'{lang}/industries/{ind["slug"]}.html'),
+    ], lang)
+
+    # Build series lookup
+    series_map = {s['slug']: s for s in data['series']}
+
+    # Recommended product cards
+    rec_cards = ''
+    for ss in ind['series_slugs']:
+        s = series_map.get(ss)
+        if not s:
+            continue
+        sname = esc(s['name'])
+        sdesc = esc(s_get(s, 'description', lang)[:120])
+        img = s.get('heroImage', '')
+        rec_cards += f"""
+      <a href="../products/{ss}/index.html" class="product-card">
+        <img src="../../{img}" alt="{sname}" loading="lazy">
+        <div class="product-card-body">
+          <h3>{sname}</h3>
+          <p>{sdesc}...</p>
+          <span class="card-link">{t(lang, 'view_range', name=s['name'])} &rarr;</span>
+        </div>
+      </a>"""
+
+    page = f"""<!DOCTYPE html>
+<html lang="{t(lang, 'html_lang')}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{esc(ind_name)} — Baltscand</title>
+<meta name="description" content="{esc(ind_desc[:155])}">
+{meta_tags(esc(ind_name) + ' — Baltscand', ind_desc[:155], data['series'][0]['heroImage'], f'{lang}/industries/{ind["slug"]}.html')}
+{hreflang_tags(lang, current_path)}
+{jsonld_org(lang)}
+{bc_ld}
+{favicon_link()}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+{nav(lang, '../', current_path)}
+
+<div class="page-hero">
+  <h1>{esc(ind_name)}</h1>
+  <p>{esc(ind_desc)}</p>
+</div>
+
+<div class="industry-content">
+  <div class="breadcrumb" style="padding:0 0 20px">
+    <a href="../index.html">{t(lang, 'home')}</a> &rsaquo;
+    <a href="index.html">{t(lang, 'industries')}</a> &rsaquo;
+    {esc(ind_name)}
+  </div>
+
+  <div class="challenge-box">
+    <h2>{t(lang, 'industry_challenge')}</h2>
+    <p>{esc(ind_challenge)}</p>
+  </div>
+
+  <h2 style="font-size:24px;font-weight:800;margin-bottom:20px">{t(lang, 'recommended_products')}</h2>
+  <div class="products-grid">{rec_cards}
+  </div>
+
+  <div style="text-align:center;margin-top:40px">
+    <a class="btn-primary" href="javascript:void(0)" onclick="openQuoteModal('{esc(ind_name)}')">{t(lang, 'start_project')}</a>
+  </div>
+</div>
+
+{consult(lang, '../')}
+{modal(lang)}
+{foot(lang)}
+{back_to_top()}
+</body>
+</html>"""
+
+    with open(os.path.join(lang_dir, f'{ind["slug"]}.html'), 'w') as f:
+        f.write(page)
+    print(f'  {lang}/industries/{ind["slug"]}.html')
+
+
+# ═══════════════════════════════════════════════════════════════════════════
 # SEO FILES
 # ═══════════════════════════════════════════════════════════════════════════
 
@@ -1278,6 +1961,11 @@ def gen_sitemap():
 
     # Collect bilingual page pairs
     page_pairs = [('index.html', '1.0')]
+    page_pairs.append(('services.html', '0.9'))
+    page_pairs.append(('about.html', '0.8'))
+    page_pairs.append(('industries/index.html', '0.9'))
+    for ind in INDUSTRIES:
+        page_pairs.append((f'industries/{ind["slug"]}.html', '0.8'))
     for s in data['series']:
         page_pairs.append((f'products/{s["slug"]}/index.html', '0.9'))
         for p in s['products']:
@@ -1347,7 +2035,7 @@ def gen_404(lang):
 # ═══════════════════════════════════════════════════════════════════════════
 
 if __name__ == '__main__':
-    print('Generating Baltscand site v4 (bilingual EN/FI)...\n')
+    print('Generating Baltscand site v5 (bilingual EN/FI + Services, About, Industries)...\n')
 
     gen_css()
     gen_robots()
@@ -1357,6 +2045,11 @@ if __name__ == '__main__':
     for lang in LANGS:
         print(f'\n  [{lang.upper()}]')
         gen_index(lang)
+        gen_services(lang)
+        gen_about(lang)
+        gen_industry_index(lang)
+        for ind in INDUSTRIES:
+            gen_industry_page(ind, lang)
         for s in data['series']:
             gen_series_page(s, lang)
             for p in s['products']:
@@ -1365,8 +2058,10 @@ if __name__ == '__main__':
 
     total = sum(len(s['products']) for s in data['series'])
     series_count = len(data['series'])
-    per_lang = f'{series_count} series + {total} products + 404'
+    ind_count = len(INDUSTRIES)
+    per_lang = f'{series_count} series + {total} products + services + about + {ind_count} industries + 404'
+    new_pages = 2 * (1 + 1 + 1 + 1 + ind_count + series_count + total + 1) + 4
     print(f'\nDone! root index + styles.css + robots.txt + sitemap.xml')
     print(f'  EN: {per_lang}')
     print(f'  FI: {per_lang}')
-    print(f'  Total: {2 * (1 + series_count + total + 1) + 4} files')
+    print(f'  Total: {new_pages} files')
