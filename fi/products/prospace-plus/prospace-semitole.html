@@ -22,10 +22,10 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Etusivu","item":"https://baltscandshop.vercel.app/fi/index.html"},{"@type":"ListItem","position":2,"name":"PROSPACE+","item":"https://baltscandshop.vercel.app/fi/products/prospace-plus/index.html"},{"@type":"ListItem","position":3,"name":"PROSPACE+ Yhdistelmähylly (Semi-Tôlé)","item":"https://baltscandshop.vercel.app/fi/products/prospace-plus/prospace-semitole.html"}]}
 </script>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%230c0c1d'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-family='sans-serif' font-size='60' font-weight='900' fill='%23e85d04'%3EB%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%23072244'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-family='sans-serif' font-size='60' font-weight='900' fill='%23ff6a00'%3EB%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=5">
+<link rel="stylesheet" href="/styles.css?v=6">
 </head>
 <body>
 
@@ -99,7 +99,7 @@
     <table class="specs"><tr><td>Product Range</td><td>PROSPACE+</td></tr><tr><td>Shelf Type</td><td>Semi-Tôlé (hybrid tubular frame + sheet metal sides)</td></tr><tr><td>Available Lengths</td><td>940, 1210 mm</td></tr><tr><td>Available Depths</td><td>400, 500, 600 mm</td></tr><tr><td>Standard Height</td><td>2,000 mm</td></tr><tr><td>Shelves Included</td><td>5 per unit</td></tr><tr><td>Shelf Construction</td><td>Cold-formed galvanised steel, 12-fold profile</td></tr><tr><td>Side Panels</td><td>Galvanised sheet metal with cross-bracing</td></tr><tr><td>Assembly</td><td>Clip-in system, delivered unassembled</td></tr><tr><td>Adjustment Pitch</td><td>40 mm</td></tr><tr><td>Origin</td><td>Made in France</td></tr></table>
   </div>
 
-  <div class='section-block'><h2 class='section-heading'>Kantavuus (kg hyllyä kohti)</h2><h4 style="margin:20px 0 8px;font-size:14px;color:#1a1a2e">Standard</h4><table class="lt"><thead><tr><th>Depth</th><th>940 mm</th><th>1210 mm</th></tr></thead><tbody><tr><td>400 mm</td><td>150</td><td>100</td></tr><tr><td>500 mm</td><td>100</td><td>75</td></tr><tr><td>600 mm</td><td>75</td><td>50</td></tr></tbody></table><p style='margin-top:16px;font-size:13px;color:#888'>Kaikki kuormat tasaisesti jakautuneet, kg. Arvot virallisesta teknisestä dokumentaatiosta. Ota yhteyttä projektikohtaisiin kuormituslaskelmiin.</p></div>
+  <div class='section-block'><h2 class='section-heading'>Kantavuus (kg hyllyä kohti)</h2><h4 style="margin:20px 0 8px;font-size:14px;color:#0f1729">Standard</h4><table class="lt"><thead><tr><th>Depth</th><th>940 mm</th><th>1210 mm</th></tr></thead><tbody><tr><td>400 mm</td><td>150</td><td>100</td></tr><tr><td>500 mm</td><td>100</td><td>75</td></tr><tr><td>600 mm</td><td>75</td><td>50</td></tr></tbody></table><p style='margin-top:16px;font-size:13px;color:#888'>Kaikki kuormat tasaisesti jakautuneet, kg. Arvot virallisesta teknisestä dokumentaatiosta. Ota yhteyttä projektikohtaisiin kuormituslaskelmiin.</p></div>
 
   <div class='section-block'><h2 class='section-heading'>Lisävarusteet ja vaihtoehdot</h2><div class='acc-grid'><div class="acc"><strong>Painted Back Panel</strong><span>Rear closing panel in epoxy paint finish.</span></div><div class="acc"><strong>Galvanised Back Panel</strong><span>Rear closing panel in galvanised steel.</span></div><div class="acc"><strong>Swing Doors</strong><span>Lockable hinged doors to close one or several bays.</span></div><div class="acc"><strong>Wire Dividers</strong><span>Adjustable wire shelf dividers.</span></div><div class="acc"><strong>Metal Sheet Partition</strong><span>Fixed metal dividers for compartmentalisation.</span></div></div></div>
 
@@ -190,8 +190,8 @@ function closeModal(){
 function submitQ(){
   var n=document.getElementById('formName').value.trim();
   var e=document.getElementById('formEmail').value.trim();
-  if(!n){document.getElementById('formName').focus();document.getElementById('formName').style.borderColor='#e85d04';return}
-  if(!e||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)){document.getElementById('formEmail').focus();document.getElementById('formEmail').style.borderColor='#e85d04';return}
+  if(!n){document.getElementById('formName').focus();document.getElementById('formName').style.borderColor='#ff6a00';return}
+  if(!e||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)){document.getElementById('formEmail').focus();document.getElementById('formEmail').style.borderColor='#ff6a00';return}
   var b=document.getElementById('btnSubmit');
   b.textContent='Lähetetään...';b.disabled=true;b.style.background='#999';
   setTimeout(function(){

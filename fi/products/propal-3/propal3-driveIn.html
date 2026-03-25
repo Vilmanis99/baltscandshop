@@ -22,10 +22,10 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Etusivu","item":"https://baltscandshop.vercel.app/fi/index.html"},{"@type":"ListItem","position":2,"name":"PROPAL 3","item":"https://baltscandshop.vercel.app/fi/products/propal-3/index.html"},{"@type":"ListItem","position":3,"name":"PROPAL 3 Kertymähyllystö (Drive-In)","item":"https://baltscandshop.vercel.app/fi/products/propal-3/propal3-driveIn.html"}]}
 </script>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%230c0c1d'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-family='sans-serif' font-size='60' font-weight='900' fill='%23e85d04'%3EB%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%23072244'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-family='sans-serif' font-size='60' font-weight='900' fill='%23ff6a00'%3EB%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=5">
+<link rel="stylesheet" href="/styles.css?v=6">
 </head>
 <body>
 
@@ -95,7 +95,7 @@
     <table class="specs"><tr><td>Product Range</td><td>PROPAL 3</td></tr><tr><td>Type</td><td>Accumulation Racking (Drive-In / Drive-Through)</td></tr><tr><td>Drive-In</td><td>LIFO — goods in/out on the same side</td></tr><tr><td>Drive-Through</td><td>FIFO — handling from either side, first in/first out</td></tr><tr><td>Bracing Tower</td><td>Stabilises without restricting aisle depth. 1 tower per 11 aisles.</td></tr><tr><td>Corner Brackets</td><td>Stabilises without losing storage surface on ground.</td></tr><tr><td>Rail Bracket 50 mm</td><td>For overhanging pallet up to 50 mm</td></tr><tr><td>Rail Bracket 100 mm</td><td>For overhanging pallet up to 100 mm</td></tr><tr><td>Rail Bracket 200 mm</td><td>For overhanging pallet up to 200 mm</td></tr><tr><td>Railing Capacity</td><td>Thickness 2 mm, galvanised, max reach 2,000 mm</td></tr><tr><td>Standards</td><td>EN 15512, EN 15620, FEM 10.2.07</td></tr></table>
   </div>
 
-  <div class='section-block'><h2 class='section-heading'>Kantavuus (kg hyllyä kohti)</h2><h4 style="margin:20px 0 8px;font-size:14px;color:#1a1a2e">Standard</h4><table class="lt"><thead><tr><th>Distance</th><th>1000 mm</th><th>1100 mm</th><th>1200 mm</th><th>1300 mm</th><th>1400 mm</th><th>1500 mm</th><th>1600 mm</th><th>1700 mm</th><th>1800 mm</th><th>1900 mm</th><th>2000 mm</th></tr></thead><tbody><tr><td>Capacity</td><td>3.27</td><td>2.7</td><td>2.26</td><td>1.93</td><td>1.63</td><td>1.44</td><td>1.27</td><td>1.12</td><td>0.99</td><td>0.89</td><td>0.8</td></tr></tbody></table><p style='margin-top:16px;font-size:13px;color:#888'>Kaikki kuormat tasaisesti jakautuneet, kg. Arvot virallisesta teknisestä dokumentaatiosta. Ota yhteyttä projektikohtaisiin kuormituslaskelmiin.</p></div>
+  <div class='section-block'><h2 class='section-heading'>Kantavuus (kg hyllyä kohti)</h2><h4 style="margin:20px 0 8px;font-size:14px;color:#0f1729">Standard</h4><table class="lt"><thead><tr><th>Distance</th><th>1000 mm</th><th>1100 mm</th><th>1200 mm</th><th>1300 mm</th><th>1400 mm</th><th>1500 mm</th><th>1600 mm</th><th>1700 mm</th><th>1800 mm</th><th>1900 mm</th><th>2000 mm</th></tr></thead><tbody><tr><td>Capacity</td><td>3.27</td><td>2.7</td><td>2.26</td><td>1.93</td><td>1.63</td><td>1.44</td><td>1.27</td><td>1.12</td><td>0.99</td><td>0.89</td><td>0.8</td></tr></tbody></table><p style='margin-top:16px;font-size:13px;color:#888'>Kaikki kuormat tasaisesti jakautuneet, kg. Arvot virallisesta teknisestä dokumentaatiosta. Ota yhteyttä projektikohtaisiin kuormituslaskelmiin.</p></div>
 
   
 
@@ -186,8 +186,8 @@ function closeModal(){
 function submitQ(){
   var n=document.getElementById('formName').value.trim();
   var e=document.getElementById('formEmail').value.trim();
-  if(!n){document.getElementById('formName').focus();document.getElementById('formName').style.borderColor='#e85d04';return}
-  if(!e||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)){document.getElementById('formEmail').focus();document.getElementById('formEmail').style.borderColor='#e85d04';return}
+  if(!n){document.getElementById('formName').focus();document.getElementById('formName').style.borderColor='#ff6a00';return}
+  if(!e||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)){document.getElementById('formEmail').focus();document.getElementById('formEmail').style.borderColor='#ff6a00';return}
   var b=document.getElementById('btnSubmit');
   b.textContent='Lähetetään...';b.disabled=true;b.style.background='#999';
   setTimeout(function(){

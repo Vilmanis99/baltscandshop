@@ -22,10 +22,10 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Etusivu","item":"https://baltscandshop.vercel.app/fi/index.html"},{"@type":"ListItem","position":2,"name":"MODUL+","item":"https://baltscandshop.vercel.app/fi/products/modul-plus/index.html"},{"@type":"ListItem","position":3,"name":"MODUL+ Liukuovet","item":"https://baltscandshop.vercel.app/fi/products/modul-plus/modul-sliding-doors.html"}]}
 </script>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%230c0c1d'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-family='sans-serif' font-size='60' font-weight='900' fill='%23e85d04'%3EB%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%23072244'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-family='sans-serif' font-size='60' font-weight='900' fill='%23ff6a00'%3EB%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=5">
+<link rel="stylesheet" href="/styles.css?v=6">
 </head>
 <body>
 
@@ -99,7 +99,7 @@
     <table class="specs"><tr><td>Product Range</td><td>MODUL+</td></tr><tr><td>Type</td><td>Sliding Doors</td></tr><tr><td>Single Door Heights</td><td>2,200 to 3,000 mm</td></tr><tr><td>Single Door Sizes</td><td>2435 mm (clear 1020), 3035 mm (clear 1320), 4715 mm (clear 2050), 5915 mm (clear 2650)</td></tr><tr><td>Double Door Heights</td><td>2,200 to 3,000 mm</td></tr><tr><td>Double Door Sizes</td><td>4715 mm (clear 2050), 5915 mm (clear 2650)</td></tr><tr><td>Posts</td><td>3 posts (single) or 2 posts (double), 35 x 30 mm</td></tr><tr><td>Rail System</td><td>End stop, guide rail top and bottom</td></tr><tr><td>Lock</td><td>Lock and latch included</td></tr><tr><td>Direction</td><td>Slides left or right per your requirements</td></tr><tr><td>Cladding Options</td><td>Wire mesh, sheet metal, half sheet/half mesh, 5S transparent</td></tr><tr><td>For Racking</td><td>Special hinged and sliding doors for pallet rack bay access</td></tr></table>
   </div>
 
-  <div class='section-block'><h2 class='section-heading'>Kantavuus (kg hyllyä kohti)</h2><h4 style="margin:20px 0 8px;font-size:14px;color:#1a1a2e">Standard</h4><table class="lt"><thead><tr><th>Type</th><th>Height</th><th>Clear Width</th><th>CTC Distance</th></tr></thead><tbody><tr><td>Racking Hinged Door</td><td>2200–3000</td><td>2695 / 3295</td><td>2795 / 3395</td></tr><tr><td>Racking Sliding Door</td><td>2200–3000</td><td>2695 / 3295</td><td>2×2795 / 2×3395</td></tr></tbody></table><p style='margin-top:16px;font-size:13px;color:#888'>Kaikki kuormat tasaisesti jakautuneet, kg. Arvot virallisesta teknisestä dokumentaatiosta. Ota yhteyttä projektikohtaisiin kuormituslaskelmiin.</p></div>
+  <div class='section-block'><h2 class='section-heading'>Kantavuus (kg hyllyä kohti)</h2><h4 style="margin:20px 0 8px;font-size:14px;color:#0f1729">Standard</h4><table class="lt"><thead><tr><th>Type</th><th>Height</th><th>Clear Width</th><th>CTC Distance</th></tr></thead><tbody><tr><td>Racking Hinged Door</td><td>2200–3000</td><td>2695 / 3295</td><td>2795 / 3395</td></tr><tr><td>Racking Sliding Door</td><td>2200–3000</td><td>2695 / 3295</td><td>2×2795 / 2×3395</td></tr></tbody></table><p style='margin-top:16px;font-size:13px;color:#888'>Kaikki kuormat tasaisesti jakautuneet, kg. Arvot virallisesta teknisestä dokumentaatiosta. Ota yhteyttä projektikohtaisiin kuormituslaskelmiin.</p></div>
 
   
 
@@ -190,8 +190,8 @@ function closeModal(){
 function submitQ(){
   var n=document.getElementById('formName').value.trim();
   var e=document.getElementById('formEmail').value.trim();
-  if(!n){document.getElementById('formName').focus();document.getElementById('formName').style.borderColor='#e85d04';return}
-  if(!e||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)){document.getElementById('formEmail').focus();document.getElementById('formEmail').style.borderColor='#e85d04';return}
+  if(!n){document.getElementById('formName').focus();document.getElementById('formName').style.borderColor='#ff6a00';return}
+  if(!e||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)){document.getElementById('formEmail').focus();document.getElementById('formEmail').style.borderColor='#ff6a00';return}
   var b=document.getElementById('btnSubmit');
   b.textContent='Lähetetään...';b.disabled=true;b.style.background='#999';
   setTimeout(function(){
