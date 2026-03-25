@@ -463,18 +463,19 @@ def lang_switcher(lang, current_path):
 def nav(lang, prefix='', current_path=''):
     ls = lang_switcher(lang, current_path)
     gi = t(lang, 'general_inquiry')
+    base = f'/{lang}'
     return f"""
 <header>
   <div class="nav-inner">
-    <a class="logo" href="{prefix}index.html">BALT<span>SCAND</span></a>
+    <a class="logo" href="{base}/index.html">BALT<span>SCAND</span></a>
     <button class="hamburger" onclick="this.classList.toggle('open');document.getElementById('navLinks').classList.toggle('open')" aria-label="Toggle menu">
       <span></span><span></span><span></span>
     </button>
     <nav id="navLinks">
-      <a href="{prefix}index.html">{t(lang, 'products')}</a>
-      <a href="{prefix}services.html">{t(lang, 'services')}</a>
-      <a href="{prefix}industries/index.html">{t(lang, 'industries')}</a>
-      <a href="{prefix}about.html">{t(lang, 'about')}</a>
+      <a href="{base}/index.html">{t(lang, 'products')}</a>
+      <a href="{base}/services.html">{t(lang, 'services')}</a>
+      <a href="{base}/industries/index.html">{t(lang, 'industries')}</a>
+      <a href="{base}/about.html">{t(lang, 'about')}</a>
       {ls}
       <a class="mobile-call" href="tel:+358401234567">{t(lang, 'call_us')}</a>
     </nav>
@@ -1007,14 +1008,14 @@ def gen_root_index():
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Baltscand — Professional Storage & Shelving</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="/styles.css">
 <script>
 // Auto-detect language from browser
 var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
 if (lang.startsWith('fi')) {
-  window.location.replace('fi/index.html');
+  window.location.replace('/fi/index.html');
 } else {
-  window.location.replace('en/index.html');
+  window.location.replace('/en/index.html');
 }
 </script>
 </head>
@@ -1023,8 +1024,8 @@ if (lang.startsWith('fi')) {
     <h1 style="font-size:28px;font-weight:800;margin-bottom:24px">BALT<span style="color:#e85d04">SCAND</span></h1>
     <p style="color:rgba(255,255,255,0.6);margin-bottom:32px">Choose your language / Valitse kieli</p>
     <div style="display:flex;gap:16px;justify-content:center">
-      <a href="en/index.html" style="background:#e85d04;color:white;padding:16px 36px;border-radius:12px;font-weight:700;font-size:16px">🇬🇧 English</a>
-      <a href="fi/index.html" style="background:white;color:#1a1a2e;padding:16px 36px;border-radius:12px;font-weight:700;font-size:16px">🇫🇮 Suomi</a>
+      <a href="/en/index.html" style="background:#e85d04;color:white;padding:16px 36px;border-radius:12px;font-weight:700;font-size:16px">🇬🇧 English</a>
+      <a href="/fi/index.html" style="background:white;color:#1a1a2e;padding:16px 36px;border-radius:12px;font-weight:700;font-size:16px">🇫🇮 Suomi</a>
     </div>
   </div>
 </body>
@@ -1057,7 +1058,7 @@ def gen_index(lang):
 
         brochure_btn = ''
         if s.get('brochure'):
-            brochure_btn = f'<a class="btn-catalog" href="../{s["brochure"]}" target="_blank" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>{t(lang, "catalog_pdf")}</a>'
+            brochure_btn = f'<a class="btn-catalog" href="/{s["brochure"]}" target="_blank" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>{t(lang, "catalog_pdf")}</a>'
 
         # Series starting price badge
         series_price_html = ''
@@ -1073,8 +1074,8 @@ def gen_index(lang):
             pp = PRODUCT_PRICES.get(p['id'])
             pprice = f'<div class="price-tag"><span class="price-from">{t(lang, "from_price")}</span> <span class="price-amount">{pp} &euro;</span></div>' if pp else ''
             pcards += f"""
-          <a href="products/{s['slug']}/{p['id']}.html" class="series-pcard">
-            <img src="../{pimg}" alt="{pname}" loading="lazy">
+          <a href="/{lang}/products/{s['slug']}/{p['id']}.html" class="series-pcard">
+            <img src="/{pimg}" alt="{pname}" loading="lazy">
             <div class="series-pcard-body">
               <h3>{pname}</h3>
               {pprice}
@@ -1088,7 +1089,7 @@ def gen_index(lang):
         <div class="series-header">
           <div class="series-header-left">
             <div class="series-header-top">
-              <h2 class="series-title"><a href="products/{s['slug']}/index.html">{sname_display}</a></h2>
+              <h2 class="series-title"><a href="/{lang}/products/{s['slug']}/index.html">{sname_display}</a></h2>
               <span class="series-cat-badge">{category}</span>
               <span class="prod-count">{t(lang, 'n_products', n=len(s['products']))}</span>
               {series_price_html}
@@ -1097,7 +1098,7 @@ def gen_index(lang):
             <p class="series-desc">{desc}</p>
           </div>
           <div class="series-header-right">
-            <a class="btn-view-all" href="products/{s['slug']}/index.html">{t(lang, 'view_range', name=s['name'])} &rarr;</a>
+            <a class="btn-view-all" href="/{lang}/products/{s['slug']}/index.html">{t(lang, 'view_range', name=s['name'])} &rarr;</a>
             {brochure_btn}
           </div>
         </div>
@@ -1125,7 +1126,7 @@ def gen_index(lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 {nav(lang, '', current_path)}
@@ -1152,22 +1153,22 @@ def gen_index(lang):
 <div class="sbn-section">
   <h2>{t(lang, 'solutions_by_need')}</h2>
   <div class="sbn-grid">
-    <a href="industries/warehousing.html" class="sbn-card">
+    <a href="/{lang}/industries/warehousing.html" class="sbn-card">
       <div class="sbn-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
       <h3>{t(lang, 'sbn_heavy_title')}</h3>
       <p>{t(lang, 'sbn_heavy_desc')}</p>
     </a>
-    <a href="industries/retail.html" class="sbn-card">
+    <a href="/{lang}/industries/retail.html" class="sbn-card">
       <div class="sbn-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
       <h3>{t(lang, 'sbn_light_title')}</h3>
       <p>{t(lang, 'sbn_light_desc')}</p>
     </a>
-    <a href="industries/manufacturing.html" class="sbn-card">
+    <a href="/{lang}/industries/manufacturing.html" class="sbn-card">
       <div class="sbn-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
       <h3>{t(lang, 'sbn_bins_title')}</h3>
       <p>{t(lang, 'sbn_bins_desc')}</p>
     </a>
-    <a href="industries/archive.html" class="sbn-card">
+    <a href="/{lang}/industries/archive.html" class="sbn-card">
       <div class="sbn-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></div>
       <h3>{t(lang, 'sbn_platforms_title')}</h3>
       <p>{t(lang, 'sbn_platforms_desc')}</p>
@@ -1195,7 +1196,7 @@ def gen_series_page(series, lang):
     slug = series['slug']
     out = os.path.join(BASE, lang, 'products', slug)
     os.makedirs(out, exist_ok=True)
-    P = '../../../'  # from /lang/products/series/ to root
+    P = '/'  # absolute paths for Vercel cleanUrls compatibility
     current_path = f'/{lang}/products/{slug}/index.html'
 
     feats = ''.join(f'<div class="feat-item">{esc(f)}</div>' for f in s_list(series, 'features', lang))
@@ -1208,7 +1209,7 @@ def gen_series_page(series, lang):
         pp = PRODUCT_PRICES.get(p['id'])
         pprice = f'<div class="price-tag"><span class="price-from">{t(lang, "from_price")}</span> <span class="price-amount">{pp} &euro;</span></div>' if pp else ''
         product_cards += f"""
-        <a href="{p['id']}.html" class="product-card">
+        <a href="/{lang}/products/{slug}/{p['id']}.html" class="product-card">
           <img src="{img}" alt="{pname}" loading="lazy">
           <div class="product-card-body">
             <h3>{pname}</h3>
@@ -1259,7 +1260,7 @@ def gen_series_page(series, lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="{P}styles.css">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 {nav(lang, '../../', current_path)}
@@ -1282,7 +1283,7 @@ def gen_series_page(series, lang):
 
 <div class="series-body">
   <div class="breadcrumb">
-    <a href="../../index.html">{t(lang, 'home')}</a> &rsaquo; {sname}
+    <a href="/{lang}/index.html">{t(lang, 'home')}</a> &rsaquo; {sname}
   </div>
 
   {stds}
@@ -1321,7 +1322,7 @@ def gen_product(series, product, lang):
     pid = product['id']
     out = os.path.join(BASE, lang, 'products', slug)
     os.makedirs(out, exist_ok=True)
-    P = '../../../'  # from /lang/products/series/ to root
+    P = '/'  # absolute paths for Vercel cleanUrls compatibility
     current_path = f'/{lang}/products/{slug}/{pid}.html'
 
     pname = esc(s_get(product, 'name', lang))
@@ -1424,7 +1425,7 @@ def gen_product(series, product, lang):
             sib_img = P + sib.get('gallery', [sib.get('image', '')])[0]
             sib_name = esc(s_get(sib, 'name', lang))
             sib_desc = esc(s_get(sib, 'description', lang)[:100])
-            cards += f'<a href="{sib["id"]}.html" class="related-card"><img src="{sib_img}" alt="{sib_name}" loading="lazy"><div class="related-card-info"><h4>{sib_name}</h4><p>{sib_desc}...</p></div></a>'
+            cards += f'<a href="/{lang}/products/{slug}/{sib["id"]}.html" class="related-card"><img src="{sib_img}" alt="{sib_name}" loading="lazy"><div class="related-card-info"><h4>{sib_name}</h4><p>{sib_desc}...</p></div></a>'
         related_html = f'<div class="related-section"><h2 class="section-heading">{t(lang, "more_in", name=sname)}</h2><div class="related-grid">{cards}</div></div>'
 
     # Standards
@@ -1485,14 +1486,14 @@ def gen_product(series, product, lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="{P}styles.css">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 {nav(lang, '../../', current_path)}
 
 <div class="breadcrumb">
-  <a href="../../index.html">{t(lang, 'home')}</a> &rsaquo;
-  <a href="index.html">{sname}</a> &rsaquo;
+  <a href="/{lang}/index.html">{t(lang, 'home')}</a> &rsaquo;
+  <a href="/{lang}/products/{slug}/index.html">{sname}</a> &rsaquo;
   {pname}
 </div>
 
@@ -1616,7 +1617,7 @@ def gen_services(lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 {nav(lang, '', current_path)}
@@ -1690,7 +1691,7 @@ def gen_about(lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 {nav(lang, '', current_path)}
@@ -1819,7 +1820,7 @@ def gen_industry_index(lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 {nav(lang, '../', current_path)}
@@ -1876,8 +1877,8 @@ def gen_industry_page(ind, lang):
         sdesc = esc(s_get(s, 'description', lang)[:120])
         img = s.get('heroImage', '')
         rec_cards += f"""
-      <a href="../products/{ss}/index.html" class="product-card">
-        <img src="../../{img}" alt="{sname}" loading="lazy">
+      <a href="/{lang}/products/{ss}/index.html" class="product-card">
+        <img src="/{img}" alt="{sname}" loading="lazy">
         <div class="product-card-body">
           <h3>{sname}</h3>
           <p>{sdesc}...</p>
@@ -1899,7 +1900,7 @@ def gen_industry_page(ind, lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 {nav(lang, '../', current_path)}
@@ -1911,8 +1912,8 @@ def gen_industry_page(ind, lang):
 
 <div class="industry-content">
   <div class="breadcrumb" style="padding:0 0 20px">
-    <a href="../index.html">{t(lang, 'home')}</a> &rsaquo;
-    <a href="index.html">{t(lang, 'industries')}</a> &rsaquo;
+    <a href="/{lang}/index.html">{t(lang, 'home')}</a> &rsaquo;
+    <a href="/{lang}/industries/index.html">{t(lang, 'industries')}</a> &rsaquo;
     {esc(ind_name)}
   </div>
 
@@ -2007,7 +2008,7 @@ def gen_404(lang):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{t(lang, 'page_not_found')} — Baltscand</title>
 {favicon_link()}
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 {nav(lang, '', current_path)}
@@ -2016,7 +2017,7 @@ def gen_404(lang):
   <h2 style="font-size:28px;font-weight:800;margin-bottom:12px">{t(lang, 'page_not_found')}</h2>
   <p style="color:#666;font-size:16px;line-height:1.6;margin-bottom:32px">{t(lang, '404_desc')}</p>
   <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
-    <a class="btn-primary" href="index.html">{t(lang, 'browse_products')}</a>
+    <a class="btn-primary" href="/{lang}/index.html">{t(lang, 'browse_products')}</a>
     <a class="btn-ghost" href="javascript:void(0)" onclick="openQuoteModal('{gi}')">{t(lang, 'contact_sales')}</a>
   </div>
 </div>
