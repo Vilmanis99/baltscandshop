@@ -25,7 +25,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='16' fill='%23072244'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-family='sans-serif' font-size='60' font-weight='900' fill='%23ff6a00'%3EB%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=6">
+<link rel="stylesheet" href="/styles.css?v=7">
 </head>
 <body>
 
@@ -41,7 +41,7 @@
       <a href="/fi/industries/index.html">Toimialat</a>
       <a href="/fi/about.html">Tietoa Baltscandista</a>
       <a class="lang-switch" href="/en/products/modul-plus/modul-drop-counter.html" title="English">🇬🇧 English</a>
-      <a class="mobile-call" href="tel:+358401234567">Soita meille</a>
+      <a class="mobile-call" href="tel:+358400298588">Soita meille</a>
     </nav>
     <a class="nav-cta" href="javascript:void(0)" onclick="openQuoteModal('Yleinen tiedustelu')">Ota yhteyttä</a>
   </div>
@@ -128,11 +128,21 @@
 
 
 <div class="consult-banner">
-  <div>
+  <div class="consult-photo">
+    <img src="/images/team/girts.png" alt="Girts — Avainasiakaspäällikkö" loading="lazy">
+  </div>
+  <div class="consult-text">
     <h2>Tarvitsetko apua valinnassa?</h2>
     <p>Asiantuntijamme auttavat valitsemaan oikeat tuotteet, mitat ja kokoonpanot tilaasi. Pyydä henkilökohtainen tarjous kilpailukykyiseen hintaan Suomessa ja Baltiassa.</p>
+    <div class="consult-contact">
+      <strong>Girts</strong> — Avainasiakaspäällikkö
+      <br><a href="mailto:Girts@baltscand.com">Girts@baltscand.com</a> &middot; <a href="tel:+358400298588">+358 400 298 588</a>
+    </div>
   </div>
-  <a class="btn-primary" href="javascript:void(0)" onclick="openQuoteModal('Yleinen tiedustelu')" style="white-space:nowrap">Kysy asiantuntijalta</a>
+  <div class="consult-actions">
+    <a class="btn-primary" href="javascript:void(0)" onclick="openQuoteModal('Yleinen tiedustelu')" style="white-space:nowrap">Kysy asiantuntijalta</a>
+    <a class="btn-email" href="mailto:Girts@baltscand.com">tai sähköpostilla</a>
+  </div>
 </div>
 
 <div class="sticky-quote" id="stickyQuote">
@@ -200,17 +210,31 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal()
 
 <footer>
   <div class="footer-inner">
-    <div>
-      <span>&copy; 2026 Baltscand Oy. Kaikki oikeudet pidätetään.</span>
-      <span class="footer-sep">&middot;</span>
-      <a href="https://www.baltscand.com">baltscand.com</a>
+    <div class="footer-col">
+      <div class="footer-brand">BALT<span>SCAND</span></div>
+      <div>Baltscand — Provostin virallinen jakelija Suomessa ja Baltiassa.</div>
     </div>
-    <div class="footer-distributor">Baltscand — Provostin virallinen jakelija Suomessa ja Baltiassa.</div>
-    <div class="footer-links">
-      <a href="https://www.baltscand.com/shelving">Hyllyjärjestelmät</a>
-      <span class="footer-sep">&middot;</span>
-      <a href="javascript:void(0)" onclick="openQuoteModal('Yleinen tiedustelu')">Ota yhteyttä</a>
+    <div class="footer-col">
+      <div class="footer-heading">Yhteystiedot</div>
+      <div><a href="mailto:Girts@baltscand.com">Girts@baltscand.com</a></div>
+      <div><a href="tel:+358400298588">+358 400 298 588</a></div>
+      <div><a href="mailto:info@baltscand.com">info@baltscand.com</a></div>
     </div>
+    <div class="footer-col">
+      <div class="footer-heading">Toimisto</div>
+      <div>Urho Kekkosen katu 4-6, EYTJ</div>
+      <div>00100 Helsinki, Finland</div>
+    </div>
+    <div class="footer-col">
+      <div class="footer-heading">Linkit</div>
+      <div><a href="https://www.baltscand.com">baltscand.com</a></div>
+      <div><a href="https://www.baltscand.com/shelving">Hyllyjärjestelmät</a></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Baltscand Oy. Kaikki oikeudet pidätetään.</span>
+    <span class="footer-sep">&middot;</span>
+    <span>Luotettava Kumppani (Vastuu Group)</span>
   </div>
 </footer>
 <button class="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">&uarr;</button>

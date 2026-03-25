@@ -171,6 +171,39 @@ UI = {
         'price_excl_tax': 'excl. tax',
         'price_note': 'Starting prices shown for reference. Final pricing depends on configuration, quantity and delivery location. Contact us for a detailed quote.',
         'starting_from': 'Starting from',
+        # Contact / Team
+        'your_contact': 'Your Contact',
+        'girts_role': 'Key Account Director',
+        'girts_bio': 'Former CEO of leading Finnish scaffolding companies. Decades of B2B experience in industrial solutions.',
+        'team_title': 'Our Team',
+        'founders_title': 'Jurijs & Ēriks',
+        'founders_role': 'Founders & Operational Directors',
+        'founders_bio': 'Leading Baltscand for over a decade. Scaled the company to 150+ professionals specializing in maritime, energy, and industrial sectors.',
+        'contact_direct': 'Contact directly',
+        'or_email': 'or email',
+        'office_address': 'Office',
+        'references_title': 'Trusted By Industry Leaders',
+        'ref_ramirent': 'Preferred subcontractor for Ramirent — Finland\'s leading equipment rental company.',
+        'ref_meyer': 'Proven track record at Meyer Turku — working on the world\'s largest cruise ships.',
+        'ref_nuclear': 'Extensive experience in Finland\'s nuclear sector — highest security clearances.',
+        'ref_safety': '100% of our 150+ professionals hold valid Finnish Occupational Safety Cards (Työturvallisuuskortti).',
+        'provost_plants': 'Production Plants',
+        'provost_products': 'Products',
+        'provost_projects': 'Projects / Year',
+        'luotettava': 'Verified Luotettava Kumppani (Vastuu Group) — full compliance with Finnish tax, insurance, and labor laws.',
+        'process_title': 'Our 6-Step Process',
+        'process_1': 'Measure',
+        'process_1_desc': 'Precise on-site measurements and scope assessment.',
+        'process_2': 'Develop',
+        'process_2_desc': 'Detailed project plans and technical drawings.',
+        'process_3': 'Deliver',
+        'process_3_desc': 'All components delivered to your site.',
+        'process_4': 'Assemble',
+        'process_4_desc': 'Skilled teams assemble with precision.',
+        'process_5': 'Supervise',
+        'process_5_desc': 'Quality control and safety inspection.',
+        'process_6': 'Handover',
+        'process_6_desc': 'Final walkthrough and documentation.',
     },
     'fi': {
         'lang_name': 'Suomi',
@@ -326,6 +359,39 @@ UI = {
         'price_excl_tax': 'alv 0 %',
         'price_note': 'Aloitushinnat viitteellisiä. Lopullinen hinta riippuu kokoonpanosta, määrästä ja toimituspaikasta. Ota yhteyttä tarkkaa tarjousta varten.',
         'starting_from': 'Alkaen',
+        # Contact / Team
+        'your_contact': 'Yhteyshenkilösi',
+        'girts_role': 'Avainasiakaspäällikkö',
+        'girts_bio': 'Johtavien suomalaisten telinevuokrausyhtiöiden entinen toimitusjohtaja. Vuosikymmenien B2B-kokemus teollisista ratkaisuista.',
+        'team_title': 'Tiimimme',
+        'founders_title': 'Jurijs & Ēriks',
+        'founders_role': 'Perustajat ja operatiiviset johtajat',
+        'founders_bio': 'Johtaneet Baltscandía yli vuosikymmenen. Kasvattaneet yrityksen 150+ ammattilaiseen merenkulku-, energia- ja teollisuussektoreilla.',
+        'contact_direct': 'Ota suoraan yhteyttä',
+        'or_email': 'tai sähköpostilla',
+        'office_address': 'Toimisto',
+        'references_title': 'Alan johtajien luottama',
+        'ref_ramirent': 'Ramirentin ensisijainen alihankkija — Suomen johtava kalustovuokrausyritys.',
+        'ref_meyer': 'Todistettu kokemus Meyer Turussa — maailman suurimpien risteilyalusten rakentamisessa.',
+        'ref_nuclear': 'Laaja kokemus Suomen ydinvoimasektorilla — korkeimmat turvaluokitukset.',
+        'ref_safety': '100 % 150+ ammattilaisistamme omistaa voimassa olevan Työturvallisuuskortin.',
+        'provost_plants': 'Tuotantolaitosta',
+        'provost_products': 'Tuotetta',
+        'provost_projects': 'Projektia / vuosi',
+        'luotettava': 'Vahvistettu Luotettava Kumppani (Vastuu Group) — täysi noudattaminen Suomen vero-, vakuutus- ja työlakeja.',
+        'process_title': '6-vaiheinen prosessimme',
+        'process_1': 'Mittaus',
+        'process_1_desc': 'Tarkat paikan päällä tehtävät mittaukset ja laajuuden arviointi.',
+        'process_2': 'Suunnittelu',
+        'process_2_desc': 'Yksityiskohtaiset projektisuunnitelmat ja tekniset piirustukset.',
+        'process_3': 'Toimitus',
+        'process_3_desc': 'Kaikki komponentit toimitettuna kohteellesi.',
+        'process_4': 'Asennus',
+        'process_4_desc': 'Ammattitaitoiset tiimit asentavat tarkasti.',
+        'process_5': 'Valvonta',
+        'process_5_desc': 'Laadunvalvonta ja turvallisuustarkastus.',
+        'process_6': 'Luovutus',
+        'process_6_desc': 'Loppukatselmus ja dokumentaatio.',
     }
 }
 
@@ -477,7 +543,7 @@ def nav(lang, prefix='', current_path=''):
       <a href="{base}/industries/index.html">{t(lang, 'industries')}</a>
       <a href="{base}/about.html">{t(lang, 'about')}</a>
       {ls}
-      <a class="mobile-call" href="tel:+358401234567">{t(lang, 'call_us')}</a>
+      <a class="mobile-call" href="tel:+358400298588">{t(lang, 'call_us')}</a>
     </nav>
     <a class="nav-cta" href="javascript:void(0)" onclick="openQuoteModal('{gi}')">{t(lang, 'contact_sales')}</a>
   </div>
@@ -488,17 +554,31 @@ def foot(lang):
     return f"""
 <footer>
   <div class="footer-inner">
-    <div>
-      <span>{t(lang, 'copyright')}</span>
-      <span class="footer-sep">&middot;</span>
-      <a href="https://www.baltscand.com">baltscand.com</a>
+    <div class="footer-col">
+      <div class="footer-brand">BALT<span>SCAND</span></div>
+      <div>{t(lang, 'distributor_line')}</div>
     </div>
-    <div class="footer-distributor">{t(lang, 'distributor_line')}</div>
-    <div class="footer-links">
-      <a href="https://www.baltscand.com/shelving">{t(lang, 'shelving')}</a>
-      <span class="footer-sep">&middot;</span>
-      <a href="javascript:void(0)" onclick="openQuoteModal('{gi}')">{t(lang, 'contact_sales')}</a>
+    <div class="footer-col">
+      <div class="footer-heading">{'Contact' if lang == 'en' else 'Yhteystiedot'}</div>
+      <div><a href="mailto:Girts@baltscand.com">Girts@baltscand.com</a></div>
+      <div><a href="tel:+358400298588">+358 400 298 588</a></div>
+      <div><a href="mailto:info@baltscand.com">info@baltscand.com</a></div>
     </div>
+    <div class="footer-col">
+      <div class="footer-heading">{t(lang, 'office_address')}</div>
+      <div>Urho Kekkosen katu 4-6, EYTJ</div>
+      <div>00100 Helsinki, Finland</div>
+    </div>
+    <div class="footer-col">
+      <div class="footer-heading">{'Links' if lang == 'en' else 'Linkit'}</div>
+      <div><a href="https://www.baltscand.com">baltscand.com</a></div>
+      <div><a href="https://www.baltscand.com/shelving">{t(lang, 'shelving')}</a></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>{t(lang, 'copyright')}</span>
+    <span class="footer-sep">&middot;</span>
+    <span>{'Luotettava Kumppani (Vastuu Group)' if lang == 'en' else 'Luotettava Kumppani (Vastuu Group)'}</span>
   </div>
 </footer>"""
 
@@ -571,11 +651,21 @@ def consult(lang, prefix=''):
     gi = t(lang, 'general_inquiry')
     return f"""
 <div class="consult-banner">
-  <div>
+  <div class="consult-photo">
+    <img src="/images/team/girts.png" alt="Girts — {t(lang, 'girts_role')}" loading="lazy">
+  </div>
+  <div class="consult-text">
     <h2>{t(lang, 'need_help')}</h2>
     <p>{t(lang, 'need_help_desc')}</p>
+    <div class="consult-contact">
+      <strong>Girts</strong> — {t(lang, 'girts_role')}
+      <br><a href="mailto:Girts@baltscand.com">Girts@baltscand.com</a> &middot; <a href="tel:+358400298588">+358 400 298 588</a>
+    </div>
   </div>
-  <a class="btn-primary" href="javascript:void(0)" onclick="openQuoteModal('{gi}')" style="white-space:nowrap">{t(lang, 'talk_expert')}</a>
+  <div class="consult-actions">
+    <a class="btn-primary" href="javascript:void(0)" onclick="openQuoteModal('{gi}')" style="white-space:nowrap">{t(lang, 'talk_expert')}</a>
+    <a class="btn-email" href="mailto:Girts@baltscand.com">{t(lang, 'or_email')}</a>
+  </div>
 </div>"""
 
 
@@ -635,12 +725,16 @@ nav a:hover,nav a.active{color:white;border-bottom-color:#ff6a00}
 .hamburger.open span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
 
 /* Footer */
-footer{background:#072244;color:rgba(255,255,255,0.5);padding:48px 40px 32px}
-.footer-inner{max-width:1320px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;font-size:13px;flex-wrap:wrap;gap:16px}
-.footer-inner a{color:#ff6a00;transition:color 0.2s}
+footer{background:#072244;color:rgba(255,255,255,0.5);padding:48px 40px 24px}
+.footer-inner{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:32px;font-size:13px;line-height:1.8}
+.footer-inner a{color:#ff6a00;transition:color 0.2s;text-decoration:none}
 .footer-inner a:hover{color:#ff8c33}
+.footer-col{}
+.footer-brand{font-size:18px;font-weight:800;letter-spacing:2px;color:white;margin-bottom:8px}
+.footer-brand span{color:#ff6a00}
+.footer-heading{font-size:12px;font-weight:700;color:rgba(255,255,255,0.8);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:8px}
+.footer-bottom{max-width:1320px;margin:24px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,0.1);font-size:12px;display:flex;align-items:center;justify-content:center;gap:4px}
 .footer-sep{margin:0 8px;opacity:0.3}
-.footer-links{display:flex;align-items:center}
 
 /* Buttons */
 .btn-primary{display:inline-flex;align-items:center;gap:10px;background:#ff6a00;color:white;padding:16px 36px;border-radius:12px;font-size:16px;font-weight:700;border:none;cursor:pointer;transition:all 0.25s;box-shadow:0 4px 16px rgba(255,106,0,0.3)}
@@ -649,11 +743,20 @@ footer{background:#072244;color:rgba(255,255,255,0.5);padding:48px 40px 32px}
 .btn-ghost:hover{border-color:#0f1729;background:#072244;color:white}
 
 /* Consultation banner */
-.consult-banner{background:linear-gradient(135deg,#072244,#0a3260);border-radius:20px;padding:48px;display:flex;align-items:center;justify-content:space-between;gap:40px;margin:60px 40px;max-width:1240px;color:white}
-.consult-banner h2{font-size:28px;font-weight:800;margin-bottom:8px}
-.consult-banner p{color:rgba(255,255,255,0.65);font-size:15px;line-height:1.6;max-width:540px}
-.consult-banner .btn-primary{background:white;color:#0f1729;box-shadow:0 4px 16px rgba(0,0,0,0.2)}
+.consult-banner{background:linear-gradient(135deg,#072244,#0a3260);border-radius:20px;padding:40px 48px;display:flex;align-items:center;gap:32px;margin:60px 40px;max-width:1240px;color:white}
+.consult-photo{flex-shrink:0}
+.consult-photo img{width:80px;height:80px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,0.3)}
+.consult-text{flex:1}
+.consult-text h2{font-size:24px;font-weight:800;margin-bottom:6px}
+.consult-text p{color:rgba(255,255,255,0.65);font-size:14px;line-height:1.6;margin-bottom:8px}
+.consult-contact{font-size:13px;color:rgba(255,255,255,0.8)}
+.consult-contact a{color:#ff6a00;text-decoration:none}
+.consult-contact a:hover{text-decoration:underline}
+.consult-actions{display:flex;flex-direction:column;gap:8px;flex-shrink:0;align-items:center}
+.consult-banner .btn-primary{background:white;color:#0f1729;box-shadow:0 4px 16px rgba(0,0,0,0.2);white-space:nowrap}
 .consult-banner .btn-primary:hover{background:#f0f0f0;transform:translateY(-1px)}
+.btn-email{color:rgba(255,255,255,0.7);font-size:13px;font-weight:500;text-decoration:none;transition:color 0.2s}
+.btn-email:hover{color:white}
 
 /* Modal */
 .modal-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.6);z-index:1000;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
@@ -889,6 +992,9 @@ footer{background:#072244;color:rgba(255,255,255,0.5);padding:48px 40px 32px}
   .series-products-grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;overflow-x:auto;-webkit-overflow-scrolling:touch}
   .series-pcard{min-height:44px}
   .consult-banner{flex-direction:column;text-align:center;margin:40px 20px;padding:32px 24px}
+  .consult-photo img{width:64px;height:64px}
+  .consult-actions{width:100%}
+  .consult-banner .btn-primary{width:100%;justify-content:center}
   .product-hero{grid-template-columns:1fr;padding:20px;gap:24px}
   .gallery{position:static}
   .main-img img{height:300px}
@@ -900,7 +1006,10 @@ footer{background:#072244;color:rgba(255,255,255,0.5);padding:48px 40px 32px}
   .series-hero-inner{grid-template-columns:1fr}
   .series-hero-img{display:none}
   .series-body{padding:40px 20px}
-  .footer-inner{flex-direction:column;text-align:center}
+  .footer-inner{grid-template-columns:1fr 1fr;text-align:center;gap:24px}
+  .team-grid{grid-template-columns:1fr}
+  .ref-grid{grid-template-columns:1fr}
+  .process-grid{grid-template-columns:repeat(2,1fr)}
   .services-grid{grid-template-columns:1fr;padding:32px 20px}
   .page-hero{padding:60px 20px 40px}
   .page-hero h1{font-size:32px}
@@ -949,6 +1058,30 @@ footer{background:#072244;color:rgba(255,255,255,0.5);padding:48px 40px 32px}
 .cert-list{list-style:none;padding:0}
 .cert-list li{display:flex;align-items:flex-start;gap:12px;padding:14px 18px;background:white;border-radius:10px;border:1px solid #e8e8ee;font-size:14px;color:#555;margin-bottom:8px}
 .cert-list li::before{content:'\\2713';color:#2d6a4f;font-weight:800;font-size:16px;flex-shrink:0}
+/* Team */
+.team-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.team-card{background:white;border:1px solid #e8e8ee;border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.team-card img{width:100%;height:280px;object-fit:cover;object-position:top}
+.team-card-featured{border-color:#ff6a00;box-shadow:0 4px 20px rgba(255,106,0,0.1)}
+.team-info{padding:24px}
+.team-info h3{font-size:20px;font-weight:800;margin-bottom:4px}
+.team-role{font-size:13px;color:#ff6a00;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+.team-info p{font-size:14px;color:#666;line-height:1.6;margin-bottom:12px}
+.team-contact{display:flex;flex-direction:column;gap:4px}
+.team-contact a{color:#ff6a00;font-size:13px;font-weight:600;text-decoration:none}
+.team-contact a:hover{text-decoration:underline}
+/* References */
+.ref-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.ref-card{background:white;border:1px solid #e8e8ee;border-radius:12px;padding:20px 24px;display:flex;align-items:flex-start;gap:16px}
+.ref-icon{width:44px;height:44px;background:#f0fdf4;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.ref-icon svg{color:#2d6a4f}
+.ref-card p{font-size:14px;color:#555;line-height:1.6;margin:0}
+/* Process */
+.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.process-step{background:white;border:1px solid #e8e8ee;border-radius:12px;padding:24px;text-align:center}
+.step-num{width:40px;height:40px;background:#072244;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800;margin:0 auto 12px}
+.process-step h4{font-size:15px;font-weight:800;margin-bottom:6px;color:#072244}
+.process-step p{font-size:13px;color:#666;line-height:1.5;margin:0}
 .about-why-list{list-style:none;padding:0}
 .about-why-list li{display:flex;align-items:flex-start;gap:12px;padding:14px 18px;background:white;border-radius:10px;border:1px solid #e8e8ee;font-size:14px;color:#555;margin-bottom:8px}
 .about-why-list li::before{content:'\\2713';color:#ff6a00;font-weight:800;font-size:16px;flex-shrink:0}
@@ -1008,7 +1141,7 @@ def gen_root_index():
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Baltscand — Professional Storage & Shelving</title>
-<link rel="stylesheet" href="/styles.css?v=6">
+<link rel="stylesheet" href="/styles.css?v=7">
 <script>
 // Auto-detect language from browser
 var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
@@ -1126,7 +1259,7 @@ def gen_index(lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=6">
+<link rel="stylesheet" href="/styles.css?v=7">
 </head>
 <body>
 {nav(lang, '', current_path)}
@@ -1260,7 +1393,7 @@ def gen_series_page(series, lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=6">
+<link rel="stylesheet" href="/styles.css?v=7">
 </head>
 <body>
 {nav(lang, '../../', current_path)}
@@ -1486,7 +1619,7 @@ def gen_product(series, product, lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=6">
+<link rel="stylesheet" href="/styles.css?v=7">
 </head>
 <body>
 {nav(lang, '../../', current_path)}
@@ -1617,7 +1750,7 @@ def gen_services(lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=6">
+<link rel="stylesheet" href="/styles.css?v=7">
 </head>
 <body>
 {nav(lang, '', current_path)}
@@ -1691,7 +1824,7 @@ def gen_about(lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=6">
+<link rel="stylesheet" href="/styles.css?v=7">
 </head>
 <body>
 {nav(lang, '', current_path)}
@@ -1703,17 +1836,57 @@ def gen_about(lang):
 <div class="about-content">
   <p class="about-intro">{t(lang, 'about_intro')}</p>
 
+  <!-- Team Section -->
+  <div class="about-section">
+    <h2>{t(lang, 'team_title')}</h2>
+    <div class="team-grid">
+      <div class="team-card team-card-featured">
+        <img src="/images/team/girts.png" alt="Girts" loading="lazy">
+        <div class="team-info">
+          <h3>Girts</h3>
+          <div class="team-role">{t(lang, 'girts_role')}</div>
+          <p>{t(lang, 'girts_bio')}</p>
+          <div class="team-contact">
+            <a href="mailto:Girts@baltscand.com">Girts@baltscand.com</a>
+            <a href="tel:+358400298588">+358 400 298 588</a>
+          </div>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="/images/team/founders.png" alt="{t(lang, 'founders_title')}" loading="lazy">
+        <div class="team-info">
+          <h3>{t(lang, 'founders_title')}</h3>
+          <div class="team-role">{t(lang, 'founders_role')}</div>
+          <p>{t(lang, 'founders_bio')}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Provost -->
   <div class="about-section">
     <h2>{t(lang, 'about_provost_title')}</h2>
     <p>{t(lang, 'about_provost_desc')}</p>
     <div class="about-stats">
-      <div class="about-stat"><div class="n">800+</div><div class="l">{'Employees' if lang == 'en' else 'Työntekijää'}</div></div>
-      <div class="about-stat"><div class="n">6</div><div class="l">{'Factories' if lang == 'en' else 'Tehdasta'}</div></div>
+      <div class="about-stat"><div class="n">8</div><div class="l">{t(lang, 'provost_plants')}</div></div>
+      <div class="about-stat"><div class="n">800,000</div><div class="l">{t(lang, 'provost_products')}</div></div>
+      <div class="about-stat"><div class="n">100,000</div><div class="l">{t(lang, 'provost_projects')}</div></div>
       <div class="about-stat"><div class="n">60+</div><div class="l">{'Years' if lang == 'en' else 'Vuotta'}</div></div>
-      <div class="about-stat"><div class="n">80,000</div><div class="l">{'Customers' if lang == 'en' else 'Asiakasta'}</div></div>
     </div>
   </div>
 
+  <!-- References -->
+  <div class="about-section">
+    <h2>{t(lang, 'references_title')}</h2>
+    <div class="ref-grid">
+      <div class="ref-card"><div class="ref-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><p>{t(lang, 'ref_safety')}</p></div>
+      <div class="ref-card"><div class="ref-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div><p>{t(lang, 'ref_ramirent')}</p></div>
+      <div class="ref-card"><div class="ref-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></div><p>{t(lang, 'ref_meyer')}</p></div>
+      <div class="ref-card"><div class="ref-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div><p>{t(lang, 'ref_nuclear')}</p></div>
+    </div>
+  </div>
+
+  <!-- Why Baltscand -->
   <div class="about-section">
     <h2>{t(lang, 'about_why_title')}</h2>
     <ul class="about-why-list">
@@ -1722,8 +1895,23 @@ def gen_about(lang):
       <li>{t(lang, 'about_why_3')}</li>
       <li>{t(lang, 'about_why_4')}</li>
     </ul>
+    <p style="margin-top:16px;font-size:14px;color:#64748b">{t(lang, 'luotettava')}</p>
   </div>
 
+  <!-- 6-Step Process -->
+  <div class="about-section">
+    <h2>{t(lang, 'process_title')}</h2>
+    <div class="process-grid">
+      <div class="process-step"><div class="step-num">1</div><h4>{t(lang, 'process_1')}</h4><p>{t(lang, 'process_1_desc')}</p></div>
+      <div class="process-step"><div class="step-num">2</div><h4>{t(lang, 'process_2')}</h4><p>{t(lang, 'process_2_desc')}</p></div>
+      <div class="process-step"><div class="step-num">3</div><h4>{t(lang, 'process_3')}</h4><p>{t(lang, 'process_3_desc')}</p></div>
+      <div class="process-step"><div class="step-num">4</div><h4>{t(lang, 'process_4')}</h4><p>{t(lang, 'process_4_desc')}</p></div>
+      <div class="process-step"><div class="step-num">5</div><h4>{t(lang, 'process_5')}</h4><p>{t(lang, 'process_5_desc')}</p></div>
+      <div class="process-step"><div class="step-num">6</div><h4>{t(lang, 'process_6')}</h4><p>{t(lang, 'process_6_desc')}</p></div>
+    </div>
+  </div>
+
+  <!-- Certs -->
   <div class="about-section">
     <h2>{t(lang, 'about_certs_title')}</h2>
     <ul class="cert-list">
@@ -1820,7 +2008,7 @@ def gen_industry_index(lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=6">
+<link rel="stylesheet" href="/styles.css?v=7">
 </head>
 <body>
 {nav(lang, '../', current_path)}
@@ -1900,7 +2088,7 @@ def gen_industry_page(ind, lang):
 {favicon_link()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=6">
+<link rel="stylesheet" href="/styles.css?v=7">
 </head>
 <body>
 {nav(lang, '../', current_path)}
@@ -2008,7 +2196,7 @@ def gen_404(lang):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{t(lang, 'page_not_found')} — Baltscand</title>
 {favicon_link()}
-<link rel="stylesheet" href="/styles.css?v=6">
+<link rel="stylesheet" href="/styles.css?v=7">
 </head>
 <body>
 {nav(lang, '', current_path)}
